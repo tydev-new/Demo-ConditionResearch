@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Measles briefing</title>
+  <title>Condition research briefing</title>
   <style>
     :root {
       --bg: #f3f1eb;
@@ -75,7 +75,20 @@
     button.secondary { background: transparent; color: var(--accent-ink); border-color: var(--line); }
     button:disabled { opacity: 0.55; cursor: wait; }
     .try { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-    .try button { background: transparent; color: var(--muted); border-color: var(--line); font-size: 14px; padding: 4px 10px; }
+    .try button, .picks button, .choices button { background: transparent; color: var(--muted); border-color: var(--line); font-size: 14px; padding: 4px 10px; border-radius: 999px; }
+    input[type="text"] {
+      width: 100%;
+      margin-top: 8px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font: inherit;
+      color: inherit;
+      background: #fff;
+    }
+    input[type="text"]:focus, textarea:focus { outline: 2px solid var(--accent); border-color: transparent; }
+    .picks, .choices { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    .failed { color: var(--warn); }
     .sources { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 16px 0 8px; color: var(--muted); font-size: 14px; }
     .sources a { color: var(--accent-ink); }
     #status { min-height: 1.2em; color: var(--muted); font-size: 14px; }
@@ -116,22 +129,26 @@
 </head>
 <body>
   <header>
-    <h1>Measles briefing</h1>
-    <p class="lede">Research notes for a health-system strategy team. One condition, three public sources, and answers that quote only those sources.</p>
-    <div class="mode-pill" id="mode-pill">Loading sources…</div>
+    <h1>Condition research briefing</h1>
+    <p class="lede">Research notes for a health-system strategy team. Pick a condition, then ask only from the sources gathered for it.</p>
+    <div class="mode-pill" id="mode-pill">Loading…</div>
   </header>
   <main>
+    <form id="condition-form">
+      <label for="condition">Condition</label>
+      <input id="condition" name="condition" type="text" value="measles" autocomplete="off" />
+      <div class="actions">
+        <button class="primary" id="load-btn" type="submit">Load condition</button>
+      </div>
+      <div class="picks" id="picks" aria-label="Quick picks"></div>
+      <div class="choices" id="choices" hidden></div>
+    </form>
     <form id="ask-form">
       <label for="question">Question</label>
-      <textarea id="question" name="question" placeholder="Ask about measles care, trials, or the organizations involved.">What is the current standard of care for measles?</textarea>
+      <textarea id="question" name="question" placeholder="Load a condition, then ask about care, trials, or organizations."></textarea>
       <div class="actions">
         <button class="primary" id="ask-btn" type="submit">Ask</button>
         <button class="secondary" id="brief-btn" type="button">Run briefing</button>
-      </div>
-      <div class="try" aria-label="Example questions">
-        <button type="button" data-q="What is the current standard of care for measles?">Standard of care</button>
-        <button type="button" data-q="What treatments or vaccines are in development / in clinical trials?">Trials and vaccines</button>
-        <button type="button" data-q="Which key organizations (companies, institutions, government bodies) are involved?">Organizations</button>
       </div>
     </form>
     <div class="sources" id="sources"></div>
@@ -143,12 +160,20 @@
   </footer>
   <script>
     const questionEl = document.querySelector("#question");
+    const conditionEl = document.querySelector("#condition");
     const outEl = document.querySelector("#out");
     const statusEl = document.querySelector("#status");
     const modePill = document.querySelector("#mode-pill");
     const sourcesEl = document.querySelector("#sources");
+    const picksEl = document.querySelector("#picks");
+    const choicesEl = document.querySelector("#choices");
     const askBtn = document.querySelector("#ask-btn");
     const briefBtn = document.querySelector("#brief-btn");
+    const loadBtn = document.querySelector("#load-btn");
+    let condition = null;
+
+    askBtn.disabled = true;
+    briefBtn.disabled = true;
 
     function escapeHtml(value) {
       return String(value).replace(/[&<>"']/g, (ch) => ({
@@ -157,8 +182,97 @@
     }
 
     function setBusy(busy) {
-      askBtn.disabled = busy;
-      briefBtn.disabled = busy;
+      askBtn.disabled = busy || !condition;
+      briefBtn.disabled = busy || !condition;
+      loadBtn.disabled = busy;
+    }
+
+    function questionsFor(name) {
+      return [
+        `What is the current standard of care for ${name}?`,
+        `What treatments or vaccines are in development / in clinical trials for ${name}?`,
+        `Which key organizations (companies, institutions, government bodies) are involved in ${name}?`,
+      ];
+    }
+
+    function showLoaded(payload) {
+      condition = payload.condition;
+      const name = condition.name;
+      questionEl.value = questionsFor(name)[0];
+      askBtn.disabled = false;
+      briefBtn.disabled = false;
+      choicesEl.hidden = true;
+      choicesEl.innerHTML = "";
+      const bits = (payload.sources || []).map((source) => {
+        if (source.ok) return `<span>${escapeHtml(source.source_name)} · ${source.chunks}</span>`;
+        const why = source.error ? ` (${escapeHtml(source.error)})` : "";
+        return `<span class="failed">${escapeHtml(source.source_name)} failed${why}</span>`;
+      });
+      const where = payload.origin === "fetched" ? "just gathered" : payload.origin;
+      sourcesEl.innerHTML = `<strong>${escapeHtml(name)}</strong> · MeSH ${escapeHtml(condition.mesh_id || "")} · ${payload.chunk_count} chunks · ${escapeHtml(where)} ` + bits.join("");
+    }
+
+    async function loadChosen(chosen) {
+      setBusy(true);
+      statusEl.textContent = "Gathering sources…";
+      outEl.innerHTML = "";
+      try {
+        const payload = await postJson("/api/conditions/load", {
+          id: chosen.id,
+          name: chosen.name,
+          mesh_id: chosen.mesh_id,
+          synonyms: chosen.synonyms || [],
+        });
+        showLoaded(payload);
+        statusEl.textContent = "";
+      } catch (error) {
+        statusEl.textContent = error.message;
+      } finally {
+        setBusy(false);
+      }
+    }
+
+    function showChoices(matches) {
+      condition = null;
+      askBtn.disabled = true;
+      briefBtn.disabled = true;
+      choicesEl.hidden = false;
+      choicesEl.innerHTML = "";
+      matches.forEach((match) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = `${match.name} (${match.mesh_id})`;
+        button.addEventListener("click", () => loadChosen({
+          id: match.id || match.mesh_id.toLowerCase(),
+          name: match.name,
+          mesh_id: match.mesh_id,
+          synonyms: [],
+        }));
+        choicesEl.appendChild(button);
+      });
+      statusEl.textContent = "Several MeSH headings match. Pick one.";
+    }
+
+    async function resolveQuery(query) {
+      setBusy(true);
+      statusEl.textContent = "Looking up the condition in MeSH…";
+      choicesEl.hidden = true;
+      try {
+        const resolved = await postJson("/api/resolve", { query });
+        if (resolved.status === "chosen" && resolved.chosen) {
+          await loadChosen(resolved.chosen);
+          return;
+        }
+        if (resolved.status === "choices") {
+          showChoices(resolved.matches || []);
+          return;
+        }
+        statusEl.textContent = "No MeSH descriptor matched that name.";
+      } catch (error) {
+        statusEl.textContent = error.message;
+      } finally {
+        setBusy(false);
+      }
     }
 
     async function loadMeta() {
@@ -168,12 +282,17 @@
         ? `Default mode: OpenAI (${meta.model})`
         : "Default mode: mock extractive";
       modePill.textContent = mode;
-      sourcesEl.innerHTML = (meta.sources || []).map((source) => {
-        const label = `${escapeHtml(source.source_name)} · ${source.chunks} chunks`;
-        return source.url
-          ? `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${label}</a>`
-          : `<span>${label}</span>`;
-      }).join("");
+      picksEl.innerHTML = "";
+      (meta.quick_picks || []).forEach((pick) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = pick.label;
+        button.addEventListener("click", () => {
+          conditionEl.value = pick.query;
+          resolveQuery(pick.query);
+        });
+        picksEl.appendChild(button);
+      });
     }
 
     function renderAnswer(answer, index) {
@@ -236,11 +355,11 @@
     document.querySelector("#ask-form").addEventListener("submit", async (event) => {
       event.preventDefault();
       const question = questionEl.value.trim();
-      if (!question) return;
+      if (!question || !condition) return;
       setBusy(true);
-      statusEl.textContent = "Searching the cached sources…";
+      statusEl.textContent = "Searching the gathered sources…";
       try {
-        const answer = await postJson("/api/ask", { question });
+        const answer = await postJson("/api/ask", { question, condition_id: condition.id });
         showAnswers([answer]);
         statusEl.textContent = "";
       } catch (error) {
@@ -250,11 +369,18 @@
       }
     });
 
+    document.querySelector("#condition-form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const query = conditionEl.value.trim();
+      if (query) resolveQuery(query);
+    });
+
     briefBtn.addEventListener("click", async () => {
+      if (!condition) return;
       setBusy(true);
       statusEl.textContent = "Running the three briefing questions…";
       try {
-        const payload = await postJson("/api/briefing");
+        const payload = await postJson("/api/briefing", { condition_id: condition.id });
         showAnswers(payload.answers || []);
         statusEl.textContent = "";
       } catch (error) {
@@ -262,13 +388,6 @@
       } finally {
         setBusy(false);
       }
-    });
-
-    document.querySelectorAll(".try button").forEach((button) => {
-      button.addEventListener("click", () => {
-        questionEl.value = button.getAttribute("data-q");
-        askBtn.click();
-      });
     });
 
     questionEl.addEventListener("keydown", (event) => {

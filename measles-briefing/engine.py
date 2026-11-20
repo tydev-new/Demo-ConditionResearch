@@ -16,7 +16,6 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-CORPUS_PATH = ROOT / "data" / "corpus.json"
 
 TOP_K = 5
 # Cosine on short questions vs ~800-character chunks. Tuned so the measles
@@ -27,11 +26,16 @@ CHUNK_OVERLAP = 160
 
 NOT_ENOUGH = "Not enough evidence in the gathered sources."
 
-BRIEFING_QUESTIONS = [
-    "What is the current standard of care for measles?",
-    "What treatments or vaccines are in development / in clinical trials?",
-    "Which key organizations (companies, institutions, government bodies) are involved?",
-]
+def briefing_questions(condition_name: str) -> list[str]:
+    name = condition_name.strip()
+    return [
+        f"What is the current standard of care for {name}?",
+        f"What treatments or vaccines are in development / in clinical trials for {name}?",
+        f"Which key organizations (companies, institutions, government bodies) are involved in {name}?",
+    ]
+
+
+BRIEFING_QUESTIONS = briefing_questions("measles")
 
 SOURCE_ORDER = [
     "CDC Clinical Overview of Measles",
@@ -82,7 +86,7 @@ _CITE = re.compile(r"\[([^\]]+)\]")
 _ID = re.compile(r"[A-Za-z][A-Za-z0-9_-]*")
 _SENT = re.compile(r"(?<=[.!?])\s+")
 
-_STATE: dict | None = None
+_INDEXES: dict[str, dict] = {}
 
 
 def chunk_text(text: str, size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP) -> list[str]:
@@ -203,50 +207,46 @@ def _norm(vec: dict[str, float]) -> float:
     return math.sqrt(sum(value * value for value in vec.values()))
 
 
-def get_state() -> dict:
-    global _STATE
-    if _STATE is None:
-        if not CORPUS_PATH.is_file():
-            raise FileNotFoundError(
-                f"Missing {CORPUS_PATH}. Run: python scripts/fetch_sources.py"
-            )
-        chunks = json.loads(CORPUS_PATH.read_text(encoding="utf-8"))
-        if not isinstance(chunks, list) or not chunks:
-            raise ValueError(f"{CORPUS_PATH} must be a non-empty list of chunks")
-        _STATE = {
-            "chunks": chunks,
-            "by_id": {chunk["id"]: chunk for chunk in chunks},
-            "index": TfidfIndex(chunks),
-        }
-    return _STATE
-
-
-def corpus_summary() -> dict:
-    state = get_state()
-    counts: Counter[str] = Counter(chunk["source_name"] for chunk in state["chunks"])
-    sources = []
-    for name in SOURCE_ORDER:
-        if counts[name]:
-            sources.append(
-                {
-                    "source_name": name,
-                    "chunks": counts[name],
-                    "url": SOURCE_HOME.get(name),
-                }
-            )
-    for name, count in counts.items():
-        if name not in SOURCE_ORDER:
-            sources.append({"source_name": name, "chunks": count, "url": None})
+def runtime_meta() -> dict:
     model = os.environ.get("OPENAI_MODEL") or os.environ.get("MODEL") or "gpt-4o-mini"
     return {
-        "chunk_count": len(state["chunks"]),
-        "sources": sources,
         "top_k": TOP_K,
         "threshold": SCORE_THRESHOLD,
         "llm_configured": bool(os.environ.get("OPENAI_API_KEY")),
         "model": model,
         "default_mode": "openai" if os.environ.get("OPENAI_API_KEY") else "mock",
     }
+
+
+def drop_index(condition_id: str) -> None:
+    _INDEXES.pop(condition_id, None)
+
+
+def get_state(condition_id: str) -> dict:
+    if condition_id in _INDEXES:
+        return _INDEXES[condition_id]
+    from sources import read_document
+
+    document = read_document(condition_id)
+    if not document:
+        raise FileNotFoundError(
+            f"No corpus for {condition_id}. Load the condition or run scripts/fetch_sources.py."
+        )
+    chunks = [
+        chunk
+        for chunk in document.get("chunks") or []
+        if chunk.get("condition_id") in (None, condition_id)
+    ]
+    for chunk in chunks:
+        chunk["condition_id"] = condition_id
+    state = {
+        "chunks": chunks,
+        "by_id": {chunk["id"]: chunk for chunk in chunks},
+        "index": TfidfIndex(chunks),
+        "document": document,
+    }
+    _INDEXES[condition_id] = state
+    return state
 
 
 _ABBR_END = re.compile(r"(?:\bU\.S\.|\bU\.K\.|\be\.g\.|\bi\.e\.|\bDr\.|\bMr\.|\bMs\.|\bvs\.)$")
@@ -402,8 +402,8 @@ def _call_openai(question: str, chunks: list[dict]) -> tuple[str, str]:
                 {
                     "role": "system",
                     "content": (
-                        "You write short measles research briefings. "
-                        "You only use the provided chunks and cite their ids."
+                    "You write short condition research briefings. "
+                    "You only use the provided chunks and cite their ids."
                     ),
                 },
                 {"role": "user", "content": prompt},
@@ -438,12 +438,13 @@ def _pack(
     citations: list[str],
     retrieved: list[tuple[float, dict]],
     *,
+    condition_id: str,
+    by_id: dict,
     mode: str,
     model: str | None,
     warning: str | None,
 ) -> dict:
     scores = {chunk["id"]: score for score, chunk in retrieved}
-    by_id = get_state()["by_id"]
     sources = []
     for cid in citations:
         chunk = by_id.get(cid)
@@ -462,6 +463,7 @@ def _pack(
         "question": question,
         "text": text,
         "citations": citations,
+        "condition_id": condition_id,
         "mode": mode,
         "model": model,
         "warning": warning,
@@ -469,17 +471,24 @@ def _pack(
     }
 
 
-def answer_question(question: str, *, force_mock: bool = False) -> dict:
+def answer_question(question: str, *, condition_id: str = "measles", force_mock: bool = False) -> dict:
     question = question.strip()
-    state = get_state()
+    state = get_state(condition_id)
     index: TfidfIndex = state["index"]
-    retrieved = index.search(question, k=TOP_K)
+    # Retrieval stays inside this condition's chunks.
+    retrieved = [
+        (score, chunk)
+        for score, chunk in index.search(question, k=TOP_K)
+        if chunk.get("condition_id") == condition_id
+    ]
     if not retrieved or retrieved[0][0] < SCORE_THRESHOLD:
         return _pack(
             question,
             NOT_ENOUGH,
             [],
             retrieved,
+            condition_id=condition_id,
+            by_id=state["by_id"],
             mode="mock" if force_mock or _openai_config() is None else "openai",
             model=None,
             warning=None,
@@ -512,22 +521,18 @@ def answer_question(question: str, *, force_mock: bool = False) -> dict:
         text,
         citations,
         retrieved,
+        condition_id=condition_id,
+        by_id=state["by_id"],
         mode=mode,
         model=model,
         warning=warning,
     )
 
 
-def run_briefing(*, force_mock: bool = False) -> list[dict]:
-    return [answer_question(question, force_mock=force_mock) for question in BRIEFING_QUESTIONS]
-
-
-if __name__ == "__main__":
-    probes = BRIEFING_QUESTIONS + ["What is the price of bitcoin?"]
-    for question in probes:
-        print("\n===", question)
-        for score, chunk in get_state()["index"].search(question):
-            print(f"  {score:.3f} {chunk['id']} {chunk['text'][:110]}")
-        result = answer_question(question, force_mock=True)
-        print(result["text"])
-        print("citations", result["citations"])
+def run_briefing(condition_id: str = "measles", *, force_mock: bool = False) -> list[dict]:
+    state = get_state(condition_id)
+    name = (state["document"].get("condition") or {}).get("name") or condition_id
+    return [
+        answer_question(question, condition_id=condition_id, force_mock=force_mock)
+        for question in briefing_questions(name)
+    ]

@@ -1,16 +1,22 @@
-# Measles briefing
+# Condition research briefing
 
-A small research-gathering and Q&A demo for a health-system strategy team. It answers questions about **measles only**, from three public sources cached in `data/corpus.json`:
+A small research-gathering and Q&A demo for a health-system strategy team. The folder is still `measles-briefing` so an existing Vercel project can keep that root directory.
 
-1. [CDC Clinical Overview of Measles](https://www.cdc.gov/measles/hcp/clinical-overview/index.html) (page text)
-2. [ClinicalTrials.gov API v2](https://clinicaltrials.gov/api/v2/studies?query.cond=measles) (one short chunk per study: title, NCT id, phase, status, sponsor, collaborators, interventions, study link)
-3. [PubMed E-utilities](https://pubmed.ncbi.nlm.nih.gov/) (`measles[tiab] AND 2025:2026[dp]`, top 20 abstracts that have text)
+Ask about any condition. The app resolves the name with the NLM MeSH descriptor lookup (no API key). An exact label, or a single hit, is selected automatically. Several hits are returned for the user to pick.
 
-Asking a question retrieves the top 5 chunks with a small pure-Python TF-IDF cosine index. If the best score is below the threshold in `engine.py`, the answer is exactly: `Not enough evidence in the gathered sources.` Otherwise the answer is written only from those chunks. Every sentence carries a chunk id such as `[cdc-003]`, and sentences without a valid citation are dropped.
+Each condition has its own corpus:
 
-**Run briefing** asks three fixed questions: standard of care, treatments or vaccines in trials, and organizations involved.
+1. MedlinePlus health topic (top web-service hit: page URL plus the full summary)
+2. ClinicalTrials.gov API v2 (`query.cond`), capped at about 100 studies, recruiting and active first
+3. PubMed E-utilities (`name[tiab]` over the last 2 years, top 20 abstracts)
 
-The default answerer is a **mock extractive** mode (no API key). It picks the most relevant sentences from the retrieved chunks and cites them. If `OPENAI_API_KEY` is set, the app calls a chat-completions endpoint over plain HTTPS instead.
+Quick picks (Measles, Heart failure, Type 2 diabetes, Asthma) are committed under `data/corpora/<condition_id>.json`, so those load immediately. Measles keeps the original CDC clinical overview snapshot alongside trials and PubMed. Any other condition is fetched on demand (about 8 seconds per request, under about 25 seconds overall), then cached in memory and `/tmp`. Vercel’s filesystem is read-only except `/tmp`. **Vercel Blob** is the right place for durable per-condition corpora later; this demo does not use it.
+
+Retrieval is a small pure-Python TF-IDF index over that condition only. Top 5 chunks. If the best score is under the threshold in `engine.py`, the answer is exactly: `Not enough evidence in the gathered sources.` Otherwise every sentence cites a chunk id, and sentences without a valid citation are dropped.
+
+**Run briefing** asks three fixed questions with the condition name filled in: standard of care, treatments or vaccines in trials, and organizations involved.
+
+The default answerer is **mock extractive** (no API key). If `OPENAI_API_KEY` is set, the app calls chat completions over plain HTTPS.
 
 This is a briefing demo, not medical advice.
 
@@ -26,38 +32,30 @@ uvicorn app:app --host 127.0.0.1 --port 8000
 
 Open http://127.0.0.1:8000
 
-Tests (no network; they use the committed corpus):
-
 ```bash
 pytest
 ```
 
-## Refresh the corpus
-
-Fetching happens offline, on purpose. Serverless requests should not depend on CDC, ClinicalTrials.gov, or PubMed being reachable.
+## Refresh the quick-pick corpora
 
 ```bash
 python scripts/fetch_sources.py
 ```
 
-The script writes `data/corpus.json`. Commit that file when you refresh it.
-
-CDC returns HTTP 200 to Python’s default urllib user-agent and HTTP 403 if the client sends a browser user-agent. The fetch script does **not** set `User-Agent`.
+The script moves the legacy measles snapshot to `data/corpora/measles.json` if needed, then fetches heart failure, type 2 diabetes, and asthma. It does **not** set `User-Agent`. CDC returns HTTP 403 when the client spoofs a browser. NCBI calls stay at or under 3 per second.
 
 ## Deploy on Vercel
 
 1. Import this Git repository.
 2. Set **Root Directory** to `measles-briefing`.
-3. Leave the framework on automatic detection. Vercel’s Python runtime picks up `requirements.txt`, `.python-version` (`3.12`), and the FastAPI entrypoint `app.py` (`app = FastAPI()`).
-4. No build command. `vercel.json` adds `data/**` and `static/**` to the function bundle so the cached corpus and the page are available at runtime. The working directory on Vercel is the project root (`measles-briefing`); the app also resolves files relative to `app.py`.
-5. Deploy.
+3. Leave framework detection on. Entrypoint is `app.py` (`app = FastAPI()`). Python **3.12** comes from `.python-version`.
+4. No build command. `vercel.json` sets `maxDuration` to **60** (Hobby maximum) on `app.py` and includes `data/**` plus `static/**` so the prebuilt corpora and the page ship with the function.
+5. On-demand gathers write only to `/tmp` and process memory. A new instance fetches again.
 
-Optional environment variables, if you want real model answers instead of the mock:
+Optional environment variables:
 
 | Name | Purpose |
 | --- | --- |
 | `OPENAI_API_KEY` | Turns on the HTTPS chat-completions path |
-| `OPENAI_BASE_URL` | Defaults to `https://api.openai.com/v1` (include `/v1`) |
+| `OPENAI_BASE_URL` | Defaults to `https://api.openai.com/v1` |
 | `OPENAI_MODEL` or `MODEL` | Defaults to `gpt-4o-mini` |
-
-The page shows whether the answer used mock extractive mode or OpenAI. If the key is set but the call fails, the app falls back to the mock and says so.
