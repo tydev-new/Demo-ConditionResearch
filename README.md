@@ -16,43 +16,32 @@ A strategy analyst can get a first-pass briefing on a condition (standard of car
 
 ## How it works
 
+The strategy team can research any condition. When they ask a question, **the agent picks the tools it needs and answers only from what it finds, with citations. If the evidence isn't there, it says so.**
+
 ```mermaid
 flowchart LR
-    A[User types a condition] --> B[MeSH term mapping<br/>shown in the UI]
-    B --> C[Gather sources<br/>MedlinePlus · ClinicalTrials.gov · PubMed<br/>+ CDC for measles]
-    C --> D[TF-IDF index<br/>for this condition]
-    D --> E[Run briefing / Ask]
-    E --> F{Tool-calling agent}
-    F -->|search_sources| D
-    F -->|search_trials| G[ClinicalTrials.gov live]
-    F -->|search_pubmed| H[PubMed live]
-    F -->|fetch_page| I[Allowlisted public pages]
-    F --> J[Cited answer + Agent steps trace]
-    F -.agent fails.-> K[Fixed retrieve + answer pipeline]
-    K --> J
+    Q[Question] --> A{Agent}
+    A -->|search_sources| S[Gathered sources]
+    A -->|search_trials| T[Live clinical trials]
+    A -->|search_pubmed| P[PubMed]
+    A -->|fetch_page| W[Trusted health pages]
+    A --> R[Cited answer + Agent steps]
 ```
 
-1. **Condition to MeSH term.** The app maps what the user typed to the matching NLM MeSH term. It uses NCBI's term mapping first, so lay words work (for example "flu" maps to *Influenza, Human*, D007251). The UI shows the mapping and a link to the MeSH record. If several headings match, the user picks one.
-2. **Gather sources.** For the chosen condition it gathers:
-   - the MedlinePlus health topic (plus closely related topics);
-   - ClinicalTrials.gov studies (recruiting and active ones first);
-   - recent PubMed abstracts.
+**The agent's tools**
 
-   Measles also includes a CDC clinical overview snapshot. Four quick picks (measles, heart failure, type 2 diabetes, asthma) ship prebuilt. Any other condition is fetched on demand.
-3. **Index.** The text is split into chunks with IDs and indexed with a small pure-Python TF-IDF index, scoped to that condition.
-4. **Briefing and Ask.** *Run briefing* asks three fixed questions: standard of care, treatments in trials, and organizations involved. *Ask* takes any question. With an LLM configured, each question runs a **tool-calling agent** with four tools:
+| Tool | What it does |
+| --- | --- |
+| `search_sources` | Search across the gathered sources for the condition |
+| `search_trials` | Live ClinicalTrials.gov search (phase, status, sponsor) |
+| `search_pubmed` | Live PubMed search for recent papers |
+| `fetch_page` | Fetch a trusted health page (MedlinePlus, CDC, NIH, ClinicalTrials.gov, WHO, FDA only) |
 
-   | Tool | What it does |
-   | --- | --- |
-   | `search_sources` | Searches the condition's indexed chunks |
-   | `search_trials` | Live ClinicalTrials.gov search, with phase, status and sponsor filters |
-   | `search_pubmed` | Live PubMed search for recent abstracts |
-   | `fetch_page` | Fetches a page from an allowlisted host: medlineplus.gov, cdc.gov, nih.gov, clinicaltrials.gov, who.int, fda.gov |
+Up to 4 tool calls per question. Each answer shows the **Agent steps** it took.
 
-   The agent makes at most 4 tool calls per question. Anything a tool fetches is added to the evidence pool. Every answer shows a collapsible **Agent steps** trace (tool, arguments, result, time). The final answer goes through the same citation check as everything else.
-5. **Fallback.** If the agent fails or times out, the app uses the fixed pipeline instead (top-ranked chunks, then one LLM answer) and the answer says so. Without an API key, answers are extractive (mock mode), built only from source sentences.
+**Before the agent runs:** the condition is mapped to its medical term (MeSH, shown in the UI, e.g. "flu" maps to *Influenza, Human*), and MedlinePlus, ClinicalTrials.gov and PubMed are gathered and indexed for it. If the agent fails, a fixed search-and-answer pipeline takes over. Without an API key the app runs in a mock mode.
 
-This is a research demo, not medical advice.
+See [`__design_doc__.pdf`](./__design_doc__.pdf) for details. This is a research demo, not medical advice.
 
 ## Repo layout
 
