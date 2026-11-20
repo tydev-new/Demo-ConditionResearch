@@ -99,4 +99,7 @@ Import the repo and set **Root Directory** to `medical-briefing`. Vercel picks u
 - **Consumer-level text.** MedlinePlus is written for patients, so standard-of-care answers are general. Next step: add clinical guideline sources such as NICE (and other specialty guidelines) through `fetch_page` or prebuilt corpora.
 - **No persistent cache.** On-demand corpora live in memory and `/tmp` only. Next step: store them durably (for example Vercel Blob or Postgres) with refresh dates.
 - **No alerts.** Next step: watch a condition for new trials or papers and send a digest.
+- **No PII handling.** Next step: a PII module that detects and redacts personal or patient details in questions before they reach the LLM or any logs.
+- **No LLM cost tracking.** Next step: a cost monitor on the LLM gateway (OpenRouter) that tracks tokens and spend per request, with budgets and alerts.
+- **No audit trail.** Next step: an audit log that records each question, the agent's tool calls, the sources used and the answer. It only ever adds new entries, no new database tables.
 - **Citations show provenance, not proof.** The check confirms that every sentence cites a retrieved chunk. It does not prove the sentence says exactly what the chunk says, so cited sources should be read for decisions.
