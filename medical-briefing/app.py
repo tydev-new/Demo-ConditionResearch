@@ -1,7 +1,7 @@
 """Condition research briefing.
 
 Vercel detects this file because it defines a top-level `app = FastAPI()`.
-Set the project Root Directory to `measles-briefing`.
+Set the project Root Directory to `medical-briefing`.
 """
 
 from __future__ import annotations
