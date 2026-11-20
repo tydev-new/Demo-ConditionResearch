@@ -1,0 +1,1373 @@
+{
+  "condition": {
+    "id": "type-2-diabetes",
+    "name": "Diabetes Mellitus, Type 2",
+    "synonyms": [
+      "Non-Insulin Dependent Diabetes Mellitus",
+      "Sugar Diabetes",
+      "Type II Diabetes",
+      "Type 2 Diabetes"
+    ],
+    "mesh_id": "D003924",
+    "last_fetched": "2026-11-20"
+  },
+  "chunks": [
+    {
+      "id": "type-2-diabetes-mplus-001",
+      "condition_id": "type-2-diabetes",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/diabetestype2.html",
+      "text": "Diabetes Type 2. What is type 2 diabetes ? Type 2 diabetes is a disease in which your blood glucose, or blood sugar, levels are too high. Glucose is your main source of energy. It comes from the foods you eat. A hormone called insulin helps the glucose get into your cells to give them energy. If you have diabetes , your body doesn't make enough insulin or doesn't use insulin well. The glucose then stays in your blood and not enough goes into your cells. Over time, having too much glucose in your blood can cause health problems. But you can take steps to manage your diabetes and try to prevent these health problems. What causes type 2 diabetes ?"
+    },
+    {
+      "id": "type-2-diabetes-mplus-002",
+      "condition_id": "type-2-diabetes",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/diabetestype2.html",
+      "text": "But you can take steps to manage your diabetes and try to prevent these health problems. What causes type 2 diabetes ? Type 2 diabetes may be caused by a combination of factors: Being overweight or having obesity Not being physically active Genetics and family history Type 2 diabetes usually starts with insulin resistance. This is a condition in which your cells don't respond normally to insulin. As a result, your body needs more insulin to help the glucose enter your cells. At first, your body makes more insulin to try to get cells to respond. But over time, your body can't make enough insulin, and your blood glucose levels rise. Who is at risk for type 2 diabetes ? You are at higher risk of developing type 2 diabetes if you: Are over age 45."
+    },
+    {
+      "id": "type-2-diabetes-mplus-003",
+      "condition_id": "type-2-diabetes",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/diabetestype2.html",
+      "text": "You are at higher risk of developing type 2 diabetes if you: Are over age 45. Children, teenagers, and younger adults can get type 2 diabetes , but it is more common in middle-aged and older people. Have prediabetes, which means that your blood glucose is high for you but not high enough to be called diabetes Had diabetes in pregnancy or gave birth to a baby weighing 9 pounds or more. Have a family history of diabetes Are overweight or have obesity Are Black or African American, Hispanic/Latino, American Indian, Asian American, or Pacific Islander Are not physically active Have other conditions such as high blood pressure, heart disease, stroke, polycystic ovary syndrome (PCOS), or depression Have low HDL (good) cholesterol and high triglycerides Have acanthosis nigricans - dark, thick,"
+    },
+    {
+      "id": "type-2-diabetes-mplus-004",
+      "condition_id": "type-2-diabetes",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/diabetestype2.html",
+      "text": "stroke, polycystic ovary syndrome (PCOS), or depression Have low HDL (good) cholesterol and high triglycerides Have acanthosis nigricans - dark, thick, and velvety skin around your neck or armpits What are the symptoms of type 2 diabetes ? Many people with type 2 diabetes have no symptoms at all. If you do have them, the symptoms develop slowly over several years. They might be so mild that you do not notice them. The symptoms can include: Increased thirst and urination Increased hunger Feeling tired Blurred vision Numbness or tingling in the feet or hands Sores that do not heal Unexplained weight loss How is type 2 diabetes diagnosed? Your provider will use blood tests to diagnose type 2 diabetes ."
+    },
+    {
+      "id": "type-2-diabetes-mplus-005",
+      "condition_id": "type-2-diabetes",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/diabetestype2.html",
+      "text": "Your provider will use blood tests to diagnose type 2 diabetes . The blood tests include: A1C test, which measures your average blood glucose level over the past 3 months. Fasting plasma glucose (FPG) test, which measures your current blood glucose level. You need to fast (not eat or drink anything except water) for at least 8 hours before the test. Random plasma glucose (RPG) test, which measures your current blood glucose level. This test is used when you have diabetes symptoms and the provider does not want to wait for you to fast before having the test. What are the treatments for type 2 diabetes ? Treatment for type 2 diabetes involves managing your blood glucose levels. Many people are able to do this by living a healthy lifestyle."
+    },
+    {
+      "id": "type-2-diabetes-mplus-006",
+      "condition_id": "type-2-diabetes",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/diabetestype2.html",
+      "text": "Many people are able to do this by living a healthy lifestyle. Some people may also need to take medicine: A healthy lifestyle includes following a healthy eating plan and getting regular physical activity. You need to learn how to balance what you eat and drink with physical activity and diabetes medicine, if you take any. Medicines for diabetes include oral medicines, insulin, and other injectable medicines. Over time, some people will need to take more than one type of medicine to control their diabetes . You will need to check your blood glucose regularly. Your provider will tell you how often you need to do it. It's also important to keep your blood pressure and cholesterol levels close to the targets your provider sets for you. Make sure to get your screening tests regularly."
+    },
+    {
+      "id": "type-2-diabetes-mplus-007",
+      "condition_id": "type-2-diabetes",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/diabetestype2.html",
+      "text": "Make sure to get your screening tests regularly. Can type 2 diabetes be prevented? You can take steps to help prevent or delay type 2 diabetes by losing weight if you are overweight, eating fewer calories, and being more physically active. If you have a condition which raises your risk for type 2 diabetes , managing that condition may lower your risk of getting type 2 diabetes . NIH: National Institute of Diabetes and Digestive and Kidney Diseases"
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07948928",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07948928",
+      "text": "Clinical trial: EHR Alerts to Improve GLP-1 Medication and Continuous Glucose Monitor Prescribing in Primary Care. NCT ID: NCT07948928. Phase: Not applicable. Status: Recruiting. Sponsor: Montefiore Medical Center. Interventions: Our Practice Advisory (OPA) alert. Study link: https://clinicaltrials.gov/study/NCT07948928."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06959277",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06959277",
+      "text": "Clinical trial: Balance4Mobility: Effects of Walkasins Use in Individuals With Peripheral Neuropathy and Balance Problems. NCT ID: NCT06959277. Phase: Not applicable. Status: Recruiting. Sponsor: RxFunction Inc.. Interventions: Walkasins; Fall Prevention Training. Study link: https://clinicaltrials.gov/study/NCT06959277."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07061574",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07061574",
+      "text": "Clinical trial: A Randomized Phase 1/2 Trial of Low Dose Anti-thymocyte Globulin (ATG) With Subsequent Adalimumab or Verapamil in New Onset Type 1 Diabetes. NCT ID: NCT07061574. Phase: Phase 1, Phase 2. Status: Recruiting. Sponsor: City of Hope Medical Center. Collaborators: Jaeb Center for Health Research. Interventions: Anti-thymocyte globulin (ATG); verapamil extended-release capsule; Adalimumab. Study link: https://clinicaltrials.gov/study/NCT07061574."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT05267626",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05267626",
+      "text": "Clinical trial: Study of AU-007, A Monoclonal Antibody That Binds to IL-2 and Inhibits IL-2Rα Binding, in Patients With Unresectable Locally Advanced or Metastatic Cancer. NCT ID: NCT05267626. Phase: Phase 1, Phase 2. Status: Active Not Recruiting. Sponsor: Aulos Bioscience, Inc.. Interventions: AU-007; Aldesleukin; Avelumab; Nivolumab. Study link: https://clinicaltrials.gov/study/NCT05267626."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06704672",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06704672",
+      "text": "Clinical trial: Clinical Study to Evaluate the Impact of the Accu-Chek SmartGuide CGM Solution on the Mean Change in Time in Range Compared With Self-Monitoring of Blood Glucose in Participants With Type 1 and Type 2 Diabetes Mellitus. NCT ID: NCT06704672. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Hoffmann-La Roche. Collaborators: Roche Diabetes Care. Interventions: Accu-Chek SmartGuide CGM Solution; Accu-Chek SmartGuide Sensor and Blinded Apps; SMBG Device. Study link: https://clinicaltrials.gov/study/NCT06704672."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06694155",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06694155",
+      "text": "Clinical trial: Whey Protein Ingestion and Glucose Control in Pre- and Post Diabetic Individuals. NCT ID: NCT06694155. Phase: Not applicable. Status: Recruiting. Sponsor: University of Arkansas. Collaborators: National Dairy Council. Interventions: Whey Protein Isolate Crossover; Placebo. Study link: https://clinicaltrials.gov/study/NCT06694155."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07949591",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07949591",
+      "text": "Clinical trial: Foxtail Millet (Setaria Italica (L.) P. Beauv.)-Based Diet on Postprandial Glycemic Control in Adults With Obesity and Type 2 Diabetes. NCT ID: NCT07949591. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: University of Lahore. Interventions: Placebo; experimenmtal; high-dose foxtail millet muffin. Study link: https://clinicaltrials.gov/study/NCT07949591."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06112418",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06112418",
+      "text": "Clinical trial: A Randomized Comparison of Stage-Based Care Versus Risk Factor-Based Care for Prevention of Cardiovascular Events. NCT ID: NCT06112418. Phase: Not applicable. Status: Recruiting. Sponsor: Cleerly, Inc.. Collaborators: CPC Clinical Research. Interventions: The Cleerly CAD Staging System. Study link: https://clinicaltrials.gov/study/NCT06112418."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT05041491",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05041491",
+      "text": "Clinical trial: Breaking up Sedentary Time to Improve Glucose Control in a Population at Risk for Developing Type 2 Diabetes. NCT ID: NCT05041491. Phase: Early Phase 1. Status: Active Not Recruiting. Sponsor: University of Colorado, Denver. Interventions: BREAK; ONE. Study link: https://clinicaltrials.gov/study/NCT05041491."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07061301",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07061301",
+      "text": "Clinical trial: Transition to Hospital Discharge in Insulinized Patients With Type 2 Diabetes Mellitus. NCT ID: NCT07061301. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Instituto de Investigacion Sanitaria La Fe. Interventions: Usual Care group; Technological group. Study link: https://clinicaltrials.gov/study/NCT07061301."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07949292",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07949292",
+      "text": "Clinical trial: Home Visits and Telephone-Supported Education for Adults With Type 2 Diabetes. NCT ID: NCT07949292. Phase: Not applicable. Status: Recruiting. Sponsor: Saglik Bilimleri Universitesi. Interventions: Nurse-Led Home Visit-Based Diabetes Education; Nurse-Led Telephone-Supported Diabetes Education. Study link: https://clinicaltrials.gov/study/NCT07949292."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07549373",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07549373",
+      "text": "Clinical trial: Effect of Diode Laser, Gudmar and Vinegar in Diabetic Patients During Root Canal Treatment. NCT ID: NCT07549373. Phase: Not applicable. Status: Recruiting. Sponsor: Sharda University. Interventions: 940 nm diode laser; apple cider vinegar; Gymnema Sylvestre; Saline (NaCl); Diode laser and Gymnema Sylvestre; Diode laser and apple cider vinegar. Study link: https://clinicaltrials.gov/study/NCT07549373."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06936657",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06936657",
+      "text": "Clinical trial: Intervention Effects of Optimized Carbohydrate Diet in Patients With Type 2 Diabetes. NCT ID: NCT06936657. Phase: Not applicable. Status: Recruiting. Sponsor: Shanghai 6th People's Hospital. Interventions: optimized carbohydrate diet; conventional diabetes diet. Study link: https://clinicaltrials.gov/study/NCT06936657."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07949084",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07949084",
+      "text": "Clinical trial: The FIT-PET Study: Is Increased Cerebral Blood Flow a Mediator of the Beneficial Effects of HIIT-training on Cognitive Performance in Elderly Patients With Type 2 Diabetes?. NCT ID: NCT07949084. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: University Hospital Bispebjerg and Frederiksberg. Interventions: HIIT-training. Study link: https://clinicaltrials.gov/study/NCT07949084."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07288372",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07288372",
+      "text": "Clinical trial: The CGM-OGTT Glycemic Homeostasis Study. NCT ID: NCT07288372. Phase: Not reported. Status: Recruiting. Sponsor: Shanghai 6th People's Hospital. Study link: https://clinicaltrials.gov/study/NCT07288372."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07632677",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07632677",
+      "text": "Clinical trial: Diagnostic Value of the Liver Inflammation Index for MASH in Patients With T2DM and MAFLD. NCT ID: NCT07632677. Phase: Not reported. Status: Recruiting. Sponsor: The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School. Collaborators: Fudan University; The First Affiliated Hospital of Soochow University; Xuzhou Central Hospital; The First Affiliated Hospital of Bengbu Medical University; The Affiliated Hospital of Qingdao University; Weifang People's Hospital; Panyu Hospital of Traditional Chinese Medicine; Southern Medical University, China. Interventions: iLivTouch (Vibration-controlled transient elastography). Study link: https://clinicaltrials.gov/study/NCT07632677."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06561126",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06561126",
+      "text": "Clinical trial: Engagement of coMmunity Through Participatory Learning and Action for cOntrol and preVEntion of Type II Diabetes and Its Risk Factors [EMPOWER-D]. NCT ID: NCT06561126. Phase: Not applicable. Status: Recruiting. Sponsor: Khyber Medical University Peshawar. Collaborators: University of York; Baqai Institute of Diabetology and Endocrinology. Interventions: Participatory, Learning and Action Based Intervention. Study link: https://clinicaltrials.gov/study/NCT06561126."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07945093",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07945093",
+      "text": "Clinical trial: Diabetes Insulin Self-Management Education (DIME) Web-based Application to Support People With Type 2 Diabetes (T2D) Starting Insulin in Hospital. NCT ID: NCT07945093. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: King's College London. Collaborators: King's College Hospital NHS Trust. Study link: https://clinicaltrials.gov/study/NCT07945093."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06975501",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06975501",
+      "text": "Clinical trial: Community-Empowerment and Environmental Enrichment-based Co-management (CEEEC) Model and Mechanisms for Improving Health of Older Stroke Patients With Multimorbidity. NCT ID: NCT06975501. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Duke Kunshan University. Collaborators: Wuhan University; Shanghai Jiao Tong University School of Medicine; Beijing Tiantan Hospital. Interventions: Exercise Intervention; Cognitive Intervention. Study link: https://clinicaltrials.gov/study/NCT06975501."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07937215",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07937215",
+      "text": "Clinical trial: Silica-Based Wound Treatment (Curi01) Plus Standard Care Versus Standard Care Alone for Chronic Diabetic Foot Wounds. NCT ID: NCT07937215. Phase: Not applicable. Status: Recruiting. Sponsor: Cutempa Medical AG. Interventions: Curi01; Standard of Care. Study link: https://clinicaltrials.gov/study/NCT07937215."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07250698",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07250698",
+      "text": "Clinical trial: Glucose Control in Type 2 Diabetes in Pregnancy. NCT ID: NCT07250698. Phase: Not applicable. Status: Recruiting. Sponsor: Eastern Virginia Medical School. Interventions: Exercise. Study link: https://clinicaltrials.gov/study/NCT07250698."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07944118",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07944118",
+      "text": "Clinical trial: Examination of How the Duration of Fasting and Temporary Stopping of Zenagamtide Dosing Affect the Amount of Food Left in the Stomach in Adults With Overweight or Obesity, With or Without Type 2 Diabetes. NCT ID: NCT07944118. Phase: Phase 1. Status: Not Yet Recruiting. Sponsor: Novo Nordisk A/S. Interventions: Zenagamtide. Study link: https://clinicaltrials.gov/study/NCT07944118."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07262788",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07262788",
+      "text": "Clinical trial: A Feasibility Study of Optimal Non-Pharmacological Lifestyle Modifications in People With Type 2 Diabetes. NCT ID: NCT07262788. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Steno Diabetes Center Copenhagen. Collaborators: Aarhus University Hospital; Steno Diabetes Center Odense; University of Copenhagen; The Novo Nordisk Foundation Center for Basic Metabolic Research; Bispebjerg Hospital. Interventions: CH-rich diet with exercise; CH-reduced diet with exercise. Study link: https://clinicaltrials.gov/study/NCT07262788."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06591286",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06591286",
+      "text": "Clinical trial: Effects of Real-time Continuous Glucose Monitoring System on Hospital-to-home Transitional Blood Glucose Control. NCT ID: NCT06591286. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Shanghai 6th People's Hospital. Interventions: RT-CGM; SMBG. Study link: https://clinicaltrials.gov/study/NCT06591286."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06628297",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06628297",
+      "text": "Clinical trial: Comparison of Differencens in VO2-max, Perfusion of the Heart and Brain and Cognitive Performance Between Patients With Type 2 Diabetes and Healthy Age Matched Controls.. NCT ID: NCT06628297. Phase: Not reported. Status: Active Not Recruiting. Sponsor: University Hospital Bispebjerg and Frederiksberg. Collaborators: Danish Cardiovascular Academy; Bispebjerg Hospital; The Dagmar Marshall Foundation; Steno Diabetes Center Copenhagen. Interventions: PET. Study link: https://clinicaltrials.gov/study/NCT06628297."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07881887",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07881887",
+      "text": "Clinical trial: A Study of LY4167586 in Participants With Obesity or Overweight With or Without Type 2 Diabetes. NCT ID: NCT07881887. Phase: Phase 1. Status: Recruiting. Sponsor: Eli Lilly and Company. Interventions: LY4167586; Placebo. Study link: https://clinicaltrials.gov/study/NCT07881887."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06517576",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06517576",
+      "text": "Clinical trial: Using Remote Monitoring to Address Health Disparities in Type 2 Diabetes. NCT ID: NCT06517576. Phase: Not applicable. Status: Enrolling By Invitation. Sponsor: Lawndale Christian Health Center. Collaborators: Northwestern University; National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK); University of Chicago. Interventions: Blood glucose monitor with Digital Platform and Health Coaching; Continuous glucose monitor; Usual Care. Study link: https://clinicaltrials.gov/study/NCT06517576."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07946666",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07946666",
+      "text": "Clinical trial: A Clinical Trial to Evaluate the Effects of the Synbiotic Dual Cap® on Gastrointestinal Comfort in Adults Initiating GLP-1 or Dual-Incretin Therapy for Weight Loss.. NCT ID: NCT07946666. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Epetome. Collaborators: Citruslabs. Interventions: Synbiotic Dual Cap® Intervention. Study link: https://clinicaltrials.gov/study/NCT07946666."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07763366",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07763366",
+      "text": "Clinical trial: Pain Neuroscience Education and Graded Motor Imagery Combined With Conventional Physiotherapy on Diabetic Adhesive Capsulitis. NCT ID: NCT07763366. Phase: Not applicable. Status: Recruiting. Sponsor: Riphah International University. Interventions: Pain Neuroscience Education (PNE); Graded Motor Imagery (GMI); Conventional Physiotherapy. Study link: https://clinicaltrials.gov/study/NCT07763366."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07781683",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07781683",
+      "text": "Clinical trial: Clinical Evaluation of Salivary 1,5-Anhydroglucitol in Diabetes. NCT ID: NCT07781683. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: Shanghai 6th People's Hospital. Study link: https://clinicaltrials.gov/study/NCT07781683."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07156370",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07156370",
+      "text": "Clinical trial: Salivary Cortisol and Hypercortisolism in Type 2 Diabetes. NCT ID: NCT07156370. Phase: Not reported. Status: Recruiting. Sponsor: Shanghai 6th People's Hospital. Study link: https://clinicaltrials.gov/study/NCT07156370."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07881458",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07881458",
+      "text": "Clinical trial: A Study of EloraTZP in Adult Participants With Obesity or Overweight and Type 2 Diabetes. NCT ID: NCT07881458. Phase: Phase 3. Status: Recruiting. Sponsor: Eli Lilly and Company. Interventions: eloralintide and tirzepatide; Tirzepatide. Study link: https://clinicaltrials.gov/study/NCT07881458."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07881432",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07881432",
+      "text": "Clinical trial: A Study of EloraTZP in Adult Participants With Obesity Without Type 2 Diabetes. NCT ID: NCT07881432. Phase: Phase 3. Status: Not Yet Recruiting. Sponsor: Eli Lilly and Company. Interventions: eloralintide and tirzepatide; Eloralintide; Tirzepatide; Placebo. Study link: https://clinicaltrials.gov/study/NCT07881432."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07942129",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07942129",
+      "text": "Clinical trial: 4-7-8 Breathing Exercises for Stress, Well-Being, and Quality of Life in Newly Diagnosed Type 2 Diabetes. NCT ID: NCT07942129. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Artvin Coruh University. Interventions: 4-7-8 Breathing Exercise. Study link: https://clinicaltrials.gov/study/NCT07942129."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06888687",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06888687",
+      "text": "Clinical trial: Comparison of Dietetics Support With and Without Continuous Glucose Monitoring in Individuals With Type 2 Diabetes.. NCT ID: NCT06888687. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Australian Catholic University. Collaborators: Abbott Diabetes Care; University of Adelaide; The University of Queensland; Monash University; University of Melbourne; Deakin University. Interventions: Dietetic support; Continuous glucose monitoring. Study link: https://clinicaltrials.gov/study/NCT06888687."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07510919",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07510919",
+      "text": "Clinical trial: CGM in Acute Ischemic Stroke. NCT ID: NCT07510919. Phase: Not applicable. Status: Recruiting. Sponsor: Isala. Collaborators: Medisch Spectrum Twente. Interventions: Continuous Glucose Monitoring; Point-of-Care Testing. Study link: https://clinicaltrials.gov/study/NCT07510919."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07943403",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07943403",
+      "text": "Clinical trial: Food Literacy, Gut Microbiota and Nutritional Status in Adults With Type 2 Diabetes Mellitus. NCT ID: NCT07943403. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: Istanbul Gedik University. Collaborators: Gazi University. Study link: https://clinicaltrials.gov/study/NCT07943403."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06297603",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06297603",
+      "text": "Clinical trial: Effect of Retatrutide Compared With Placebo in Participants With Type 2 Diabetes and Moderate or Severe Renal Impairment, With Inadequate Glycemic Control on Basal Insulin, With or Without Metformin and/or SGLT2 Inhibitor (TRANSCEND-T2D-3). NCT ID: NCT06297603. Phase: Phase 3. Status: Active Not Recruiting. Sponsor: Eli Lilly and Company. Interventions: Retatrutide; Placebo. Study link: https://clinicaltrials.gov/study/NCT06297603."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07942480",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07942480",
+      "text": "Clinical trial: Intraoral Scanner Assessment of Maxillary Marginal Soft Tissue Volume Change After Non-Surgical Periodontal Therapy in Type 2 Diabetes. NCT ID: NCT07942480. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: Emrah Bilen. Study link: https://clinicaltrials.gov/study/NCT07942480."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT05752292",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05752292",
+      "text": "Clinical trial: Study to Understand Risk Information to Support and Empower. NCT ID: NCT05752292. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: University of California, Davis. Collaborators: Kaiser Foundation Research Institute; National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK). Interventions: Standard Health Information; Values Affirmation (VA); Tailored Risk Information (TRI); Motivational Interviewing-based (MI); Action planning (AP). Study link: https://clinicaltrials.gov/study/NCT05752292."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07943416",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07943416",
+      "text": "Clinical trial: AI-Assisted Management of Diabetes and Hypertension in Primary Care. NCT ID: NCT07943416. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Jiangsu Taizhou People's Hospital. Interventions: LLM-assisted Clinical Decision Support; Remote Specialist Consultation; Usual care according to the National Basic Public Health Service requirements.. Study link: https://clinicaltrials.gov/study/NCT07943416."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07940803",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07940803",
+      "text": "Clinical trial: A Research Study of a New Medicine NNC0662-3168 for Weight Management and Type 2 Diabetes. NCT ID: NCT07940803. Phase: Phase 1, Phase 2. Status: Not Yet Recruiting. Sponsor: Novo Nordisk A/S. Interventions: NNC0662-3168 (Test product-A); Placebo matched to NNC0662-3168 (Test product-A); Active Comparator (Product-B). Study link: https://clinicaltrials.gov/study/NCT07940803."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06945406",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06945406",
+      "text": "Clinical trial: A Study of LY4057996 in Healthy Participants and Participants With Type 1 and Type 2 Diabetes. NCT ID: NCT06945406. Phase: Phase 1. Status: Recruiting. Sponsor: Eli Lilly and Company. Interventions: LY4057996 SC; LY4057996 IV; Placebo SC; Placebo IV; Degludec SC; Lispro SC; Degludec IV; Pre-study basal insulin SC. Study link: https://clinicaltrials.gov/study/NCT06945406."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07900633",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07900633",
+      "text": "Clinical trial: A Study of Eloralintide (LY3841136) in Participants With Obesity or Overweight, Type 2 Diabetes, and Increased Cardiovascular Risk. NCT ID: NCT07900633. Phase: Phase 3. Status: Not Yet Recruiting. Sponsor: Eli Lilly and Company. Interventions: Eloralintide; Placebo. Study link: https://clinicaltrials.gov/study/NCT07900633."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06921356",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06921356",
+      "text": "Clinical trial: Groceries Plus Multi-Component Lifestyle Intervention for Adults With Hypertension and Type 2 Diabetes. NCT ID: NCT06921356. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Johns Hopkins University. Collaborators: National Institute on Minority Health and Health Disparities (NIMHD). Interventions: Coach-Directed Tailored DASH Groceries Plus Lifestyle Intervention; Self-Shopping DASH diet advice. Study link: https://clinicaltrials.gov/study/NCT06921356."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07939126",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07939126",
+      "text": "Clinical trial: epCertify With the Hiperdia Care Pathway. NCT ID: NCT07939126. Phase: Not reported. Status: Active Not Recruiting. Sponsor: Instituto epHealth. Collaborators: epHealth; MOVE Academic Research Organization - Hospital Moinhos de Vento; Municipal Health Secretariat of Limoeiro; Municipal Health Secretariat of Canarana; Municipal Health Secretariat of Barra do Mendes; Municipal Health Secretariat of Macajuba; Municipal Health Secretariat of Mataraca; Municipal Health Secretariat of São Miguel do Gostoso. Interventions: epCertify system implementation. Study link: https://clinicaltrials.gov/study/NCT07939126."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT05962372",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05962372",
+      "text": "Clinical trial: Culturally Adapted Dietary Clinical Trial in PR. NCT ID: NCT05962372. Phase: Not applicable. Status: Recruiting. Sponsor: Harvard School of Public Health (HSPH). Collaborators: Yale University; Broad Institute of MIT and Harvard; Puerto Rico Consortium for Clinical Investigations. Interventions: Culturally tailored food and diet advice; Standard healthy eating advice. Study link: https://clinicaltrials.gov/study/NCT05962372."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06861790",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06861790",
+      "text": "Clinical trial: WISE-2B Brain Study (Weight Loss Intervention Surgical Effects on Brain Function). NCT ID: NCT06861790. Phase: Not applicable. Status: Recruiting. Sponsor: University of Florida. Collaborators: National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK). Interventions: tVNS; Complete Vagotomy; Selective Vagotomy; Gastric Bypass Laparoscopic; Gastric Bypass Endoscopic. Study link: https://clinicaltrials.gov/study/NCT06861790."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06285396",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06285396",
+      "text": "Clinical trial: Effect of Ephedrine, Phenylepinephrine, and Norepinephrine on Myometrial Contractility in Pregnant People With Type II and Gestational Diabetes During Cesarean Section: An In-vitro Study. NCT ID: NCT06285396. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Samuel Lunenfeld Research Institute, Mount Sinai Hospital. Interventions: Ephedrine; Phenylephrine; Norepinephrine; Oxytocin. Study link: https://clinicaltrials.gov/study/NCT06285396."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07930195",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07930195",
+      "text": "Clinical trial: Improving the Recruitment and Retention in the Intensive Diabetes Prevention Program at Hong Kong in District Health Centers. NCT ID: NCT07930195. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: The Hong Kong Polytechnic University. Interventions: IDPP With optimized Implementation Strategies; Usual IDPP. Study link: https://clinicaltrials.gov/study/NCT07930195."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06964087",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06964087",
+      "text": "Clinical trial: Pharmacokinetic and Early Efficacy of OPT101 in Patients With Type 1 Diabetes Mellitus. NCT ID: NCT06964087. Phase: Phase 2. Status: Recruiting. Sponsor: Op-T LLC. Interventions: OPT101; OPT101 Placebo to Match (PTM). Study link: https://clinicaltrials.gov/study/NCT06964087."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07220759",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07220759",
+      "text": "Clinical trial: Weight Loss in People Living With Overweight or Obesity and Type 2 Diabetes Following Treatment With Cagrilintide. NCT ID: NCT07220759. Phase: Phase 3. Status: Active Not Recruiting. Sponsor: Novo Nordisk A/S. Interventions: Cagrilintide; Placebo (matched to Cagrilintide). Study link: https://clinicaltrials.gov/study/NCT07220759."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07929207",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07929207",
+      "text": "Clinical trial: Preoperative Gastric Ultrasound to Assess Stomach Contents and Aspiration Risk in Patients With Diabetes. NCT ID: NCT07929207. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: Saglik Bilimleri Universitesi Gazi Yasargil Training and Research Hospital. Interventions: Preoperative Gastric Ultrasound. Study link: https://clinicaltrials.gov/study/NCT07929207."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07932210",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07932210",
+      "text": "Clinical trial: Ramadan Nutrition Plan (RNP) Education for Glycaemic Control in Older Adults With Type 2 Diabetes in Yogyakarta. NCT ID: NCT07932210. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Universiti Putra Malaysia. Collaborators: Indonesia-MoH; Politeknik Kesehatan Kementerian Kesehatan Yogyakarta. Interventions: Ramadan Nutrition Plan (RNP); RNP Printed guidebook; Self-monitoring of blood glucose (SMBG); Standard Care (in control arm); Printed Leaflet Standard Care. Study link: https://clinicaltrials.gov/study/NCT07932210."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07937891",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07937891",
+      "text": "Clinical trial: The PRECISE-DIET Trial. NCT ID: NCT07937891. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Steno Diabetes Center Copenhagen. Interventions: Personalised dietary intervention; Standard dietary counselling. Study link: https://clinicaltrials.gov/study/NCT07937891."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06144593",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06144593",
+      "text": "Clinical trial: The Metabolic Impact of Intermittent Carbohydrate Restriction in Individuals With Type 2 Diabetes. NCT ID: NCT06144593. Phase: Not applicable. Status: Recruiting. Sponsor: Hvidovre University Hospital. Collaborators: University of Copenhagen. Interventions: Dietary macronutrient composition. Study link: https://clinicaltrials.gov/study/NCT06144593."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07868939",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07868939",
+      "text": "Clinical trial: Oral VK2735 for Weight Management in Adults With Type 2 Diabetes Mellitus Phase 3 (SUNRISE 2). NCT ID: NCT07868939. Phase: Phase 3. Status: Recruiting. Sponsor: Viking Therapeutics, Inc.. Interventions: VK2735 Oral; Placebo Comparator. Study link: https://clinicaltrials.gov/study/NCT07868939."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06845202",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06845202",
+      "text": "Clinical trial: A Study to Evaluate ALN-4324 in Overweight to Obese Healthy Volunteers and in Overweight to Obese Patients With T2DM. NCT ID: NCT06845202. Phase: Phase 1, Phase 2. Status: Active Not Recruiting. Sponsor: Alnylam Pharmaceuticals. Interventions: ALN-4324; Placebo. Study link: https://clinicaltrials.gov/study/NCT06845202."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT05369065",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05369065",
+      "text": "Clinical trial: Ablation of Arteries for the Treatment of Type 2 Diabetes Mellitus and Its Comorbidities. NCT ID: NCT05369065. Phase: Phase 1. Status: Active Not Recruiting. Sponsor: Neurotronic, Inc.. Collaborators: Libra Medical. Interventions: Ablation Treatment; Arterial Angiography Only; Single Arm non-Randomized Ablation Treatment. Study link: https://clinicaltrials.gov/study/NCT05369065."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07939750",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07939750",
+      "text": "Clinical trial: Sotagliflozin Versus Empagliflozin Added to Metformin for Glycemic Control in Type 2 Diabetes. NCT ID: NCT07939750. Phase: Phase 4. Status: Not Yet Recruiting. Sponsor: Allied Hospital Faisalabad. Interventions: Sotagliflozin; Empagliflozin (oral); Metformin. Study link: https://clinicaltrials.gov/study/NCT07939750."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07868835",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07868835",
+      "text": "Clinical trial: Oral VK2735 for Weight Management Phase 3 (SUNRISE 1). NCT ID: NCT07868835. Phase: Phase 3. Status: Recruiting. Sponsor: Viking Therapeutics, Inc.. Interventions: VK2735; Placebo comparator. Study link: https://clinicaltrials.gov/study/NCT07868835."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT05363761",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05363761",
+      "text": "Clinical trial: Arterial Ablation for the Treatment of Type 2 Diabetes Mellitus and Its Comorbidities. NCT ID: NCT05363761. Phase: Phase 1. Status: Active Not Recruiting. Sponsor: Neurotronic, Inc.. Collaborators: Libra Medical. Interventions: Neurotronic Infusion Catheter. Study link: https://clinicaltrials.gov/study/NCT05363761."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07940205",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07940205",
+      "text": "Clinical trial: Machine-learning Algorithm for Prediction of CKD From Retinal Images. NCT ID: NCT07940205. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: Centre Mohammed VI de la Recherche et de l'Innovation (CM6RI). Collaborators: AstraZeneca. Interventions: Machine Learning-Based Algorithm. Study link: https://clinicaltrials.gov/study/NCT07940205."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07465224",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07465224",
+      "text": "Clinical trial: A Study to Evaluate ALN-4324 on Insulin Sensitivity in Adults With Type 2 Diabetes Mellitus. NCT ID: NCT07465224. Phase: Phase 2. Status: Active Not Recruiting. Sponsor: Alnylam Pharmaceuticals. Interventions: ALN-4324; Placebo. Study link: https://clinicaltrials.gov/study/NCT07465224."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07754461",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07754461",
+      "text": "Clinical trial: A Study to Test Whether Survodutide Helps People With Type 2 Diabetes Control Their Blood Sugar. NCT ID: NCT07754461. Phase: Phase 3. Status: Recruiting. Sponsor: Boehringer Ingelheim. Interventions: Placebo; Survodutide. Study link: https://clinicaltrials.gov/study/NCT07754461."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07864168",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07864168",
+      "text": "Clinical trial: Evaluation of MiniMed Next Generation Extended Wear Sensors and Algorithm in Patients With Type 1 and Type 2 Diabetes. NCT ID: NCT07864168. Phase: Not applicable. Status: Recruiting. Sponsor: Medtronic MiniMed, Inc.. Interventions: Next Generation Extended Wear Sensors. Study link: https://clinicaltrials.gov/study/NCT07864168."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07748208",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07748208",
+      "text": "Clinical trial: A Study Evaluating the Safety of Inavolisib and Fulvestrant With or Without Palbociclib in Participants With Advanced Breast Cancer (ABC) and Type 2 Diabetes. NCT ID: NCT07748208. Phase: Phase 2. Status: Recruiting. Sponsor: Hoffmann-La Roche. Interventions: Inavolisib; Fulvestrant; Palbociclib. Study link: https://clinicaltrials.gov/study/NCT07748208."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07935187",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07935187",
+      "text": "Clinical trial: Cardiopulmonary Exercise Active Health Cohort Study. NCT ID: NCT07935187. Phase: Not reported. Status: Recruiting. Sponsor: Peking University Third Hospital. Study link: https://clinicaltrials.gov/study/NCT07935187."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07479862",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07479862",
+      "text": "Clinical trial: A Study of SA030 Injection in Overweight/Obese Participants With or Without Type 2 Diabetes Mellitus (T2DM). NCT ID: NCT07479862. Phase: Phase 1. Status: Recruiting. Sponsor: Suzhou Siran Biotechnology Co.,Ltd.. Interventions: SA030 Injection; Matching Placebo. Study link: https://clinicaltrials.gov/study/NCT07479862."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07841015",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07841015",
+      "text": "Clinical trial: A Study to Learn More About How Well Finerenone Works in Real-world in People With Type 2 Diabetes and Chronic Kidney Disease in Primary Care (IMSS= Instituto Mexicano Del Seguro Social). NCT ID: NCT07841015. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: Bayer. Interventions: Finerenone. Study link: https://clinicaltrials.gov/study/NCT07841015."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07064473",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07064473",
+      "text": "Clinical trial: EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease. NCT ID: NCT07064473. Phase: Phase 3. Status: Recruiting. Sponsor: Boehringer Ingelheim. Interventions: Vicadrostat; Empagliflozin; Placebo matching Vicadrostat. Study link: https://clinicaltrials.gov/study/NCT07064473."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06329375",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06329375",
+      "text": "Clinical trial: Food Insecurity Reduction & Strategy Team. NCT ID: NCT06329375. Phase: Not applicable. Status: Recruiting. Sponsor: Stanford University. Interventions: Nutrition program. Study link: https://clinicaltrials.gov/study/NCT06329375."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07933159",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07933159",
+      "text": "Clinical trial: Stress Coping Training for Nurses and Diabetes Control. NCT ID: NCT07933159. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: The New Model of Care, Hail Health Cluster. Interventions: Psychological Stress Management and Coping Mechanisms for Nurses: Enhancing Glycemic Control in Patients with Type 2 Diabetes. Study link: https://clinicaltrials.gov/study/NCT07933159."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07934225",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07934225",
+      "text": "Clinical trial: Alpha-Lipoic Acid Added to Dapagliflozin and Insulin Resistance in Type 2 Diabetes. NCT ID: NCT07934225. Phase: Phase 3. Status: Not Yet Recruiting. Sponsor: Fayoum University. Interventions: Alpha-Lipoic Acid (ALA); Placebo. Study link: https://clinicaltrials.gov/study/NCT07934225."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06068114",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06068114",
+      "text": "Clinical trial: Gastric Pathophysiology in Diabetes. NCT ID: NCT06068114. Phase: Not reported. Status: Recruiting. Sponsor: Institute for Clinical and Experimental Medicine. Collaborators: Poliklinika Agel, Dopravni zdravotnictvi a.s.. Study link: https://clinicaltrials.gov/study/NCT06068114."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07124923",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07124923",
+      "text": "Clinical trial: Continuous Care Intervention in Primary Care to Improve Type 2 Diabetes Control in Terres de l'Ebre, Catalonia. NCT ID: NCT07124923. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Institut Investigacio Sanitaria Pere Virgili. Collaborators: Fundacio d'Investigacio en Atencio Primaria Jordi Gol i Gurina; Institut Catala de Salut. Interventions: Continuity-of-Care intervention. Study link: https://clinicaltrials.gov/study/NCT07124923."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT05433584",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05433584",
+      "text": "Clinical trial: A Study of Tirzepatide Compared With Intensified Conventional Care in Adult Participants With Type 2 Diabetes. NCT ID: NCT05433584. Phase: Phase 4. Status: Active Not Recruiting. Sponsor: Eli Lilly and Company. Interventions: Tirzepatide; Antihyperglycemic medication. Study link: https://clinicaltrials.gov/study/NCT05433584."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07931573",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07931573",
+      "text": "Clinical trial: AMBITION 3: A Research Study Investigating How Well Zenagamtide at Higher Dose Levels Lowers Blood Sugar and Body Weight Compared to Semaglutide in People With Type 2 Diabetes Treated With Metformin, SGLT2i, or Both. NCT ID: NCT07931573. Phase: Phase 3. Status: Not Yet Recruiting. Sponsor: Novo Nordisk A/S. Interventions: Zenagamtide; Semaglutide; Placebo. Study link: https://clinicaltrials.gov/study/NCT07931573."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07931495",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07931495",
+      "text": "Clinical trial: A Research Study Investigating How Well Zenagamtide Lowers Blood Sugar and Body Weight Compared to Placebo in People With Type 2 Diabetes Treated With Diet and Exercise. NCT ID: NCT07931495. Phase: Phase 3. Status: Not Yet Recruiting. Sponsor: Novo Nordisk A/S. Interventions: Zenagamtide; Placebo. Study link: https://clinicaltrials.gov/study/NCT07931495."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT00342927",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT00342927",
+      "text": "Clinical trial: Family Investigation of Nephropathy and Diabetes (F.I.N.D.). NCT ID: NCT00342927. Phase: Not reported. Status: Active Not Recruiting. Sponsor: National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK). Study link: https://clinicaltrials.gov/study/NCT00342927."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07481747",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07481747",
+      "text": "Clinical trial: Efficacy and Safety of Tirzepatide Once Weekly Versus Placebo in Participants Who Are Either Obese or Overweight With Weight-Related Comorbidities (SURMOUNT-1). NCT ID: NCT07481747. Phase: Phase 3. Status: Recruiting. Sponsor: Hudson Biotech. Interventions: Tirzepatide; Placebo; Reduced-calorie diet. Study link: https://clinicaltrials.gov/study/NCT07481747."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07920042",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07920042",
+      "text": "Clinical trial: A Nurse-Led Personalized Self-Management Counseling Intervention to Improve Medication Adherence and Glycemic Control in Adults With Type 2 Diabetes. NCT ID: NCT07920042. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: University of Basrah. Interventions: Nurse-Led Personalized Self-Management Counseling. Study link: https://clinicaltrials.gov/study/NCT07920042."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07024823",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07024823",
+      "text": "Clinical trial: A Study to Investigate Safety, Tolerability, PK, and PD of AZD4248 in Healthy Participants, Participants With CKD and Type 2 Diabetes, Assess Home Measurements of Creatinine in a Non-Interventional Cohort, and Assess the Effect of AZD4248 on the PK of Midazolam and Metformin in Healthy Participants. NCT ID: NCT07024823. Phase: Phase 1. Status: Recruiting. Sponsor: AstraZeneca. Collaborators: Parexel. Interventions: AZD4248; Placebo; Midazolam; Metformin. Study link: https://clinicaltrials.gov/study/NCT07024823."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07931547",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07931547",
+      "text": "Clinical trial: A Research Study Investigating How Well Zenagamtide Lowers Blood Sugar and Body Weight Compared to Placebo in People With Type 2 Diabetes and Chronic Kidney Disease Treated With Once Daily Basal Insulin Alone or in Combination With Metformin, SGLT2i, or Both. NCT ID: NCT07931547. Phase: Phase 3. Status: Not Yet Recruiting. Sponsor: Novo Nordisk A/S. Interventions: Placebo; Zenagamtide. Study link: https://clinicaltrials.gov/study/NCT07931547."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07931599",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07931599",
+      "text": "Clinical trial: A Research Study Investigating How Well Zenagamtide at Lower Dose Levels Lowers Blood Sugar and Body Weight Compared to Semaglutide at Lower Dose Levels in People With Type 2 Diabetes Treated With Metformin, Sodium-Glucose Cotransporter 2 Inhibitors (SGLT2i), or Both. NCT ID: NCT07931599. Phase: Phase 3. Status: Not Yet Recruiting. Sponsor: Novo Nordisk A/S. Interventions: Zenagamtide; Semaglutide; Placebo zenagamtide; Placebo semaglutide. Study link: https://clinicaltrials.gov/study/NCT07931599."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07536919",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07536919",
+      "text": "Clinical trial: Implementation Support for HEARTS-Based Hypertension and Diabetes Care in Guatemala. NCT ID: NCT07536919. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: University of Michigan. Collaborators: Institute of Nutrition of Central America and Panama; Brigham and Women's Hospital; Wuqu' Kawoq, Maya Health Alliance; Washington University School of Medicine; University of Washington; National Heart, Lung, and Blood Institute (NHLBI); Ministry of Health, Guatemala. Interventions: HEARTS implementation support; Routine HEARTS implementation. Study link: https://clinicaltrials.gov/study/NCT07536919."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07112872",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07112872",
+      "text": "Clinical trial: A Study to Compare Different Doses of Tifeglipron (RO7795081) With Placebo or Semaglutide in People With Type 2 Diabetes. NCT ID: NCT07112872. Phase: Phase 2. Status: Recruiting. Sponsor: Hoffmann-La Roche. Interventions: Tifeglipron; Semaglutide; Placebo. Study link: https://clinicaltrials.gov/study/NCT07112872."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07775846",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07775846",
+      "text": "Clinical trial: QUARTET-DKD: Quadruple Therapy for Type 2 Diabetic Nephropathy. NCT ID: NCT07775846. Phase: Phase 4. Status: Recruiting. Sponsor: Huijie Zhang. Interventions: empagliflozin; Finerenone; Mazdutide; Finerenone Placebo; Mazdutide Placebo; Angiotensin Receptor Blocker (ARB). Study link: https://clinicaltrials.gov/study/NCT07775846."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07929233",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07929233",
+      "text": "Clinical trial: 24-hour Clear Liquid Diet vs. Standard Fasting for Upper Gastrointestinal Endoscopy in Patients Taking Agonists of the GLP-1 Receptor. NCT ID: NCT07929233. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Portuguese Oncology Institute, Coimbra. Interventions: 24-Hour Clear Liquid Diet; Standard Fasting. Study link: https://clinicaltrials.gov/study/NCT07929233."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07534592",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07534592",
+      "text": "Clinical trial: A Study to Investigate the Effect of Elecoglipron on Rosuvastatin and Atorvastatin in Healthy Participants. NCT ID: NCT07534592. Phase: Phase 1. Status: Active Not Recruiting. Sponsor: AstraZeneca. Collaborators: Parexel. Interventions: Elecoglipron; Atorvastatin; Rosuvastatin. Study link: https://clinicaltrials.gov/study/NCT07534592."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT05759637",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05759637",
+      "text": "Clinical trial: Type 2 Diabetes, Obesity and Cortisol Excess. NCT ID: NCT05759637. Phase: Not reported. Status: Recruiting. Sponsor: Istituto Auxologico Italiano. Collaborators: University of Siena; Niguarda Hospital; Campus Bio-Medico University; Azienda Ospedaliero Universitaria, Santa Maria della Misericordia di Udine, Italy. Interventions: 1mg DST. Study link: https://clinicaltrials.gov/study/NCT05759637."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07927309",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07927309",
+      "text": "Clinical trial: A Study of Brenipatide (LY3537031) Comparing Two Formulations in Healthy Adults. NCT ID: NCT07927309. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Xavier University of Louisiana.. Interventions: SOLE PURPOSE Church-Based Foot Health Intervention. Study link: https://clinicaltrials.gov/study/NCT07927309."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07340320",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07340320",
+      "text": "Clinical trial: A Study of CX11 Tablets in Patients With Type 2 Diabetes Mellitus. NCT ID: NCT07340320. Phase: Phase 2. Status: Active Not Recruiting. Sponsor: Corxel Pharmaceuticals. Interventions: CX11; Placebo. Study link: https://clinicaltrials.gov/study/NCT07340320."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07896109",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07896109",
+      "text": "Clinical trial: A Research Study to Check the Safety of NNC9836-0001 When Given to Healthy Participants and Participants With Type 2 Diabetes. NCT ID: NCT07896109. Phase: Phase 1. Status: Recruiting. Sponsor: Novo Nordisk A/S. Interventions: NNC9836-0001; Placebo (NaCl). Study link: https://clinicaltrials.gov/study/NCT07896109."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07927647",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07927647",
+      "text": "Clinical trial: Immunological Signatures of MASLD and MASH in Patients With Type 1 Diabetes. NCT ID: NCT07927647. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: Assistance Publique - Hôpitaux de Paris. Collaborators: Laboratoire IMMEDIAB - Institut Necker Enfants Malades (INEM), Paris. Study link: https://clinicaltrials.gov/study/NCT07927647."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07928661",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07928661",
+      "text": "Clinical trial: Effect of Proliverenol on Liver Fat and Insulin Resistance in Type 2 Diabetes. NCT ID: NCT07928661. Phase: Phase 2. Status: Recruiting. Sponsor: Universitas Sriwijaya. Interventions: Proliverenol. Study link: https://clinicaltrials.gov/study/NCT07928661."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07927530",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07927530",
+      "text": "Clinical trial: Ultrasound-Guided Thoracolumbar Fascia Injection for Chronic Low Back Pain in Patients With Type 2 Diabetes. NCT ID: NCT07927530. Phase: Not applicable. Status: Recruiting. Sponsor: Hatice Zehra FERHATLAR. Interventions: Ultrasound-Guided Thoracolumbar Fascia Injection; Standard Conservative Treatment. Study link: https://clinicaltrials.gov/study/NCT07927530."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07602036",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07602036",
+      "text": "Clinical trial: Type 2 Diabetes and Pregnancy a Single-arm Interventional Study. NCT ID: NCT07602036. Phase: Not applicable. Status: Recruiting. Sponsor: Poznan University of Medical Sciences. Collaborators: Medtronic. Interventions: Automated insulin delivery system - Medtronic 780G. Study link: https://clinicaltrials.gov/study/NCT07602036."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT07400107",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07400107",
+      "text": "Clinical trial: AMAZE 8: A Research Study Investigating How Well the Medicine NNC0487-0111 Compared to Semaglutide Helps People With Excess Body Weight and Type 2 Diabetes Lose Weight. NCT ID: NCT07400107. Phase: Phase 3. Status: Active Not Recruiting. Sponsor: Novo Nordisk A/S. Interventions: NNC0487-0111; Semaglutide; Placebo (matched to NNC0487-0111); Placebo (matched to semaglutide). Study link: https://clinicaltrials.gov/study/NCT07400107."
+    },
+    {
+      "id": "type-2-diabetes-trial-NCT06623708",
+      "condition_id": "type-2-diabetes",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06623708",
+      "text": "Clinical trial: SMARTCLOTH. Design, Implementation and Study of the Effectiveness and Usability of a Digital Tablecloth for Self-management of Diet in Diabetic Patients.. NCT ID: NCT06623708. Phase: Not applicable. Status: Enrolling By Invitation. Sponsor: Maimónides Biomedical Research Institute of Córdoba. Interventions: SMARTCLOTH. Study link: https://clinicaltrials.gov/study/NCT06623708."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42726907-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42726907/",
+      "text": "Patients' conceptions of opting out of group-based education for type 2 diabetes in Swedish primary care - a phenomenographic interview study. PURPOSE: Type 2 diabetes affects everyday life, requiring patients to learn to live with the illness. Although group-based education can improve clinical outcomes and support self-care, it remains underutilised in Sweden. Only about a fifth of healthcare centres offer group-based education, and many patients opt out of participation. Understanding the various reasons patients opt out is crucial for designing group-based education that meets individual needs and promotes long-term disease management. This study aims to describe variations in the conceptions of patients with type 2 diabetes who opted out of group-based education."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42726907-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42726907/",
+      "text": "Patients' conceptions of opting out of group-based education for type 2 diabetes in Swedish primary care - a phenomenographic interview study. aims to describe variations in the conceptions of patients with type 2 diabetes who opted out of group-based education. METHODS: A phenomenographic approach was applied based on 18 individual interviews with patients in primary care who opted out of group-based education for type 2 diabetes. RESULTS: Three conceptions emerged regarding group-based education for type 2 diabetes, reflecting patients' varied views and understanding. Some patients saw no need for group-based education and preferred individual learning. Others recognised the benefits and barriers of group-based education, such as inflexible schedules."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42726907-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42726907/",
+      "text": "Patients' conceptions of opting out of group-based education for type 2 diabetes in Swedish primary care - a phenomenographic interview study. Others recognised the benefits and barriers of group-based education, such as inflexible schedules. Others appreciated the reflective and supportive environment, shared experiences, and greater self-insight. CONCLUSIONS: Patients who declined group-based education held varied conceptions, from preferring individual counselling to recognising benefits. Understanding these variations supports more personalised education and better long-term self-management. These insights may inform clinical and assistive practices by promoting more flexible and person-centered approaches to diabetes education within primary care."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42948159-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42948159/",
+      "text": "Effects of chiglitazar on glycemic, lipid, and hepatic outcomes: A systematic review and meta-analysis. PURPOSE: Chiglitazar is a peroxisome proliferator-activated receptor pan-agonist with potential metabolic benefits. This systematic review and meta-analysis assessed its efficacy and safety versus placebo or active comparators in adults with metabolic disorders. METHODS: PubMed, Scopus, and Web of Science were searched up to August 2026 for studies assessing chiglitazar in adults with metabolic disorders. Outcomes were pooled via random-effects meta-analysis with 95% confidence intervals, alongside heterogeneity, subgroup, and sensitivity analyses. RESULTS: Five studies involving 1,457 participants were included."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42948159-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42948159/",
+      "text": "Effects of chiglitazar on glycemic, lipid, and hepatic outcomes: A systematic review and meta-analysis. RESULTS: Five studies involving 1,457 participants were included. Chiglitazar reduced fasting glucose at 24 weeks (MD - 0.99 mmol/L, 95% CI - 1.75 to - 0.24). HbA1c decreased at 12 weeks (MD - 0.52% points, 95% CI - 0.68 to - 0.37), but its 24-week reduction was not statistically significant. Fasting insulin decreased at 12 weeks (SMD - 0.25, 95% CI - 0.39 to - 0.11), and HOMA-IR decreased at 12 and 24 weeks. Triglyceride levels decreased and HDL-C increased at both time points; total and LDL cholesterol increased at 12 weeks."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42948159-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42948159/",
+      "text": "Effects of chiglitazar on glycemic, lipid, and hepatic outcomes: A systematic review and meta-analysis. Triglyceride levels decreased and HDL-C increased at both time points; total and LDL cholesterol increased at 12 weeks. At 12 weeks, alanine aminotransferase (ALT) and aspartate aminotransferase (AST) decreased (MD - 4.44 U/L, 95% CI - 6.09 to - 2.79; and - 1.23 U/L, 95% CI - 2.28 to - 0.19, respectively). AST decreased at 24 weeks (MD - 3.03 U/L, 95% CI - 5.85 to - 0.21), whereas ALT did not significantly decrease (MD - 4.52 U/L, 95% CI - 9.34 to 0.30). No significant differences in overall or serious adverse events were detected; edema was increased (RR 8.77, 95% CI 1.60-47.97)."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42948159-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42948159/",
+      "text": "Effects of chiglitazar on glycemic, lipid, and hepatic outcomes: A systematic review and meta-analysis. differences in overall or serious adverse events were detected; edema was increased (RR 8.77, 95% CI 1.60-47.97). CONCLUSION: Chiglitazar may improve short-term glycemic control, insulin sensitivity, selected lipid measures, and aminotransferase levels in adults with metabolic disorders. Increased edema risk, heterogeneity, and limited follow-up warrant cautious interpretation; long-term clinical benefits remain unproven. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at https://doi.org/10.1007/s40200-026-02119-8."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42840362-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42840362/",
+      "text": "Effect of a family-centered educational intervention on caregiver diabetes knowledge and fasting plasma glucose in older rural women with type 2 diabetes: a quasi-experimental study. BACKGROUND: Considering the important role of family involvement in diabetes management, this study aimed to evaluate the effect of a family-centered educational intervention on diabetes-related knowledge among caregivers of older women with type 2 diabetes and fasting blood glucose (FBS) among the older women themselves in rural areas of Marvdasht County, Fars Province, Iran, during 2023-2024. METHODS: This quasi-experimental pretest-posttest study included 110 patient-caregiver pairs, comprising 110 older women with type 2 diabetes and 110 family caregivers."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42840362-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42840362/",
+      "text": "Effect of a family-centered educational intervention on caregiver diabetes knowledge and fasting plasma glucose in older rural women with type 2 diabetes: a quasi-experimental study. study included 110 patient-caregiver pairs, comprising 110 older women with type 2 diabetes and 110 family caregivers. Participants were recruited using multistage cluster sampling from rural health centers and were individually allocated to intervention and control groups by a coin-toss procedure, with 55 patient-caregiver pairs in each group. The intervention consisted of four 45-minute family-centered educational sessions delivered over four consecutive weeks. Diabetes-related knowledge was assessed among caregivers, and FBS was measured among the older women with type 2 diabetes at baseline and two months after completion of the intervention."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42840362-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42840362/",
+      "text": "Effect of a family-centered educational intervention on caregiver diabetes knowledge and fasting plasma glucose in older rural women with type 2 diabetes: a quasi-experimental study. measured among the older women with type 2 diabetes at baseline and two months after completion of the intervention. Independent- and paired-samples t-tests were used to compare outcomes between and within the study groups. RESULTS: At baseline, no significant between-group differences were observed in caregiver diabetes knowledge (P = 0.71) or FBS (P = 0.14). Two months after the intervention, caregiver knowledge scores were significantly higher in the intervention group than in the control group (12.10 ± 1.66 vs. 10.30 ± 1.57, P < 0.001). FBS did not differ significantly between the intervention and control groups after the intervention (154.67 ± 56.52 vs. 151.63 ± 26.27 mg/dL, P = 0.78)."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42840362-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42840362/",
+      "text": "Effect of a family-centered educational intervention on caregiver diabetes knowledge and fasting plasma glucose in older rural women with type 2 diabetes: a quasi-experimental study. 151.63 ± 26.27 mg/dL, P = 0.78). FBS decreased significantly from baseline to follow-up in both the intervention and control groups (P = 0.001 for both). CONCLUSIONS: Family-centered education was associated with a significant improvement in diabetes-related knowledge among caregivers of older women with type 2 diabetes. Although FBS decreased within both groups, the absence of a significant between-group difference indicates that an intervention-specific effect on glycemic control could not be established."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42840362-5",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42840362/",
+      "text": "Effect of a family-centered educational intervention on caregiver diabetes knowledge and fasting plasma glucose in older rural women with type 2 diabetes: a quasi-experimental study. between-group difference indicates that an intervention-specific effect on glycemic control could not be established. Family-centered education may therefore be useful for improving caregiver knowledge, while further research using appropriate longitudinal analyses and longer follow-up is needed to determine its effect on glycemic control."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42388064-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42388064/",
+      "text": "Umbilical vein blood flow in macrosomic fetuses with and without pre-gestational diabetes: A cross-sectional study. OBJECTIVE: This study compares umbilical venous blood flow (QUV) in macrosomic fetuses with and without pre-gestational diabetes (PGDM). METHODS: Seventy-nine women with PGDM and fetal macrosomia were enrolled in this comparative cross-sectional study (the PGDM group). A similar number of participants with fetal macrosomia and no diabetes constituted the control group. Fetal macrosomia was diagnosed antenatally based on increased ultrasound estimated fetal weight (EFW), symphysis-fundal height measurement, or both and was confirmed retrospectively based on a birthweight ≥4000 g."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42388064-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42388064/",
+      "text": "Umbilical vein blood flow in macrosomic fetuses with and without pre-gestational diabetes: A cross-sectional study. (EFW), symphysis-fundal height measurement, or both and was confirmed retrospectively based on a birthweight ≥4000 g. All participants underwent an ultrasound examination between 36 and 37 weeks' gestation for EFW and Doppler assessment of the umbilical vein (UV). RESULTS: The UV diameter was significantly higher in the PGDM group compared to the control group, while no statistically significant difference was found in the time-averaged maximum velocity (TAMXV). Both QUV and QUV corrected for EFW were significantly higher in the PGDM group compared to the control group. In addition to diabetes, increased neonatal birthweight and EFW were independently associated with a higher QUV."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42388064-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42388064/",
+      "text": "Umbilical vein blood flow in macrosomic fetuses with and without pre-gestational diabetes: A cross-sectional study. In addition to diabetes, increased neonatal birthweight and EFW were independently associated with a higher QUV. Within the PGDM group, both UV diameter and QUV were significantly higher in newborns with birthweights >4.5 kg in comparison to those ≤4.5 kg weight. CONCLUSION: QUV measured between 36 and 37 weeks' gestation is increased enhanced in fetuses with macrosomia and PGDM compared to those with macrosomia and no diabetes. This increase is attributed to a larger UV diameter rather than an increase in the TAMXV."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42388064-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42388064/",
+      "text": "Umbilical vein blood flow in macrosomic fetuses with and without pre-gestational diabetes: A cross-sectional study. This increase is attributed to a larger UV diameter rather than an increase in the TAMXV. This study highlights the difference in fetal hemodynamics between fetal macrosomia attributed to maternal PGDM and macrosomia related to other risk factors such as pre-pregnancy obesity, increased gestational weight gain, or a previous macrosomic baby."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42381709-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42381709/",
+      "text": "Self-management in Korean immigrants with type 2 diabetes in the United States: a systematic review. OBJECTIVE: Korean immigrants in the U.S. face cultural and language barriers, increasing their diabetes risk and hindering management. This study aims to review previous research and explore factors influencing type 2 diabetes self-management among Korean immigrants in the United States. METHOD: A systematic review was performed according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. The literature was reviewed in October 2024, using five databases: PubMed, EMBASE, PsycINFO, CINAHL, and the Cochrane Library."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42381709-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42381709/",
+      "text": "Self-management in Korean immigrants with type 2 diabetes in the United States: a systematic review. was reviewed in October 2024, using five databases: PubMed, EMBASE, PsycINFO, CINAHL, and the Cochrane Library. The following keywords were used in the search strategy: American Korean, Korean immigrants, Diabetes Mellitus, Type 2, insulin resistance, self-care, self-management, health behavior, and disease management. The search was limited to studies involving human participants, adults, and English-language publications. RESULTS: 14 studies were selected and reviewed."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42381709-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42381709/",
+      "text": "Self-management in Korean immigrants with type 2 diabetes in the United States: a systematic review. RESULTS: 14 studies were selected and reviewed. Five key themes were identified: Challenges in following a diabetes diet and change of lifestyle, language barriers and health literacy, social support and family influence, culturally tailored interventions, and psychological issues in diabetes self-management. CONCLUSION: This systematic review indicates that Korean immigrants have culturally unique barriers and risk factors that hinder effective diabetes self-management. Further research should guide the design of culturally tailored interventions and educational programs to reduce the health disparities and inequalities in the ethnic minority population."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42381709-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42381709/",
+      "text": "Self-management in Korean immigrants with type 2 diabetes in the United States: a systematic review. and educational programs to reduce the health disparities and inequalities in the ethnic minority population. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s40200-026-01966-9."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42368731-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42368731/",
+      "text": "Smoking status and determinants among Iranian adults with diabetes: findings from the national STEPS 2021 survey. BACKGROUND: Understanding patterns of active and passive smoking among individuals with diabetes is essential for targeted prevention, improved glycemic control, and reduction of cardiometabolic complications. The Middle East and North Africa (MENA) region, which includes Iran, has the highest age-standardized diabetes prevalence worldwide, yet evidence on smoking patterns among Iranian adults with diabetes remains limited. METHODS: We used data from the 2021 WHO STEPS survey, a nationally representative population-based study conducted across all 31 provinces of Iran. Adults aged ≥ 25 years were included."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42368731-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42368731/",
+      "text": "Smoking status and determinants among Iranian adults with diabetes: findings from the national STEPS 2021 survey. Adults aged ≥ 25 years were included. Diabetes was defined by self-reported physician diagnosis, glucose-lowering medication use, fasting plasma glucose (FPG) ≥ 126 mg/dL, or hemoglobin A1c (HbA1c) ≥ 6.5%. Among 18,119 eligible participants, 3,078 adults with complete data met diabetes criteria and were included in weighted analyses. We estimated the prevalence of current smoking and passive smoke exposure and compared cardiometabolic indicators across smoking categories. Survey-weighted logistic regression identified determinants of smoking behavior. RESULTS: Among 3,078 adults with diabetes, mean age was 58.4 years (95% CI: 57.8, 59.0) and 53.1% (95% CI: 50.3, 55.9) were female."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42368731-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42368731/",
+      "text": "Smoking status and determinants among Iranian adults with diabetes: findings from the national STEPS 2021 survey. 3,078 adults with diabetes, mean age was 58.4 years (95% CI: 57.8, 59.0) and 53.1% (95% CI: 50.3, 55.9) were female. Overall, 12.2% (95% CI: 10.6, 14.0) were current smokers and 26.0% (95% CI: 23.8, 28.3) reported passive exposure. Smoking patterns varied substantially by sex, age, body mass index (BMI), residence, and employment status. Compared with never smokers, current smokers had lower high-density lipoprotein cholesterol (HDL-C), higher triglycerides, and lower systolic blood pressure (SBP)."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42368731-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42368731/",
+      "text": "Smoking status and determinants among Iranian adults with diabetes: findings from the national STEPS 2021 survey. had lower high-density lipoprotein cholesterol (HDL-C), higher triglycerides, and lower systolic blood pressure (SBP). Male sex strongly predicted current smoking (aOR: 4.69, 95% CI: 3.65, 6.01), whereas age ≥ 60 years was associated with lower odds of both active smoking (aOR: 0.61, 95% CI: 0.48, 0.77) and passive exposure (aOR: 0.67, 95% CI: 0.53, 0.86). CONCLUSIONS: Active and passive smoking are common among Iranian adults with diabetes and show substantial gender differences. Their associations with unfavorable lipid profiles underscore the need for integrating gender-responsive tobacco control approaches into diabetes care and prevention programs."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42368731-5",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42368731/",
+      "text": "Smoking status and determinants among Iranian adults with diabetes: findings from the national STEPS 2021 survey. the need for integrating gender-responsive tobacco control approaches into diabetes care and prevention programs. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s40200-026-01990-9."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42327989-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42327989/",
+      "text": "Real-time continuous glucose monitoring in adults with type 2 diabetes managed with non-intensive insulin regimens: impact on glycemia and self-management. BACKGROUND: Real-time continuous glucose monitoring (RT-CGM) is increasingly used to support glycemic optimization and enhance diabetes self-management. However, evidence regarding its clinical and behavioral effects in adults with type 2 diabetes (T2D) who are not using intensive insulin therapy remains limited. METHODS: This prospective, single-arm, 12-week study evaluated adults with T2D and suboptimal glycemic control (HbA1c > 7.0%) who were not using intensive insulin therapy and subsequently initiated RT-CGM. Clinical, metabolic, and glycemic parameters, as well as patient-reported outcomes assessed using the Diabetes Self-Management Questionnaire (DSMQ), were recorded."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42327989-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42327989/",
+      "text": "Real-time continuous glucose monitoring in adults with type 2 diabetes managed with non-intensive insulin regimens: impact on glycemia and self-management. as well as patient-reported outcomes assessed using the Diabetes Self-Management Questionnaire (DSMQ), were recorded. CGM metrics, including time in range (%TIR70-180), time above range (%TAR), time below range (%TBR), glucose management indicator (GMI), and the Glycemia Risk Index (GRI) with its components, were analyzed at 30 and 90 days. RESULTS: A total of 118 participants were included in the study. RT-CGM use was associated with improved HbA1c (MD - 0.44%, p < 0.001). Body weight decreased modestly (MD - 0.76 kg), and capillary glucose declined (MD - 18.75 mg/dL)."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42327989-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42327989/",
+      "text": "Real-time continuous glucose monitoring in adults with type 2 diabetes managed with non-intensive insulin regimens: impact on glycemia and self-management. Body weight decreased modestly (MD - 0.76 kg), and capillary glucose declined (MD - 18.75 mg/dL). Basal insulin-treated users showed a reduction in daily dose (MD - 4.78 U/day), with a similar decrease in twice-daily insulin users (MD - 5.2 U/day; p < 0.001). RT-CGM use was associated with higher %TIR70-180 (MD + 4.68%), reductions in %TBR and %TAR, and concurrent improvements in %GMI and GRI (all p < 0.001). The DSMQ total raw score improved (MD + 4.09), and the total scale score increased (MD + 0.85)."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42327989-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42327989/",
+      "text": "Real-time continuous glucose monitoring in adults with type 2 diabetes managed with non-intensive insulin regimens: impact on glycemia and self-management. The DSMQ total raw score improved (MD + 4.09), and the total scale score increased (MD + 0.85). CONCLUSION: Twelve weeks of RT-CGM use were associated with improvements in glycemic control, reductions in insulin requirements, favorable changes in CGM-derived risk metrics, and enhanced diabetes self-management behaviors in adults with T2D managed with non-intensive insulin regimens. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s40200-026-01982-9."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42077200-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42077200/",
+      "text": "Dental Service Use during the 30 Years before Type 2 Diabetes Onset. Although the association between type 2 diabetes mellitus (T2DM) and oral disease has been widely investigated, little is known about long-term dental care patterns before T2DM diagnosis. This study therefore described dental service utilization up to 30 y prior to the incidence of a T2DM, compared with age- and sex-matched controls. This matched cohort study used nationwide Danish registry data on individuals born between 1950 and 1970 who maintained permanent residency from 1990 to 2021. For each person with incident T2DM in 2021, 4 age- and sex-matched controls were selected. Incident T2DM was identified based on the purchases of glucose-lowering medication or a hospital diagnosis."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42077200-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42077200/",
+      "text": "Dental Service Use during the 30 Years before Type 2 Diabetes Onset. Incident T2DM was identified based on the purchases of glucose-lowering medication or a hospital diagnosis. Dental service utilization included receipt of any dental care, periodontal, endodontic, restorative, and extraction treatments. Time trends were analyzed using logistic and Poisson regression models. Among 1,231,846 eligible individuals, 10,205 had incident T2DM in 2021 and were matched to 40,820 controls. The incident T2DM population was less likely to receive dental care in a calendar year than the controls and had 2.4 (95% confidence interval [CI]: 2.2 to 2.6) fewer years with a dental visit in the years preceding the diagnosis."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42077200-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42077200/",
+      "text": "Dental Service Use during the 30 Years before Type 2 Diabetes Onset. 2.4 (95% confidence interval [CI]: 2.2 to 2.6) fewer years with a dental visit in the years preceding the diagnosis. The individuals with incident T2DM were more likely to have received periodontal (risk ratio: 1.08, 95% CI 1.05 to 1.12) and endodontic treatments (risk ratio: 1.14, 95% CI: 1.11 to 1.17), and they had received more extractions (rate ratio: 1.32, 95% CI: 1.29 to 1.36) and slightly more restorative treatments (rate ratio: 1.02, 95% CI: 1.00 to 1.04) during a calendar year over the period preceding the T2DM diagnosis than did the controls."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42077200-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42077200/",
+      "text": "Dental Service Use during the 30 Years before Type 2 Diabetes Onset. 1.02, 95% CI: 1.00 to 1.04) during a calendar year over the period preceding the T2DM diagnosis than did the controls. More than 30 y prior to diagnosis, individuals who developed T2DM were less likely to attend dental care, but when they did attend, they underwent more complex and invasive procedures. These findings support a common risk factor approach to prevent T2DM and oral diseases at the clinical, health system, and policy levels."
+    },
+    {
+      "id": "type-2-diabetes-pmid-41883297-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41883297/",
+      "text": "Association between diabetes mellitus type 2 and cervical insufficiency: a retrospective case-control study. AIMS: Cervical insufficiency (CI) is the inability of the cervix to retain the pregnancy leading to a high risk of second-trimester fetal loss or extremely preterm birth. There is no current evidence of any association between CI and maternal abnormal glucose tolerance (AGT). The aim of this study was to investigate a potential association between CI and maternal AGT. MATERIAL AND METHODS: This retrospective case-control study was conducted by recruiting all women referred to the Department of Women and Child Health of the Research Hospital Gemelli IRCCS of Rome, from 2016 to 2023 for CI."
+    },
+    {
+      "id": "type-2-diabetes-pmid-41883297-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41883297/",
+      "text": "Association between diabetes mellitus type 2 and cervical insufficiency: a retrospective case-control study. to the Department of Women and Child Health of the Research Hospital Gemelli IRCCS of Rome, from 2016 to 2023 for CI. Cases were chosen among patients with an ultrasound finding of short cervical length (<25 mm) before 24 weeks of gestation, with at least one second trimester fetal loss for CI. Healthy women admitted for delivery at term with at least one previous normal pregnancy and no previous fetal losses or preterm deliveries were enrolled as controls."
+    },
+    {
+      "id": "type-2-diabetes-pmid-41883297-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41883297/",
+      "text": "Association between diabetes mellitus type 2 and cervical insufficiency: a retrospective case-control study. at least one previous normal pregnancy and no previous fetal losses or preterm deliveries were enrolled as controls. All women enrolled in this study, both cases and controls, were monthly evaluated for fasting glucose levels in pregnancy and underwent oral glucose tolerance test (OGTT) for gestational diabetes mellitus (GDM) screening at 24-28 weeks of gestation. Prevalence of AGT was compared among cases and controls and the finding of AGT was associated with maternal-neonatal outcomes among the study population. Cases and controls were compared using parametric or non-parametric tests, as appropriate."
+    },
+    {
+      "id": "type-2-diabetes-pmid-41883297-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41883297/",
+      "text": "Association between diabetes mellitus type 2 and cervical insufficiency: a retrospective case-control study. Cases and controls were compared using parametric or non-parametric tests, as appropriate. Multivariable logistic regression analyses were performed to account for potential confounders, such as maternal age and BMI. RESULTS: Women with CI showed a significantly higher prevalence of diabetes mellitus type 2 (DM2) (11/96 vs. 1/96, p < 0.01), vaginal/cervical infections (45/96 vs. 22/96, p < 0.001), and chorioamnionitis (28/96 vs. 0/96, p < 0.0001) compared to controls. CONCLUSIONS: Pregnant women with DM2 were eightfold more likely to have CI compared to pregnant women with normal glucose tolerance."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43039724-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039724/",
+      "text": "EHR integrated triage-tool and closed-loop referral system to address social needs among patients with uncontrolled type 2 diabetes in the USA: protocol for a pilot type 3 hybrid implementation-effectiveness randomised trial. INTRODUCTION: Health-related social needs (HRSNs), including food insecurity, housing instability and transportation barriers, can directly affect diabetes self-management. Although HRSN screening has become increasingly common in clinical settings, existing approaches are often limited by the absence of structured triage, incomplete integration of referral processes with clinical workflows, weak community-based organisation (CBO) partnerships and lack of closed-loop systems to confirm service receipt."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43039724-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039724/",
+      "text": "EHR integrated triage-tool and closed-loop referral system to address social needs among patients with uncontrolled type 2 diabetes in the USA: protocol for a pilot type 3 hybrid implementation-effectiveness randomised trial. weak community-based organisation (CBO) partnerships and lack of closed-loop systems to confirm service receipt. This study evaluates whether a system-integrated HRSN screening and referral model that triages patients and coordinates technology-facilitated CBO partnerships improves connection to social services and glycaemic control among adults with uncontrolled type 2 diabetes mellitus (T2DM) in a safety-net primary care setting. METHODS AND ANALYSIS: This study employs a type 3 hybrid implementation-effectiveness design to assess an intervention aimed at enhancing an existing electronic health record (EHR)-integrated social needs screening and referral programme."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43039724-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039724/",
+      "text": "EHR integrated triage-tool and closed-loop referral system to address social needs among patients with uncontrolled type 2 diabetes in the USA: protocol for a pilot type 3 hybrid implementation-effectiveness randomised trial. aimed at enhancing an existing electronic health record (EHR)-integrated social needs screening and referral programme. A data-driven triage tool incorporating clinical, social and self-efficacy proxy indicators classifies eligible patients into low-support or high-support strata. Patients with uncontrolled T2DM (haemoglobin A1c ≥9%) who have screened positive for at least one HRSN during routine care are then randomised within triage strata to either the control (standard of care) or intervention arm. Triage classification determines the intensity of referral and navigation support for intervention participants but does not alter care for control participants."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43039724-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039724/",
+      "text": "EHR integrated triage-tool and closed-loop referral system to address social needs among patients with uncontrolled type 2 diabetes in the USA: protocol for a pilot type 3 hybrid implementation-effectiveness randomised trial. of referral and navigation support for intervention participants but does not alter care for control participants. Intervention participants in the low-support stratum receive a direct referral to a matched CBO through the Health Insurance Portability and Accountability Act (HIPAA)-protected, EHR-integrated platform, with no additional patient outreach. Intervention participants in the high-support stratum receive direct outreach to clarify needs and identify the most appropriate CBO match, followed by referral and sustained navigation to support referral completion."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43039724-5",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039724/",
+      "text": "EHR integrated triage-tool and closed-loop referral system to address social needs among patients with uncontrolled type 2 diabetes in the USA: protocol for a pilot type 3 hybrid implementation-effectiveness randomised trial. identify the most appropriate CBO match, followed by referral and sustained navigation to support referral completion. For all intervention patients, a Clinical-Community-Patient Link working group conducts monthly interdisciplinary case reviews to identify and address barriers to service connection. Primary analysis is based on intention-to-treat; secondary analysis is per-protocol. Outcomes include connection to CBOs and changes in glycaemic control, as well as process measures such as feasibility and other implementation metrics. ETHICS AND DISSEMINATION: The Boston Medical Center/Boston University IRB approved this pragmatic trial (H-45851) as no more than minimal risk."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43039724-6",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039724/",
+      "text": "EHR integrated triage-tool and closed-loop referral system to address social needs among patients with uncontrolled type 2 diabetes in the USA: protocol for a pilot type 3 hybrid implementation-effectiveness randomised trial. The Boston Medical Center/Boston University IRB approved this pragmatic trial (H-45851) as no more than minimal risk. It granted waivers of informed consent (45 CFR 46.116(f)) and HIPAA authorisation (45 CFR 164.512(i)(2)(ii)) after determining that all regulatory criteria were met. The intervention involves no medications, procedures or experimental treatments. It reorganises existing social needs services, and no care is withheld from either arm. Patients may decline any service at any time without affecting their care. A prospective consent process would have delayed services and would likely have excluded the harder-to-reach patients the study aims to serve."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43039724-7",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039724/",
+      "text": "EHR integrated triage-tool and closed-loop referral system to address social needs among patients with uncontrolled type 2 diabetes in the USA: protocol for a pilot type 3 hybrid implementation-effectiveness randomised trial. would have delayed services and would likely have excluded the harder-to-reach patients the study aims to serve. Data will be stored in secure, HIPAA-compliant systems with access restricted to authorised personnel. Findings will be shared through peer-reviewed publications, conferences and partner CBOs using only aggregate or de-identified data. TRIAL REGISTRATION NUMBER: NCT07043426."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43039708-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039708/",
+      "text": "What keeps healthcare professionals from working as one team in type 2 diabetes care? A qualitative descriptive study in community health centres in North Toraja, Indonesia. OBJECTIVES: This study aimed to explore healthcare professionals’ experiences of implementing interprofessional collaborative practice in community-based type 2 diabetes mellitus (T2DM) management, including factors that facilitate or constrain integrated care. DESIGN: Qualitative descriptive study using an inductive content analysis approach. SETTING: Three community health centres in North Toraja Regency, Indonesia. PARTICIPANTS: 21 healthcare professionals, including physicians, nurses, nutritionists and pharmacists, were recruited using purposive sampling until code saturation was achieved across the full multidisciplinary sample."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43039708-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039708/",
+      "text": "What keeps healthcare professionals from working as one team in type 2 diabetes care? A qualitative descriptive study in community health centres in North Toraja, Indonesia. were recruited using purposive sampling until code saturation was achieved across the full multidisciplinary sample. RESULTS: The analysis generated five main themes: (1) fragmentation of T2DM services, (2) an incomplete interprofessional collaboration structure, (3) suboptimal implementation of patient-centred care, (4) barriers to patient adherence and (5) technology needs and challenges for integrated T2DM care. Interprofessional collaboration (IPC) remained largely parallel, with limited structured communication and shared care planning. Simple and familiar digital tools, including WhatsApp, were perceived as potentially useful for coordination and continuity of care."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43039708-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039708/",
+      "text": "What keeps healthcare professionals from working as one team in type 2 diabetes care? A qualitative descriptive study in community health centres in North Toraja, Indonesia. digital tools, including WhatsApp, were perceived as potentially useful for coordination and continuity of care. CONCLUSIONS: This study describes fragmented services, incomplete interprofessional collaboration structures and suboptimal implementation of patient-centred care in community-based T2DM management. Healthcare professionals also identified barriers to patient adherence and limited use of technology for monitoring and follow-up. These findings highlight areas that may be considered in developing more integrated community-based T2DM care, including interprofessional collaboration, patient-centred care and contextually appropriate use of technology."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43021490-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43021490/",
+      "text": "Temporal stability of an electronic health record-driven machine learning model predicting type 2 diabetes among patients with mental illness. OBJECTIVES: We previously trained and tested a machine learning model to predict incident type 2 diabetes (T2D) in patients with mental illness using electronic health record (EHR) data from routine clinical practice. This hyperparameter-tuned XGBoost model - based on information on sex, age and mean HbA1c within the past two years - predicts whether a patient will meet criteria for T2D in the two years following each contact to psychiatric services. The performance of such a model may drift over time due to changes in standards of care, baseline risk, registration procedures, etc. Therefore, we set out to examine its temporal stability."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43021490-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43021490/",
+      "text": "Temporal stability of an electronic health record-driven machine learning model predicting type 2 diabetes among patients with mental illness. Therefore, we set out to examine its temporal stability. METHODS: In the present study, we fitted the model described above on EHR data from January 1, 2013 to December 31, 2017, and examined its stability in predicting T2D two years into the future for patients with contacts in 2018, 2019, 2020, 2021, 2022, and 2023, respectively. Performance was quantified using the area under the receiver operating characteristic curve (AUROC)."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43021490-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43021490/",
+      "text": "Temporal stability of an electronic health record-driven machine learning model predicting type 2 diabetes among patients with mental illness. Performance was quantified using the area under the receiver operating characteristic curve (AUROC). RESULTS: The model showed good discriminative performance across all years (AUROC for 2018 = 0.84, 2019 = 0.83, 2020 = 0.87, 2021 = 0.80, 2022 = 0.84, 2023 = 0.80), with a linear model estimating a decrease in AUROC for T2D prediction of only 0.004 per year (95%CI: -0.024; 0.016). Secondary analyses suggested that models trained on recent data (past year) may achieve similar or better discrimination than models trained on longer historical periods."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43021490-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43021490/",
+      "text": "Temporal stability of an electronic health record-driven machine learning model predicting type 2 diabetes among patients with mental illness. recent data (past year) may achieve similar or better discrimination than models trained on longer historical periods. CONCLUSIONS: The temporal stability of the T2D prediction model supports its potential for clinical implementation, facilitating early detection and tailored interventions, while highlighting the importance of continued evaluation."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43020528-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43020528/",
+      "text": "All-cause mortality and associated factors according to age at diagnosis of type 2 diabetes in Finland. OBJECTIVE: To assess all-cause mortality among individuals with type 2 diabetes in Finland and to evaluate the impact of age at diabetes diagnosis and other clinical risk factors using nationwide real-world registry data. RESEARCH DESIGN AND METHODS: This was a retrospective dynamic cohort study. Data on 485 713 patients with type 2 diabetes receiving primary and specialized care were retrieved from the Finnish Diabetes Registry for the period 2018 to 2023. Age- and sex-adjusted mortality ratios (SMRs) were calculated by comparing observed deaths with those expected based on mortality rates in the Finnish population without diabetes."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43020528-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43020528/",
+      "text": "All-cause mortality and associated factors according to age at diagnosis of type 2 diabetes in Finland. by comparing observed deaths with those expected based on mortality rates in the Finnish population without diabetes. SMRs were calculated for the overall cohort and by age at diabetes diagnosis (≤40, 41–79, and ≥80 years). Multivariable rate ratio (RR) analyses assessed factors associated with all-cause mortality in the overall cohort and by age at diagnosis, including sex, baseline age, diabetes duration, hemoglobin A1c, low-density lipoprotein cholesterol, chronic kidney disease (CKD) risk, cardiovascular diseases, other complications, and medication use."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43020528-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43020528/",
+      "text": "All-cause mortality and associated factors according to age at diagnosis of type 2 diabetes in Finland. cholesterol, chronic kidney disease (CKD) risk, cardiovascular diseases, other complications, and medication use. RESULTS: Overall SMR was 92 (95% CI 91 to 92), decreasing from 288 (95% CI 273 to 304) in those diagnosed at ≤40 years to 56 (95% CI 55 to 57) at ≥80 years. In the overall cohort, mortality was strongly associated with heart failure (RR 2.07, 95% CI 2.01 to 2.13) and high or very high CKD risk (RR 1.65, 95% CI 1.61 to 1.70)."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43020528-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43020528/",
+      "text": "All-cause mortality and associated factors according to age at diagnosis of type 2 diabetes in Finland. with heart failure (RR 2.07, 95% CI 2.01 to 2.13) and high or very high CKD risk (RR 1.65, 95% CI 1.61 to 1.70). Insulin alone and combined with oral glucose-lowering medications or glucagon-like peptide-1 receptor agonists were associated with increased mortality (RR 3.37, 95% CI 3.10 to 3.67 and 1.63, 95% CI 1.52 to 1.75, respectively), whereas non-insulin glucose-lowering, lipid-lowering, and renal-protective medications were associated with lower mortality (RR 0.92, 95% CI 0.86 to 0.98; RR 0.57, 95% CI 0.56 to 0.59 and RR 0.73, 95% CI 0.71 to 0.75, respectively)."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43020528-5",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43020528/",
+      "text": "All-cause mortality and associated factors according to age at diagnosis of type 2 diabetes in Finland. mortality (RR 0.92, 95% CI 0.86 to 0.98; RR 0.57, 95% CI 0.56 to 0.59 and RR 0.73, 95% CI 0.71 to 0.75, respectively). CONCLUSIONS: Early-onset type 2 diabetes was associated with markedly increased mortality, whereas mortality among those diagnosed at ≥80 years was lower than in the population without diabetes. Heart failure, CKD, and insulin use were the strongest predictors of mortality, highlighting the need for targeted management of high-risk individuals."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43020283-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43020283/",
+      "text": "Health-related quality of life in early-stage type 2 diabetes: A cross-sectional study within the SMARTEST trial. AIMS: Normative health-related quality of life (HRQoL) data for people with early-stage, well-controlled type 2 diabetes are lacking. We aimed to describe the HRQoL profile of SMARTEST trial participants, contextualised against general population benchmarks. METHODS: Baseline RAND-36 data (n = 1,501; domain scores range 0-100) were compared with population-based reference data using multiple linear regression adjusted for sex, age and education. Participants with < 4 years diabetes duration, no macrovascular complications, and at most monotherapy were included. A significant group × age interaction was identified, and analyses were stratified by age group."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43020283-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43020283/",
+      "text": "Health-related quality of life in early-stage type 2 diabetes: A cross-sectional study within the SMARTEST trial. A significant group × age interaction was identified, and analyses were stratified by age group. Pandemic-related differences were explored in subgroup analyses. RESULTS: HRQoL differed markedly by age group. SMARTEST participants aged < 55 years, reported lower HRQoL in three domains, including general health (β = -7.7, 95% CI -10.5; -5.0). No differences were observed for participants aged 55-65 years. Among those aged > 65 years, HRQoL exceeded reference population levels across several domains, particularly physical role functioning (β = 9.8, 95% CI 5.6; 13.9). Participants included during the pandemic reported a lower mental composite score (β = -2.5, 95% CI -4.5; -0.6)."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43020283-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43020283/",
+      "text": "Health-related quality of life in early-stage type 2 diabetes: A cross-sectional study within the SMARTEST trial. Participants included during the pandemic reported a lower mental composite score (β = -2.5, 95% CI -4.5; -0.6). CONCLUSIONS: HRQoL in this early-stage type 2 diabetes cohort showed a distinct age-related pattern relative to general population benchmarks. Mental HRQoL during periods of societal disruptions merits further study."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43015023-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43015023/",
+      "text": "Effects of henagliflozin proline tablets versus metformin extended-release tablets on body composition in geriatric patients with newly diagnosed type 2 diabetes mellitus (HABIT-GEMs): study protocol for a multicentre, randomised, open-label trial. INTRODUCTION: Older adults with type 2 diabetes mellitus (T2DM) frequently present with sarcopenic obesity, characterised by excess adiposity and reduced skeletal muscle mass, which is associated with frailty, falls and increased mortality. Glycaemic control alone may be insufficient to address these concomitant changes in body composition, supporting the importance of therapies that preserve muscle mass while also limiting adverse changes in body composition. SGLT2 (sodium–glucose cotransporter 2) inhibitors induce weight loss, but their effects on fat and skeletal muscle mass remain incompletely understood, particularly in older adults."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43015023-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43015023/",
+      "text": "Effects of henagliflozin proline tablets versus metformin extended-release tablets on body composition in geriatric patients with newly diagnosed type 2 diabetes mellitus (HABIT-GEMs): study protocol for a multicentre, randomised, open-label trial. loss, but their effects on fat and skeletal muscle mass remain incompletely understood, particularly in older adults. Metformin extended-release (metformin XR), a standard first-line therapy, is generally weight neutral and serves as an appropriate comparator. This non-inferiority randomised controlled trial is designed to compare the effects of henagliflozin and metformin XR on body composition in older adults with newly diagnosed T2DM. METHODS AND ANALYSIS: HABIT-GEMs is a multicentre, randomised, open-label and blinded-endpoint trial conducted in six tertiary hospitals in China."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43015023-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43015023/",
+      "text": "Effects of henagliflozin proline tablets versus metformin extended-release tablets on body composition in geriatric patients with newly diagnosed type 2 diabetes mellitus (HABIT-GEMs): study protocol for a multicentre, randomised, open-label trial. is a multicentre, randomised, open-label and blinded-endpoint trial conducted in six tertiary hospitals in China. A total of 116 adults aged 60–85 years with newly diagnosed T2DM and elevated body fat will be randomised 1:1 to receive henagliflozin or metformin XR for 24 weeks. The primary outcome is the change in appendicular skeletal muscle mass index from baseline to week 24, assessed using multifrequency bioelectrical impedance analysis. Secondary outcomes include body composition, glycaemic indices, inflammatory markers, physical function and safety outcomes."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43015023-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43015023/",
+      "text": "Effects of henagliflozin proline tablets versus metformin extended-release tablets on body composition in geriatric patients with newly diagnosed type 2 diabetes mellitus (HABIT-GEMs): study protocol for a multicentre, randomised, open-label trial. outcomes include body composition, glycaemic indices, inflammatory markers, physical function and safety outcomes. ETHICS AND DISSEMINATION: The study has been approved by the Huadong Hospital Ethics Committee (2025K268) and will be conducted in accordance with the Declaration of Helsinki and Good Clinical Practice guidelines. Written informed consent will be obtained from all participants. The trial is registered at ClinicalTrials.gov (NCT07323381) and the Chinese Clinical Trial Registry (ChiCTR2500112008). Results will be disseminated through peer-reviewed publications and scientific conferences. De-identified data may be shared upon reasonable request, subject to ethics approval."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43015023-5",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43015023/",
+      "text": "Effects of henagliflozin proline tablets versus metformin extended-release tablets on body composition in geriatric patients with newly diagnosed type 2 diabetes mellitus (HABIT-GEMs): study protocol for a multicentre, randomised, open-label trial. De-identified data may be shared upon reasonable request, subject to ethics approval. TRIAL REGISTRATION NUMBERS: NCT07323381 and ChiCTR2500112008."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43015021-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43015021/",
+      "text": "Effect and prognostic value of physical activity for lower-extremity complications of type 2 diabetes across the adult lifespan: a national cohort study using Swedish registers. OBJECTIVES: We aimed to determine the effect of physical activity on the risk of later developing lower-extremity complications and its prognostic value for these complications across the adult lifespan of individuals with type 2 diabetes. DESIGN: A register-based cohort study. SETTING: Sweden, 2007–2019. PARTICIPANTS: All adults with newly diagnosed type 2 diabetes with ≥1 record in the National Diabetes Register (n=372 317)."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43015021-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43015021/",
+      "text": "Effect and prognostic value of physical activity for lower-extremity complications of type 2 diabetes across the adult lifespan: a national cohort study using Swedish registers. All adults with newly diagnosed type 2 diabetes with ≥1 record in the National Diabetes Register (n=372 317). OUTCOME MEASURES: We employed a landmarking approach with a 5-year follow-up and Fine-Gray subdistribution hazards models to investigate the relationships between physical activity and peripheral neuropathy/peripheral vascular disease, foot ulceration and lower-extremity amputations throughout the adult lifespan, adjusting for standard clinical covariates. We compared the performance of multivariable models with and without physical activity using cross-validation."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43015021-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43015021/",
+      "text": "Effect and prognostic value of physical activity for lower-extremity complications of type 2 diabetes across the adult lifespan: a national cohort study using Swedish registers. We compared the performance of multivariable models with and without physical activity using cross-validation. RESULTS: During follow-up, 85 203 (24.69%) experienced peripheral neuropathy or peripheral vascular disease, 2958 (0.81%) received hospital-based care for foot ulcers and 1669 (0.45%) underwent amputation. Low physical activity was independently associated with a higher 5-year incidence of lower-extremity complications across a wide range of ages."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43015021-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43015021/",
+      "text": "Effect and prognostic value of physical activity for lower-extremity complications of type 2 diabetes across the adult lifespan: a national cohort study using Swedish registers. independently associated with a higher 5-year incidence of lower-extremity complications across a wide range of ages. Between ages 47 and 78, never walking for 30 min (or equivalent) during a week was associated with a 1.17 (CI 1.07 to 1.27) to 1.52 (1.32 to 1.75) times greater subdistribution hazard of peripheral neuropathy/peripheral vascular disease—compared with daily walking. Age-specific estimates ranged from 1.36 (0.82 to 2.27) to 3.37 (2.30 to 4.93) for foot ulcers (ages 54–87) and from 1.65 (0.95 to 2.86) to 3.93 (2.22 to 6.98) for amputation (ages 69–85)."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43015021-5",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43015021/",
+      "text": "Effect and prognostic value of physical activity for lower-extremity complications of type 2 diabetes across the adult lifespan: a national cohort study using Swedish registers. to 4.93) for foot ulcers (ages 54–87) and from 1.65 (0.95 to 2.86) to 3.93 (2.22 to 6.98) for amputation (ages 69–85). When comparing the performance of multivariable models with and without physical activity using cross-validation, the addition of physical activity to other clinical variables did not improve model performance. CONCLUSIONS: Low physical activity increased the incidence of lower extremity complications across a wide age range in individuals with type 2 diabetes, with higher estimates for more severe complications. However, it did not enhance the prediction of these complications when standard clinical risk factors were taken into account."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43013090-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43013090/",
+      "text": "Comprehensive multi-organ and body composition phenotyping identifies metabolic signatures associated with incident type 2 diabetes. OBJECTIVES: To derive a multi-organ imaging biomarker panel from whole-body MRI and evaluate its predictive value for incident type 2 diabetes mellitus (T2DM), including the role of intermuscular adipose tissue (IMAT) in reconciling discrepancies between muscle volume and metabolic risk. MATERIALS AND METHODS: This retrospective cohort study analyzed 46,129 UK Biobank participants without diabetes at the time of imaging. Organ volume indices and fat fractions were extracted from Dixon MRI through automated segmentation. Associations between muscle volume indices, fat fractions, and handgrip strength were evaluated, and IMAT was graded in strength-matched participants."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43013090-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43013090/",
+      "text": "Comprehensive multi-organ and body composition phenotyping identifies metabolic signatures associated with incident type 2 diabetes. indices, fat fractions, and handgrip strength were evaluated, and IMAT was graded in strength-matched participants. Independent imaging biomarkers were identified using adjusted Cox models, and a deep learning model was trained. Added value relative to the Leicester risk assessment score was evaluated using decision curve analysis. RESULTS: During follow-up, 600 participants developed T2DM. Eight biomarkers independently predicted incident T2DM, including liver volume index (hazard ratio (HR), 1.28; 95% confidence interval (CI), 1.19-1.38), pancreas fat fraction (HR, 1.19; 95% CI, 1.10-1.28), and gluteus fat fraction (HR, 1.17; 95% CI, 1.08-1.27)."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43013090-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43013090/",
+      "text": "Comprehensive multi-organ and body composition phenotyping identifies metabolic signatures associated with incident type 2 diabetes. pancreas fat fraction (HR, 1.19; 95% CI, 1.10-1.28), and gluteus fat fraction (HR, 1.17; 95% CI, 1.08-1.27). Gluteal IMAT grades were higher in weak-for-volume participants than in strength-matched controls (median, 2.0 vs 1.0; p = 0.02). The deep learning model achieved a concordance index of 0.814 (95% CI, 0.797-0.832) and, when applied sequentially with clinical criteria, reduced false-positive classifications by 43.0% while preserving 97.3% of true positives. CONCLUSION: Whole-body MRI-derived multi-organ biomarkers independently predicted incident T2DM and enhanced risk stratification beyond an established clinical risk score."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43013090-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43013090/",
+      "text": "Comprehensive multi-organ and body composition phenotyping identifies metabolic signatures associated with incident type 2 diabetes. independently predicted incident T2DM and enhanced risk stratification beyond an established clinical risk score. Muscle fat fraction may better reflect metabolic risk than muscle volume in IMAT-rich regions. KEY POINTS: Question Clinical risk scores miss the multi-organ pathophysiology of type 2 diabetes; does whole-body MRI organ size and fat quantification improve prediction of incident diabetes? Findings Eight MRI-derived biomarkers independently predicted incident type 2 diabetes; a deep learning model using whole-body MRI biomarkers reached a concordance index of 0.814."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43013090-5",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43013090/",
+      "text": "Comprehensive multi-organ and body composition phenotyping identifies metabolic signatures associated with incident type 2 diabetes. incident type 2 diabetes; a deep learning model using whole-body MRI biomarkers reached a concordance index of 0.814. Clinical relevance Automated whole-body MRI biomarkers capture multi-organ metabolic signatures beyond conventional risk scoring. Applied after clinical screening, they remove 43.0% of false-positive classifications while preserving 97.3% of true positives."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43060830-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43060830/",
+      "text": "Burden of diabetes and related chronic kidney diseases in adolescents and young adults aged 10-24 years in China from 1990 to 2021, with projections to 2050: a secondary analysis of the Global Burden of Disease Study 2021. Diabetes mellitus (DM) is an important public health concern among adolescents and young adults in China. We assessed the burden of Type 1 DM (T1DM), Type 2 DM (T2DM), chronic kidney disease caused by T1DM (CKD-T1DM), and chronic kidney disease caused by T2DM (CKD-T2DM) among adolescents and young adults aged 10-24 years in China from 1990 to 2021, stratified by age and sex. Data were obtained from the Global Burden of Disease (GBD) Study 2021. We estimated the incidence, prevalence, mortality, and disability-adjusted life-year (DALY) rates, with 95% uncertainty intervals (UIs), and percentage changes from 1990 to 2021."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43060830-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43060830/",
+      "text": "Burden of diabetes and related chronic kidney diseases in adolescents and young adults aged 10-24 years in China from 1990 to 2021, with projections to 2050: a secondary analysis of the Global Burden of Disease Study 2021. life-year (DALY) rates, with 95% uncertainty intervals (UIs), and percentage changes from 1990 to 2021. Bayesian age-period-cohort (BAPC) modeling was used to project trends from 2022 to 2050. In 2021, the prevalence rates per 100,000 population were 66.70 (95% UI: 46.42-94.55) for T1DM, 1,547.76 (1,252.46-1,877.46) for T2DM, 20.64 (14.80-29.19) for CKD-T1DM, and 124.55 (92.40-173.88) for CKD-T2DM. By sex, the prevalence rate of T1DM and the incidence rate of CKD-T1DM increased in males, whereas no significant changes were observed in females. By age, a relatively greater increase in the incidence rate of T2DM was observed among those aged 15-19 years."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43060830-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43060830/",
+      "text": "Burden of diabetes and related chronic kidney diseases in adolescents and young adults aged 10-24 years in China from 1990 to 2021, with projections to 2050: a secondary analysis of the Global Burden of Disease Study 2021. By age, a relatively greater increase in the incidence rate of T2DM was observed among those aged 15-19 years. BAPC projections suggested that the age-standardized incidence and prevalence rates of T1DM and T2DM among males may continue to increase through to 2050. The burden of DM and its related chronic kidney disease showed age- and sex-related differences, with males having a relatively heavier burden of T1DM and CKD-T1DM. These findings may inform age- and sex-sensitive prevention strategies."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43007059-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43007059/",
+      "text": "Piezo1 Responsiveness in Muscle Afferents and Mechanoreflex in Diabetic Rats. BACKGROUND: Abnormal mechanoreflex function from skeletal muscle significantly contributes to the heightened circulatory response during exercise in type 2 diabetes (T2DM). However, the underlying mechanisms remain unclear. We hypothesized that the abnormal cardiovascular responses in T2DM are mediated by mechanoreflex-induced exaggerations resulting from enhanced Piezo1-mediated mechanosensitivity of muscle afferents. METHODS: T2DM rats (Sprague-Dawley rats) were given a high-fat diet in combination with a low dose of streptozotocin."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43007059-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43007059/",
+      "text": "Piezo1 Responsiveness in Muscle Afferents and Mechanoreflex in Diabetic Rats. METHODS: T2DM rats (Sprague-Dawley rats) were given a high-fat diet in combination with a low dose of streptozotocin. Using an in vivo decerebrated rat model and an ex vivo single-fiber recording preparation, we measured muscle mechanoreflex responses, mechanosensitivity of muscle afferents, and Piezo1-mediated responses. Piezo1 protein levels in the membrane fraction were detected by Western blotting in human embryonic kidney 293 (HEK293) cells. RESULTS: Blood pressure and sympathetic nerve activity responses to mechanoreflex activation, as well as group IV muscle afferent firing to mechanical stimulation and the Piezo1 agonist (Yoda1), were significantly greater in T2DM rats."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43007059-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43007059/",
+      "text": "Piezo1 Responsiveness in Muscle Afferents and Mechanoreflex in Diabetic Rats. afferent firing to mechanical stimulation and the Piezo1 agonist (Yoda1), were significantly greater in T2DM rats. More importantly, Piezo1 agonist-induced blood pressure changes and group IV afferent firing were significantly potentiated by administration of lipopolysaccharide, a gut-derived inflammatory endotoxin. Furthermore, lipopolysaccharide significantly increased Piezo1 protein in the cell membrane, which was attenuated by a PKA (protein kinase A) inhibitor."
+    },
+    {
+      "id": "type-2-diabetes-pmid-43007059-4",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43007059/",
+      "text": "Piezo1 Responsiveness in Muscle Afferents and Mechanoreflex in Diabetic Rats. increased Piezo1 protein in the cell membrane, which was attenuated by a PKA (protein kinase A) inhibitor. CONCLUSIONS: These findings suggest that activation of the lipopolysaccharide-Piezo1 pathway may contribute to enhanced responsiveness of group IV muscle afferents and may be associated with exaggerated circulatory responses to muscle mechanoreflex activation in T2DM."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42033237-1",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42033237/",
+      "text": "Cardiovascular outcomes of glucagon-like peptide-1 receptor agonists: A systematic review. PURPOSE: To identify and evaluate cardiovascular outcome trials for glucagon-like peptide-1 receptor agonists (GLP1RAs) in various patient populations, including those with or without type 2 diabetes (T2D). SUMMARY: A systematic search of MEDLINE identified 12 cardiovascular outcome-based randomized controlled trials: 10 in patients with T2D, one in patients with overweight/obesity and atherosclerotic cardiovascular disease (ASCVD) but not T2D, and one in patients with obesity and heart failure with preserved ejection fraction (HFpEF). Most trials had a low risk of bias."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42033237-2",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42033237/",
+      "text": "Cardiovascular outcomes of glucagon-like peptide-1 receptor agonists: A systematic review. Most trials had a low risk of bias. The GLP1RA was administered as a weekly subcutaneous injection in 8 trials, and 2 trials used once-daily oral semaglutide. Follow-up ranged from 1.2 to 5.4 years. GLP1RA therapy showed a consistent reduction in major adverse cardiovascular events (MACE) in patients with T2D. The effect on cardiovascular and all-cause death was less certain. Individually, only liraglutide demonstrated a reduction in MACE, cardiovascular death, and all-cause death. In patients with overweight/obesity and ASCVD (but without T2D), weekly subcutaneous semaglutide lowered the risk of MACE but not cardiovascular death."
+    },
+    {
+      "id": "type-2-diabetes-pmid-42033237-3",
+      "condition_id": "type-2-diabetes",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42033237/",
+      "text": "Cardiovascular outcomes of glucagon-like peptide-1 receptor agonists: A systematic review. and ASCVD (but without T2D), weekly subcutaneous semaglutide lowered the risk of MACE but not cardiovascular death. In patients with obesity and HFpEF (with or without T2D), tirzepatide lowered the occurrence of the composite endpoint of adverse heart failure events and cardiovascular death. Discontinuation of GLP1RA therapy due to gastrointestinal adverse events was common across the trials. CONCLUSION: These data support the use of GLP1RAs to lower MACE in patients with T2D. A cardiovascular benefit with GLP1RA therapy was also observed in 2 additional patient populations: those with overweight/obesity and ASCVD but without T2D and those with obesity and HFpEF with or without T2D."
+    }
+  ],
+  "sources": [
+    {
+      "source_name": "MedlinePlus",
+      "ok": true,
+      "chunks": 7,
+      "error": null
+    },
+    {
+      "source_name": "ClinicalTrials.gov",
+      "ok": true,
+      "chunks": 100,
+      "error": null
+    },
+    {
+      "source_name": "PubMed",
+      "ok": true,
+      "chunks": 84,
+      "error": null
+    }
+  ]
+}

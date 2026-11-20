@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Condition research briefing</title>
+  <style>
+    :root {
+      --bg: #f3f1eb;
+      --ink: #1c211e;
+      --muted: #5d675f;
+      --line: #ddd6c8;
+      --card: #fffcf7;
+      --accent: #0e6b58;
+      --accent-ink: #08382e;
+      --chip: #e4f2ec;
+      --warn-bg: #f8ebe4;
+      --warn: #8a3d28;
+      --shadow: 0 1px 0 rgba(28, 33, 30, 0.04);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 17px/1.5 "Segoe UI", system-ui, sans-serif;
+    }
+    header, main, footer { width: min(820px, calc(100% - 32px)); margin: 0 auto; }
+    header { padding: 36px 0 8px; }
+    h1 { font-size: 32px; line-height: 1.15; margin: 0 0 8px; letter-spacing: -0.02em; }
+    .lede { margin: 0; color: var(--muted); max-width: 62ch; }
+    .mode-pill {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--chip);
+      color: var(--accent-ink);
+      font-size: 13px;
+      font-weight: 650;
+    }
+    form {
+      margin-top: 22px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+    label { display: block; font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+    textarea {
+      width: 100%;
+      margin-top: 8px;
+      min-height: 88px;
+      resize: vertical;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font: inherit;
+      color: inherit;
+      background: #fff;
+    }
+    textarea:focus { outline: 2px solid var(--accent); border-color: transparent; }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    button {
+      font: inherit;
+      cursor: pointer;
+    }
+    .actions button, .try button {
+      border: 1px solid transparent;
+      border-radius: 999px;
+      padding: 8px 14px;
+    }
+    button.primary { background: var(--accent); color: white; }
+    button.secondary { background: transparent; color: var(--accent-ink); border-color: var(--line); }
+    button:disabled { opacity: 0.55; cursor: wait; }
+    .try { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    .try button, .picks button, .choices button { background: transparent; color: var(--muted); border-color: var(--line); font-size: 14px; padding: 4px 10px; border-radius: 999px; }
+    input[type="text"] {
+      width: 100%;
+      margin-top: 8px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font: inherit;
+      color: inherit;
+      background: #fff;
+    }
+    input[type="text"]:focus, textarea:focus { outline: 2px solid var(--accent); border-color: transparent; }
+    details.steps { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+    details.steps summary { cursor: pointer; }
+    details.steps ol { margin: 6px 0 0; padding-left: 20px; }
+    details.steps code { font-size: 12px; }
+    .mapping { margin: 12px 0 0; font-size: 14px; color: var(--muted); }
+    .mapping strong { color: inherit; }
+    .mapping a { color: var(--accent-ink); }
+    .picks, .choices { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    .failed { color: var(--warn); }
+    .sources { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 16px 0 8px; color: var(--muted); font-size: 14px; }
+    .sources a { color: var(--accent-ink); }
+    #status { min-height: 1.2em; color: var(--muted); font-size: 14px; }
+    article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px 16px 12px;
+      margin: 12px 0;
+    }
+    article h2 { font-size: 18px; margin: 0 0 8px; }
+    .answer-text { margin: 0; }
+    .answer-text.warn { background: var(--warn-bg); color: var(--warn); border-radius: 10px; padding: 10px 12px; }
+    button.cite {
+      border: 0;
+      background: var(--chip);
+      color: var(--accent-ink);
+      font-size: 13px;
+      font-weight: 750;
+      border-radius: 999px;
+      padding: 0 0.45em;
+      line-height: 1.4;
+      vertical-align: 1px;
+    }
+    button.cite[aria-current="true"] { background: var(--accent); color: white; }
+    .meta-line { margin: 10px 0 0; color: var(--muted); font-size: 13px; }
+    .warning { margin: 8px 0 0; color: var(--warn); font-size: 14px; }
+    ol.cites { list-style: none; padding: 0; margin: 12px 0 0; }
+    ol.cites li {
+      border-top: 1px solid var(--line);
+      padding: 10px 0;
+    }
+    ol.cites li strong { font-weight: 700; }
+    ol.cites a { color: var(--accent-ink); }
+    ol.cites p { margin: 4px 0 0; color: #333; font-size: 15px; }
+    footer { padding: 8px 0 40px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Condition research briefing</h1>
+    <p class="lede">Research notes for a health-system strategy team. Pick a condition, then ask only from the sources gathered for it.</p>
+    <div class="mode-pill" id="mode-pill">Loading…</div>
+  </header>
+  <main>
+    <form id="condition-form">
+      <label for="condition">Condition</label>
+      <input id="condition" name="condition" type="text" value="measles" autocomplete="off" />
+      <div class="actions">
+        <button class="primary" id="load-btn" type="submit">Load condition</button>
+      </div>
+      <div class="picks" id="picks" aria-label="Quick picks"></div>
+      <div class="choices" id="choices" hidden></div>
+      <p class="mapping" id="mapping" hidden></p>
+    </form>
+    <form id="ask-form">
+      <label for="question">Question</label>
+      <textarea id="question" name="question" placeholder="Load a condition, then ask about care, trials, or organizations."></textarea>
+      <div class="actions">
+        <button class="primary" id="ask-btn" type="submit">Ask</button>
+        <button class="secondary" id="brief-btn" type="button">Run briefing</button>
+      </div>
+    </form>
+    <div class="sources" id="sources"></div>
+    <p id="status" role="status"></p>
+    <div id="out"></div>
+  </main>
+  <footer>
+    Cached public sources only. This demo is not medical advice and does not replace clinical judgment.
+  </footer>
+  <script>
+    const questionEl = document.querySelector("#question");
+    const conditionEl = document.querySelector("#condition");
+    const outEl = document.querySelector("#out");
+    const statusEl = document.querySelector("#status");
+    const modePill = document.querySelector("#mode-pill");
+    const sourcesEl = document.querySelector("#sources");
+    const picksEl = document.querySelector("#picks");
+    const choicesEl = document.querySelector("#choices");
+    const askBtn = document.querySelector("#ask-btn");
+    const briefBtn = document.querySelector("#brief-btn");
+    const loadBtn = document.querySelector("#load-btn");
+    const mappingEl = document.querySelector("#mapping");
+    let condition = null;
+
+    askBtn.disabled = true;
+    briefBtn.disabled = true;
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>"']/g, (ch) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[ch]));
+    }
+
+    function setBusy(busy) {
+      askBtn.disabled = busy || !condition;
+      briefBtn.disabled = busy || !condition;
+      loadBtn.disabled = busy;
+    }
+
+    function questionsFor(name) {
+      return [
+        `What is the current standard of care for ${name}?`,
+        `What treatments or vaccines are in development / in clinical trials for ${name}?`,
+        `Which key organizations (companies, institutions, government bodies) are involved in ${name}?`,
+      ];
+    }
+
+    function showMapping(mapping, via) {
+      if (!mapping || !mapping.mesh_id) { mappingEl.hidden = true; return; }
+      const typed = mapping.query || mapping.mesh_name;
+      const verb = via && via.picked ? `you picked (from ${via.count} matches)` : "matched to";
+      const skip = new Set([typed.toLowerCase(), mapping.mesh_name.toLowerCase()]);
+      const aka = (mapping.synonyms || []).filter((s) => !skip.has(s.toLowerCase())).slice(0, 4);
+      mappingEl.innerHTML = `You typed <strong>“${escapeHtml(typed)}”</strong> → ${verb} MeSH term: ` +
+        `<strong>${escapeHtml(mapping.mesh_name)}</strong> (<a href="${escapeHtml(mapping.mesh_url)}" target="_blank" rel="noopener">${escapeHtml(mapping.mesh_id)}</a>)` +
+        (aka.length ? `<br>Also known as: ${aka.map(escapeHtml).join(", ")}` : "");
+      mappingEl.hidden = false;
+    }
+
+    function showLoaded(payload, via) {
+      condition = payload.condition;
+      const name = condition.name;
+      questionEl.value = questionsFor(name)[0];
+      askBtn.disabled = false;
+      briefBtn.disabled = false;
+      choicesEl.hidden = true;
+      choicesEl.innerHTML = "";
+      showMapping(payload.mapping, via);
+      const bits = (payload.sources || []).map((source) => {
+        if (source.ok) return `<span>${escapeHtml(source.source_name)} · ${source.chunks}</span>`;
+        const why = source.error ? ` (${escapeHtml(source.error)})` : "";
+        return `<span class="failed">${escapeHtml(source.source_name)} failed${why}</span>`;
+      });
+      const where = payload.origin === "fetched" ? "just gathered" : payload.origin;
+      sourcesEl.innerHTML = `<strong>${escapeHtml(name)}</strong> · MeSH ${escapeHtml(condition.mesh_id || "")} · ${payload.chunk_count} chunks · ${escapeHtml(where)} ` + bits.join("");
+    }
+
+    async function loadChosen(chosen, via) {
+      setBusy(true);
+      statusEl.textContent = "Gathering sources…";
+      outEl.innerHTML = "";
+      try {
+        const payload = await postJson("/api/conditions/load", {
+          id: chosen.id,
+          name: chosen.name,
+          mesh_id: chosen.mesh_id,
+          synonyms: chosen.synonyms || [],
+          query: chosen.query || null,
+        });
+        showLoaded(payload, via);
+        statusEl.textContent = "";
+      } catch (error) {
+        statusEl.textContent = error.message;
+      } finally {
+        setBusy(false);
+      }
+    }
+
+    function showChoices(matches, query) {
+      condition = null;
+      askBtn.disabled = true;
+      briefBtn.disabled = true;
+      choicesEl.hidden = false;
+      choicesEl.innerHTML = "";
+      matches.forEach((match) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = `${match.name} (${match.mesh_id})`;
+        button.addEventListener("click", () => loadChosen({
+          id: match.id || match.mesh_id.toLowerCase(),
+          name: match.name,
+          mesh_id: match.mesh_id,
+          synonyms: query ? [query] : [],
+          query: query,
+        }, { picked: true, count: matches.length }));
+        choicesEl.appendChild(button);
+      });
+      statusEl.textContent = "Several MeSH headings match. Pick one.";
+    }
+
+    async function resolveQuery(query) {
+      setBusy(true);
+      statusEl.textContent = "Looking up the condition in MeSH…";
+      choicesEl.hidden = true;
+      mappingEl.hidden = true;
+      try {
+        const resolved = await postJson("/api/resolve", { query });
+        if (resolved.status === "chosen" && resolved.chosen) {
+          await loadChosen(resolved.chosen);
+          return;
+        }
+        if (resolved.status === "choices") {
+          showChoices(resolved.matches || [], resolved.query || query);
+          return;
+        }
+        statusEl.textContent = "No MeSH descriptor matched that name.";
+      } catch (error) {
+        statusEl.textContent = error.message;
+      } finally {
+        setBusy(false);
+      }
+    }
+
+    async function loadMeta() {
+      const response = await fetch("/api/meta");
+      const meta = await response.json();
+      const mode = meta.default_mode === "openai"
+        ? `Default mode: OpenAI (${meta.model})`
+        : "Default mode: mock extractive";
+      modePill.textContent = mode;
+      picksEl.innerHTML = "";
+      (meta.quick_picks || []).forEach((pick) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = pick.label;
+        button.addEventListener("click", () => {
+          conditionEl.value = pick.query;
+          resolveQuery(pick.query);
+        });
+        picksEl.appendChild(button);
+      });
+    }
+
+    function renderAnswer(answer, index) {
+      const refused = !answer.citations || answer.citations.length === 0;
+      const numberById = new Map();
+      (answer.citations || []).forEach((id, i) => numberById.set(id, i + 1));
+      let html = escapeHtml(answer.text);
+      html = html.replace(/\[([A-Za-z][A-Za-z0-9_-]*)\]/g, (match, id) => {
+        const n = numberById.get(id);
+        if (!n) return match;
+        return `<button type="button" class="cite" data-cite="${escapeHtml(id)}" aria-controls="src-${index}-${escapeHtml(id)}">${n}</button>`;
+      });
+      const modeLabel = answer.mode === "agent"
+        ? `Agent (tool calling)${answer.model ? " · " + escapeHtml(answer.model) : ""}`
+        : answer.mode === "openai"
+          ? `OpenAI${answer.model ? " · " + escapeHtml(answer.model) : ""}${answer.agent_fallback ? " · fixed pipeline fallback" : ""}`
+          : "Mock extractive";
+      const timing = answer.elapsed_ms ? ` · ${(answer.elapsed_ms / 1000).toFixed(1)} s` : "";
+      const stepItems = (answer.agent_steps || []).map((step) => {
+        const args = Object.entries(step.args || {})
+          .filter(([, v]) => v !== null && v !== "")
+          .map(([k, v]) => (k === "query" || k === "url") ? JSON.stringify(v) : `${k}=${v}`)
+          .join(", ");
+        return `<li><code>${escapeHtml(step.tool)}(${escapeHtml(args)})</code> → ${escapeHtml(step.result_summary)} <span>(${step.ms} ms)</span></li>`;
+      }).join("");
+      const steps = stepItems
+        ? `<details class="steps"><summary>Agent steps (${answer.agent_steps.length})</summary><ol>${stepItems}</ol></details>`
+        : "";
+      const sources = (answer.sources || []).map((source) => {
+        const n = numberById.get(source.id) || "";
+        return `<li id="src-${index}-${escapeHtml(source.id)}">
+          <strong>${n}. ${escapeHtml(source.source_name)}</strong>
+          · <a href="${escapeHtml(source.source_url)}" target="_blank" rel="noreferrer">source</a>
+          <p>${escapeHtml(source.text)}</p>
+        </li>`;
+      }).join("");
+      const warning = answer.warning ? `<p class="warning">${escapeHtml(answer.warning)}</p>` : "";
+      return `<article>
+        <h2>${escapeHtml(answer.question)}</h2>
+        <p class="${refused ? "answer-text warn" : "answer-text"}">${html}</p>
+        ${warning}
+        <p class="meta-line">${modeLabel}${timing}</p>
+        ${steps}
+        ${sources ? `<ol class="cites">${sources}</ol>` : ""}
+      </article>`;
+    }
+
+    function showAnswers(answers) {
+      outEl.innerHTML = answers.map((answer, index) => renderAnswer(answer, index)).join("");
+      outEl.querySelectorAll("button.cite").forEach((button) => {
+        button.addEventListener("click", () => {
+          const target = document.getElementById(button.getAttribute("aria-controls"));
+          outEl.querySelectorAll("button.cite").forEach((other) => other.removeAttribute("aria-current"));
+          button.setAttribute("aria-current", "true");
+          if (target) target.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        });
+      });
+    }
+
+    async function postJson(url, body) {
+      const response = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: body ? JSON.stringify(body) : "{}",
+      });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        const detail = payload.detail || response.statusText;
+        throw new Error(typeof detail === "string" ? detail : "Request failed");
+      }
+      return payload;
+    }
+
+    document.querySelector("#ask-form").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const question = questionEl.value.trim();
+      if (!question || !condition) return;
+      setBusy(true);
+      statusEl.textContent = "Searching the gathered sources…";
+      try {
+        const answer = await postJson("/api/ask", { question, condition_id: condition.id });
+        showAnswers([answer]);
+        statusEl.textContent = "";
+      } catch (error) {
+        statusEl.textContent = error.message;
+      } finally {
+        setBusy(false);
+      }
+    });
+
+    document.querySelector("#condition-form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const query = conditionEl.value.trim();
+      if (query) resolveQuery(query);
+    });
+
+    briefBtn.addEventListener("click", async () => {
+      if (!condition) return;
+      setBusy(true);
+      statusEl.textContent = "Running the three briefing questions…";
+      try {
+        const payload = await postJson("/api/briefing", { condition_id: condition.id });
+        showAnswers(payload.answers || []);
+        statusEl.textContent = "";
+      } catch (error) {
+        statusEl.textContent = error.message;
+      } finally {
+        setBusy(false);
+      }
+    });
+
+    questionEl.addEventListener("keydown", (event) => {
+      if ((event.metaKey || event.ctrlKey) && event.key === "Enter") {
+        event.preventDefault();
+        askBtn.click();
+      }
+    });
+
+    loadMeta().catch(() => {
+      modePill.textContent = "Could not load source index";
+    });
+  </script>
+</body>
+</html>

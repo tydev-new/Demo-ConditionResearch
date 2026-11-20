@@ -1,0 +1,1263 @@
+{
+  "condition": {
+    "id": "heart-failure",
+    "name": "Heart Failure",
+    "synonyms": [
+      "CHF",
+      "Cardiac Failure",
+      "Congestive Heart Failure",
+      "Low Cardiac Output",
+      "Left-sided heart failure",
+      "Right-sided heart failure"
+    ],
+    "mesh_id": "D006333",
+    "last_fetched": "2026-11-20"
+  },
+  "chunks": [
+    {
+      "id": "heart-failure-mplus-001",
+      "condition_id": "heart-failure",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/heartfailure.html",
+      "text": "Heart Failure. What is heart failure ? Heart failure means that your heart can't pump enough oxygen-rich blood to meet your body's needs. Heart failure doesn't mean that your heart has stopped or is about to stop beating. But without enough blood flow, your organs may not work well, which can cause serious problems. Heart failure can affect one or both sides of your heart : With right-sided heart failure , your heart is too weak to pump enough blood to your lungs to get oxygen. With left-sided heart failure , your heart can't pump enough oxygen-rich blood out to your body. This happens when the left side of your heart becomes either: Too weak to pump enough blood. Too thick or stiff to relax and fill with enough blood."
+    },
+    {
+      "id": "heart-failure-mplus-002",
+      "condition_id": "heart-failure",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/heartfailure.html",
+      "text": "This happens when the left side of your heart becomes either: Too weak to pump enough blood. Too thick or stiff to relax and fill with enough blood. Left-sided heart failure is more common than right-sided heart failure . What causes heart failure ? Heart failure can start suddenly after a medical condition or injury damages your heart muscle. But in most cases, heart failure develops slowly from long-term medical conditions."
+    },
+    {
+      "id": "heart-failure-mplus-003",
+      "condition_id": "heart-failure",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/heartfailure.html",
+      "text": "But in most cases, heart failure develops slowly from long-term medical conditions. Conditions that can cause heart failure include: Arrhythmia (a problem with the rate or rhythm of your heartbeat) Cardiomyopathy Congenital heart defects or other types of heart diseases that you are born with Coronary artery disease Endocarditis Heart attack Heart valve diseases High blood pressure A blood clot in your lung Diabetes Certain severe lung diseases, such as COPD (chronic obstructive pulmonary disease) Obesity Over time, left-sided heart failure can lead to right-sided heart failure . Who is more likely to develop heart failure ? Heart failure can happen at any age. It happens to both men and women, but men often develop it at a younger age than women."
+    },
+    {
+      "id": "heart-failure-mplus-004",
+      "condition_id": "heart-failure",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/heartfailure.html",
+      "text": "It happens to both men and women, but men often develop it at a younger age than women. Your chance of developing heart failure increases if: You're 65 years old or older. Aging can weaken and stiffen your heart muscle. Your family health history includes relatives who have or have had heart failure . You have changes in your genes that affect your heart tissue. You have habits that can harm your heart , including: Smoking Eating foods high in fat, cholesterol, and sodium (salt) Having an inactive lifestyle Alcohol use disorder (AUD) Illegal drug use You have other medical conditions that can affect your heart , including: Any heart or blood vessel conditions, including high blood pressure Serious lung diseases Infection, such as HIV or COVID-19 Obesity Diabetes Sleep apnea Chronic kidney"
+    },
+    {
+      "id": "heart-failure-mplus-005",
+      "condition_id": "heart-failure",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/heartfailure.html",
+      "text": "or blood vessel conditions, including high blood pressure Serious lung diseases Infection, such as HIV or COVID-19 Obesity Diabetes Sleep apnea Chronic kidney disease Anemia Thyroid disease Iron overload disease Cancer treatments that can harm your heart , such as radiation and chemotherapy You are African American. African Americans are more likely to develop heart failure and have more serious cases at younger ages than people of other races. Factors such as stigma, discrimination, income, education, and geographic region can also affect their risk of heart failure . What are the symptoms of heart failure ? The symptoms of heart failure depend on which side of your heart is affected and how serious your condition has become."
+    },
+    {
+      "id": "heart-failure-mplus-006",
+      "condition_id": "heart-failure",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/heartfailure.html",
+      "text": "The symptoms of heart failure depend on which side of your heart is affected and how serious your condition has become. Most symptoms are caused by reduced blood flow to your organs and fluid buildup in your body. Fluid buildup happens because the flow of blood through your heart is too slow. As a result, blood backs up in the vessels that return the blood to your heart . Fluid may leak from the blood vessels and collect in the tissues of your body, causing swelling (edema) and other problems. Symptoms of heart failure may include: Feeling short of breath (like you can't get enough air) when you do things like climbing stairs. This may be one of the first symptoms you notice. Fatigue or weakness even after rest. Coughing."
+    },
+    {
+      "id": "heart-failure-mplus-007",
+      "condition_id": "heart-failure",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/heartfailure.html",
+      "text": "This may be one of the first symptoms you notice. Fatigue or weakness even after rest. Coughing. Swelling and weight gain from fluid in your ankles, lower legs, or abdomen (belly). Difficulty sleeping when lying flat. Nausea and loss of appetite. Swelling in the veins of your neck. Needing to urinate (pee) often. At first you may have no symptoms or mild symptoms. As the disease gets worse, your symptoms will usually bother you more. What other problems does heart failure cause?"
+    },
+    {
+      "id": "heart-failure-mplus-008",
+      "condition_id": "heart-failure",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/heartfailure.html",
+      "text": "As the disease gets worse, your symptoms will usually bother you more. What other problems does heart failure cause? Fluid buildup and reduced blood flow to your organs can lead to serious problems, including: Breathing problems from fluid in and around your lungs (also called congestive heart failure ) Kidney or liver damage, including cirrhosis Malnutrition if fluid buildup makes eating uncomfortable or if your stomach doesn't get enough blood flow to digest food properly Other heart conditions, such as irregular heartbeat and sudden cardiac arrest Pulmonary hypertension How is heart failure diagnosed?"
+    },
+    {
+      "id": "heart-failure-mplus-009",
+      "condition_id": "heart-failure",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/heartfailure.html",
+      "text": "to digest food properly Other heart conditions, such as irregular heartbeat and sudden cardiac arrest Pulmonary hypertension How is heart failure diagnosed? To find out if you have heart failure , your health care provider will Ask about your medical history, including your symptoms Ask about your family health history, including relatives who have had heart failure Do a physical exam Likely run heart tests and blood tests, including a brain natriuretic peptide (BNP) test In some cases, your provider may refer you to a cardiologist (a doctor who specializes in heart diseases) for tests, diagnosis, and care. What are the treatments for heart failure ? Your treatment will depend on the type of heart failure you have and how serious it is. There's no cure for heart failure ."
+    },
+    {
+      "id": "heart-failure-mplus-010",
+      "condition_id": "heart-failure",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/heartfailure.html",
+      "text": "There's no cure for heart failure . But treatment can help you live longer with fewer symptoms. Even with treatment, heart failure usually gets worse over time, so you'll likely need treatment for the rest of your life. Most treatment plans include: Taking medicine Eating less sodium and drinking less liquid to control fluid buildup Making other changes, such as quitting smoking, managing stress, and getting as much physical activity as your provider recommends Treating any conditions that may make heart failure worse You may need heart surgery if: You have a congenital heart defect or damage to your heart that can be fixed. The left side of your heart is getting weaker and putting a device in your chest could help. Devices include: An implantable cardioverter defibrillator."
+    },
+    {
+      "id": "heart-failure-mplus-011",
+      "condition_id": "heart-failure",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/heartfailure.html",
+      "text": "The left side of your heart is getting weaker and putting a device in your chest could help. Devices include: An implantable cardioverter defibrillator. A biventricular pacemaker ( cardiac resynchronization therapy). A mechanical heart pump (a ventricular assist device (VAD) or a total artificial heart ). Your heart doctor recommends a heart transplant because your heart failure is life-threatening and nothing else is helping. As part of your treatment, you'll need to pay close attention to your symptoms, because heart failure can worsen suddenly. Your provider may suggest a cardiac rehabilitation program to help you learn how to manage your condition. Can heart failure be prevented?"
+    },
+    {
+      "id": "heart-failure-mplus-012",
+      "condition_id": "heart-failure",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/heartfailure.html",
+      "text": "Your provider may suggest a cardiac rehabilitation program to help you learn how to manage your condition. Can heart failure be prevented? You may be able to prevent or delay heart failure if you: Work with your provider to manage any health conditions that increase your risk of developing heart failure Make healthy changes in your eating, exercise, and other daily habits to help prevent heart disease NIH: National Heart , Lung, and Blood Institute"
+    },
+    {
+      "id": "heart-failure-trial-NCT07436689",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07436689",
+      "text": "Clinical trial: Long-Term Open-Label Extension Study of Oral Levosimendan. NCT ID: NCT07436689. Phase: Phase 3. Status: Enrolling By Invitation. Sponsor: Tenax Therapeutics, Inc.. Interventions: TNX-103. Study link: https://clinicaltrials.gov/study/NCT07436689."
+    },
+    {
+      "id": "heart-failure-trial-NCT05388097",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05388097",
+      "text": "Clinical trial: Effect of a Quality Improvement Initiative to Address Social Determinants of Health on Rehospitalization Rates in Patients With Heart Failure. NCT ID: NCT05388097. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Saint Luke's Health System. Collaborators: Truman Medical Center; University of Missouri, Kansas City; Mid America Regional Council. Interventions: Managed Services. Study link: https://clinicaltrials.gov/study/NCT05388097."
+    },
+    {
+      "id": "heart-failure-trial-NCT07950488",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07950488",
+      "text": "Clinical trial: Clinical Characteristics and Long-Term Outcomes of Patients With Valvular Heart Disease. NCT ID: NCT07950488. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: First Affiliated Hospital Xi'an Jiaotong University. Study link: https://clinicaltrials.gov/study/NCT07950488."
+    },
+    {
+      "id": "heart-failure-trial-NCT03394365",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT03394365",
+      "text": "Clinical trial: A Phase 3 Study of Tabelecleucel for Participants With Epstein-Barr Virus-Associated Post-Transplant Lymphoproliferative Disease After Failure With Rituximab or Rituximab and Chemotherapy. NCT ID: NCT03394365. Phase: Phase 3. Status: Recruiting. Sponsor: Pierre Fabre Medicament. Interventions: tabelecleucel. Study link: https://clinicaltrials.gov/study/NCT03394365."
+    },
+    {
+      "id": "heart-failure-trial-NCT07950137",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07950137",
+      "text": "Clinical trial: AI-ECG Screening for Early Heart Failure Diagnosis. NCT ID: NCT07950137. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Antonio Luiz Pinho Ribeiro. Collaborators: Federal University of Rio Grande do Sul; Universidade Federal do Paraná; Federal University of Bahia; Federal University of Juiz de Fora; Prefeitura de Porto Alegre; Hospital de Clinicas de Porto Alegre; Yale University; Uppsala University. Interventions: Artificial Intelligence applied to the electrocardiogram to identify left ventricular systolic dysfunction. Study link: https://clinicaltrials.gov/study/NCT07950137."
+    },
+    {
+      "id": "heart-failure-trial-NCT07360158",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07360158",
+      "text": "Clinical trial: BIO|MASTER.CorSky Family Post-market Study for the CorSky Family of ICDs. NCT ID: NCT07360158. Phase: Not reported. Status: Recruiting. Sponsor: Biotronik SE & Co. KG. Interventions: CorSky ICD or CRT-D. Study link: https://clinicaltrials.gov/study/NCT07360158."
+    },
+    {
+      "id": "heart-failure-trial-NCT06280820",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06280820",
+      "text": "Clinical trial: Multi-Scale Analysis of Phenotypes in Heart Failure (MAP-HEART). NCT ID: NCT06280820. Phase: Not reported. Status: Enrolling By Invitation. Sponsor: National Heart, Lung, and Blood Institute (NHLBI). Study link: https://clinicaltrials.gov/study/NCT06280820."
+    },
+    {
+      "id": "heart-failure-trial-NCT07870395",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07870395",
+      "text": "Clinical trial: Voice-based Outcome Identification and Clinical Evaluation in Heart Failure. NCT ID: NCT07870395. Phase: Not reported. Status: Recruiting. Sponsor: Noah Labs. Interventions: Daily Voice Recording. Study link: https://clinicaltrials.gov/study/NCT07870395."
+    },
+    {
+      "id": "heart-failure-trial-NCT06809686",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06809686",
+      "text": "Clinical trial: Study to Collect High-Resolution ECG Data and Patient Insights on Heart Failure Care. NCT ID: NCT06809686. Phase: Not reported. Status: Recruiting. Sponsor: Richmond Research Institute. Study link: https://clinicaltrials.gov/study/NCT06809686."
+    },
+    {
+      "id": "heart-failure-trial-NCT07601867",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07601867",
+      "text": "Clinical trial: Effect of Dapagliflozin on Right Ventricular-Pulmonary Artery Coupling After Off-Pump Coronary Atery Bypass Grafting. NCT ID: NCT07601867. Phase: Not reported. Status: Recruiting. Sponsor: Pyatigorsk City Clinical Hospital Number 1. Study link: https://clinicaltrials.gov/study/NCT07601867."
+    },
+    {
+      "id": "heart-failure-trial-NCT06736574",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06736574",
+      "text": "Clinical trial: Study With Omecamtiv Mecarbil (CK-1827452) to Treat Chronic Heart Failure With Severely Reduced Ejection Fraction. NCT ID: NCT06736574. Phase: Phase 3. Status: Recruiting. Sponsor: Cytokinetics. Interventions: Omecamtiv Mecarbil (OM); Placebo. Study link: https://clinicaltrials.gov/study/NCT06736574."
+    },
+    {
+      "id": "heart-failure-trial-NCT07119216",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07119216",
+      "text": "Clinical trial: The iPeer2Peer Mentorship Program for Young Adults With Heart Disease. NCT ID: NCT07119216. Phase: Not applicable. Status: Recruiting. Sponsor: Samantha Anthony. Collaborators: Heart and Stroke Foundation of Canada; Mazankowski Alberta Heart Institute; Toronto General Hospital; St. Paul's Hospital, Canada; St. Boniface Hospital. Interventions: Peer Mentorship. Study link: https://clinicaltrials.gov/study/NCT07119216."
+    },
+    {
+      "id": "heart-failure-trial-NCT05828719",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05828719",
+      "text": "Clinical trial: Revascularization Versus Medical Treatment in Patients With Ischemic Left Ventricular Dysfunction. NCT ID: NCT05828719. Phase: Not applicable. Status: Recruiting. Sponsor: Samsung Medical Center. Interventions: Percutaneous coronary intervention. Study link: https://clinicaltrials.gov/study/NCT05828719."
+    },
+    {
+      "id": "heart-failure-trial-NCT07232030",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07232030",
+      "text": "Clinical trial: Barostim-Enabled NEurohormonal Intervention For Improving Treatment of Heart Failure. NCT ID: NCT07232030. Phase: Not applicable. Status: Recruiting. Sponsor: CVRx, Inc.. Interventions: Barostim System; Usual care medical management. Study link: https://clinicaltrials.gov/study/NCT07232030."
+    },
+    {
+      "id": "heart-failure-trial-NCT06552637",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06552637",
+      "text": "Clinical trial: Synchronized Diaphragmatic Stimulation in Symptomatic Heart Failure. NCT ID: NCT06552637. Phase: Not applicable. Status: Recruiting. Sponsor: VisCardia Inc.. Collaborators: Clinical Accelerator; Duke Clinical Research Institute. Interventions: Synchronized Diaphragmatic Stimulation. Study link: https://clinicaltrials.gov/study/NCT06552637."
+    },
+    {
+      "id": "heart-failure-trial-NCT05709132",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05709132",
+      "text": "Clinical trial: iP2P Mentorship Program for Adolescent HF Patients. NCT ID: NCT05709132. Phase: Not applicable. Status: Recruiting. Sponsor: The Hospital for Sick Children. Collaborators: The Centre Hospitalier Universitaire Sainte-Justine; University of Alberta/Stollery Children's Hospital. Interventions: iPeer2Peer Program. Study link: https://clinicaltrials.gov/study/NCT05709132."
+    },
+    {
+      "id": "heart-failure-trial-NCT06307652",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06307652",
+      "text": "Clinical trial: Study to Evaluate the Effect of Balcinrenone/Dapagliflozin in Patients With Heart Failure and Impaired Kidney Function. NCT ID: NCT06307652. Phase: Phase 3. Status: Active Not Recruiting. Sponsor: AstraZeneca. Interventions: balcinrenone/dapagliflozin 15 mg/10 mg and matching placebo for dapagliflozin 10 mg; balcinrenone/dapagliflozin 40 mg/10 mg and matching placebo for dapagliflozin 10 mg; dapagliflozin 10 mg and matching placebo for balcinrenone/dapagliflozin. Study link: https://clinicaltrials.gov/study/NCT06307652."
+    },
+    {
+      "id": "heart-failure-trial-NCT07946107",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07946107",
+      "text": "Clinical trial: BHB-1893 vs. Placebo for Symptomatic Non-obstructive Hypertrophic Cardiomyopathy. NCT ID: NCT07946107. Phase: Phase 3. Status: Not Yet Recruiting. Sponsor: Braveheart Bio, Inc.. Interventions: BHB-1893; Placebo. Study link: https://clinicaltrials.gov/study/NCT07946107."
+    },
+    {
+      "id": "heart-failure-trial-NCT07794930",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07794930",
+      "text": "Clinical trial: Integrating Values Based Communication in Heart Failure Management. NCT ID: NCT07794930. Phase: Not applicable. Status: Recruiting. Sponsor: Abigail Latimer. Collaborators: American Heart Association. Interventions: Serious Illness Care Program for Heart Failure (SICP-HF). Study link: https://clinicaltrials.gov/study/NCT07794930."
+    },
+    {
+      "id": "heart-failure-trial-NCT07749183",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07749183",
+      "text": "Clinical trial: A Photoplethysmography-Based Machine Learning Algorithm for Early Atrial Fibrillation Detection: A Prospective Validation Study. NCT ID: NCT07749183. Phase: Not reported. Status: Recruiting. Sponsor: Seerlinq s. r. o.. Collaborators: ACADEMY - občianske združenie; Premedix Academy. Interventions: PPG-based AF detection algorithm. Study link: https://clinicaltrials.gov/study/NCT07749183."
+    },
+    {
+      "id": "heart-failure-trial-NCT06662890",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06662890",
+      "text": "Clinical trial: Heart Attack Blood Oxygen Therapy Trial. NCT ID: NCT06662890. Phase: Not applicable. Status: Recruiting. Sponsor: NHS National Waiting Times Centre Board. Collaborators: British Heart Foundation; Zoll Medical Corporation; Robertson Centre for Biostatistics - University of Glasgow. Interventions: Supersaturated oxygen; Sham (No Treatment). Study link: https://clinicaltrials.gov/study/NCT06662890."
+    },
+    {
+      "id": "heart-failure-trial-NCT07016815",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07016815",
+      "text": "Clinical trial: Accelerated Optimization of Foundational Medical Therapy in Acute Decompensation of Heart Failure by Telemonitoring: A Pragmatic Multi-center Randomized and Cost-Effectiveness Study. NCT ID: NCT07016815. Phase: Not applicable. Status: Recruiting. Sponsor: Chinese University of Hong Kong. Interventions: Wearable wrist heart rate and activity monitor; Bluetooth enabled body weight scale with bioimpedance analysis; Bluetooth enabled electronic blood pressure device; mobile application. Study link: https://clinicaltrials.gov/study/NCT07016815."
+    },
+    {
+      "id": "heart-failure-trial-NCT05873543",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05873543",
+      "text": "Clinical trial: The Effect of a Smartphone-assisted Hybrid Cardiac Rehabilitation Program in Patients With Heart Failure.. NCT ID: NCT05873543. Phase: Not applicable. Status: Recruiting. Sponsor: National Taiwan University Hospital. Interventions: smartphone-assisted hybrid cardiac rehabilitation (SHCR). Study link: https://clinicaltrials.gov/study/NCT05873543."
+    },
+    {
+      "id": "heart-failure-trial-NCT07946679",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07946679",
+      "text": "Clinical trial: Leveraging Telemedicine to Improve Guideline-Directed Medical Therapy Use and Outcomes Among Rural Patients With Heart Failure. NCT ID: NCT07946679. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: University of Michigan. Interventions: Provider-to-provider telehealth GDMT titration support; Cellular-connected remote patient monitoring. Study link: https://clinicaltrials.gov/study/NCT07946679."
+    },
+    {
+      "id": "heart-failure-trial-NCT07943663",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07943663",
+      "text": "Clinical trial: Development of a Virtual Health Care Platform in Heart Failure Patients Transitioning From Hospital to Home. NCT ID: NCT07943663. Phase: Not applicable. Status: Enrolling By Invitation. Sponsor: nucleusRx Inc. Collaborators: National Heart, Lung, and Blood Institute (NHLBI). Interventions: There is no other intervention, only dose changes using the device if clinically needed to treat the disease during the study. Study link: https://clinicaltrials.gov/study/NCT07943663."
+    },
+    {
+      "id": "heart-failure-trial-NCT07943182",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07943182",
+      "text": "Clinical trial: Left Ventricular Impella Device Real-World Evaluation in Pediatric Patients. NCT ID: NCT07943182. Phase: Not reported. Status: Active Not Recruiting. Sponsor: Abiomed Inc.. Collaborators: Johnson & Johnson. Interventions: Impella CP with SmartAssist; Impella 5.5 with SmartAssist. Study link: https://clinicaltrials.gov/study/NCT07943182."
+    },
+    {
+      "id": "heart-failure-trial-NCT06458907",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06458907",
+      "text": "Clinical trial: A Prospective, Randomized Multicenter Clinical Trial of the TricValve® Transcatheter Bicaval Valve System in Subjects With Severe Tricuspid Regurgitation.. NCT ID: NCT06458907. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: P+F Products + Features USA Inc.. Collaborators: Meditrial USA Inc.. Interventions: TricValve System; Optimal medical therapy. Study link: https://clinicaltrials.gov/study/NCT06458907."
+    },
+    {
+      "id": "heart-failure-trial-NCT06645691",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06645691",
+      "text": "Clinical trial: Hyperpolarized MR Imaging With Carbon-13 Pyruvate in the Human Body. NCT ID: NCT06645691. Phase: Phase 2. Status: Recruiting. Sponsor: National Heart Centre Singapore. Collaborators: National Medical Research Council (NMRC), Singapore. Interventions: Hyperpolarized 13C-pyruvate. Study link: https://clinicaltrials.gov/study/NCT06645691."
+    },
+    {
+      "id": "heart-failure-trial-NCT06965621",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06965621",
+      "text": "Clinical trial: 18F-mFBG Imaging for Myocardial Sympathetic Innervation. NCT ID: NCT06965621. Phase: Phase 2. Status: Recruiting. Sponsor: Innervate Radiopharmaceuticals LLC (Formerly: Illumina Radiopharmaceuticals LLC). Collaborators: University of Texas. Interventions: 18F-metaFluorobenzylguanidine; Rubidium-82. Study link: https://clinicaltrials.gov/study/NCT06965621."
+    },
+    {
+      "id": "heart-failure-trial-NCT05485376",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05485376",
+      "text": "Clinical trial: Pulmonary Artery Catheter in Cardiogenic Shock Trial. NCT ID: NCT05485376. Phase: Not applicable. Status: Recruiting. Sponsor: Tufts Medical Center. Interventions: Pulmonary Artery Catheter. Study link: https://clinicaltrials.gov/study/NCT05485376."
+    },
+    {
+      "id": "heart-failure-trial-NCT07941193",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07941193",
+      "text": "Clinical trial: Effectiveness of a Standardized Healthcare Education Program in People With Heart Failure. NCT ID: NCT07941193. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Fundacio Salut Emporda. Interventions: Visit with specialist nurse with structured interview, application of scales and educational intervention. Study link: https://clinicaltrials.gov/study/NCT07941193."
+    },
+    {
+      "id": "heart-failure-trial-NCT06023134",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06023134",
+      "text": "Clinical trial: Clinical Characteristics and Outcomes of Patients With Pulmonary Hypertension Associated Right Heart Failure. NCT ID: NCT06023134. Phase: Not reported. Status: Active Not Recruiting. Sponsor: Jingyi Ren. Interventions: Echocardiography; Right heart catheterization. Study link: https://clinicaltrials.gov/study/NCT06023134."
+    },
+    {
+      "id": "heart-failure-trial-NCT07940868",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07940868",
+      "text": "Clinical trial: Multimodal Assessment of Remodeling and Stratification in Heart Failure. NCT ID: NCT07940868. Phase: Not reported. Status: Recruiting. Sponsor: Shandong Provincial Hospital. Study link: https://clinicaltrials.gov/study/NCT07940868."
+    },
+    {
+      "id": "heart-failure-trial-NCT07556185",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07556185",
+      "text": "Clinical trial: MedlyPeds Feasibility Study. NCT ID: NCT07556185. Phase: Not applicable. Status: Recruiting. Sponsor: The Hospital for Sick Children. Collaborators: University Health Network, Toronto. Interventions: MedlyPeds App. Study link: https://clinicaltrials.gov/study/NCT07556185."
+    },
+    {
+      "id": "heart-failure-trial-NCT05583513",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05583513",
+      "text": "Clinical trial: Heart Failure Evaluation Study. NCT ID: NCT05583513. Phase: Not reported. Status: Recruiting. Sponsor: Chinese University of Hong Kong. Interventions: MLHFQ (Minnesota Living with Heart Failure Questionnaire); KCCQ (the Kansas City Cardiomyopathy Questionnaire). Study link: https://clinicaltrials.gov/study/NCT05583513."
+    },
+    {
+      "id": "heart-failure-trial-NCT07856043",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07856043",
+      "text": "Clinical trial: [11C]PS13 PET Imaging of Neuroinflammation in Heart Failure With Reduced Ejection Fraction. NCT ID: NCT07856043. Phase: Phase 1. Status: Not Yet Recruiting. Sponsor: Stony Brook University. Collaborators: American Heart Association; National Institute on Aging (NIA). Interventions: [11C]PS13: [carbon-11]PS13; COX-1 PET radioligand; Sacubitril-Valsartan. Study link: https://clinicaltrials.gov/study/NCT07856043."
+    },
+    {
+      "id": "heart-failure-trial-NCT06312748",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06312748",
+      "text": "Clinical trial: Novel Approaches for Improving Vascular Function in Veterans With HFpEF. NCT ID: NCT06312748. Phase: Phase 1. Status: Recruiting. Sponsor: VA Office of Research and Development. Collaborators: University of Utah. Interventions: L-Citrulline; Placebo for L-Citrulline; BH4; Placebo for BH4; Atorvastatin; Placebo for Atorvastatin. Study link: https://clinicaltrials.gov/study/NCT06312748."
+    },
+    {
+      "id": "heart-failure-trial-NCT07839585",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07839585",
+      "text": "Clinical trial: A Clinical Study of Sotatercept (MK-7962) in People With Combined Postcapillary and Precapillary Pulmonary Hypertension and Heart Failure With Preserved Ejection Fraction (MK-7962-041). NCT ID: NCT07839585. Phase: Phase 3. Status: Not Yet Recruiting. Sponsor: Merck Sharp & Dohme LLC. Interventions: Sotatercept; Placebo. Study link: https://clinicaltrials.gov/study/NCT07839585."
+    },
+    {
+      "id": "heart-failure-trial-NCT07937540",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07937540",
+      "text": "Clinical trial: Effects of Primary Physician Presence in AI-Synthesized SGLT2 Inhibitor Educational Videos for Heart Failure. NCT ID: NCT07937540. Phase: Not applicable. Status: Recruiting. Sponsor: Keimyung University Dongsan Medical Center. Interventions: SGLT2 Inhibitor Educational Video. Study link: https://clinicaltrials.gov/study/NCT07937540."
+    },
+    {
+      "id": "heart-failure-trial-NCT04682483",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT04682483",
+      "text": "Clinical trial: Cardiogenic Shock Working Group Registry. NCT ID: NCT04682483. Phase: Not reported. Status: Recruiting. Sponsor: Tufts Medical Center. Collaborators: Abbott; Boston Scientific Corporation; Abiomed Inc.; Getinge Group. Interventions: Vasopressor; Inotrope; Acute Mechanical Circulatory Support Devices. Study link: https://clinicaltrials.gov/study/NCT04682483."
+    },
+    {
+      "id": "heart-failure-trial-NCT06118983",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06118983",
+      "text": "Clinical trial: Improving TRansitions ANd OutcomeS for Heart FailurE Patients in Home Health CaRe (I-TRANSFER-HF). NCT ID: NCT06118983. Phase: Not applicable. Status: Recruiting. Sponsor: Weill Medical College of Cornell University. Collaborators: National Heart, Lung, and Blood Institute (NHLBI); Johns Hopkins University; University of Colorado, Denver; NYU Langone Health; University of California, San Diego. Interventions: I-TRANSFER-HF. Study link: https://clinicaltrials.gov/study/NCT06118983."
+    },
+    {
+      "id": "heart-failure-trial-NCT07762560",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07762560",
+      "text": "Clinical trial: Routine Microaxial Heart Pump Support and Protocolized Pulmonary Artery Catheter Monitoring Versus Standard Care in Heart Attack-Related Cardiogenic Shock. NCT ID: NCT07762560. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Leipzig Heart Science gGmbH. Collaborators: University of Southern Denmark; Boston Scientific Corporation; Heart Center Leipzig - University Hospital; Stiftung Institut fuer Herzinfarktforschung. Interventions: Microaxial flow pump (left ventricular assist device); Pulmonary artery catheter; Conventional hemodynamic monitoring; Hemodynamic stabilization. Study link: https://clinicaltrials.gov/study/NCT07762560."
+    },
+    {
+      "id": "heart-failure-trial-NCT05230784",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05230784",
+      "text": "Clinical trial: The PURI-HF (Air Purifiers on Heart Failure) Trial. NCT ID: NCT05230784. Phase: Not applicable. Status: Recruiting. Sponsor: NYU Langone Health. Collaborators: National Institute of Environmental Health Sciences (NIEHS). Interventions: AirOk Air Purifier; Placebo Air Filter. Study link: https://clinicaltrials.gov/study/NCT05230784."
+    },
+    {
+      "id": "heart-failure-trial-NCT06815471",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06815471",
+      "text": "Clinical trial: CRF2 Agonist for the Treatment of Worsening Heart Failure. NCT ID: NCT06815471. Phase: Phase 2. Status: Recruiting. Sponsor: Corteria Pharmaceuticals. Collaborators: Worldwide Clinical Trials. Interventions: COR-1167; Placebo. Study link: https://clinicaltrials.gov/study/NCT06815471."
+    },
+    {
+      "id": "heart-failure-trial-NCT06222099",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06222099",
+      "text": "Clinical trial: The HEARTFELT Study. NCT ID: NCT06222099. Phase: Not applicable. Status: Recruiting. Sponsor: Heartfelt Technologies. Interventions: Heartfelt Device installed; Standard care; Heartfelt-guided care; Questionnaires. Study link: https://clinicaltrials.gov/study/NCT06222099."
+    },
+    {
+      "id": "heart-failure-trial-NCT07591792",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07591792",
+      "text": "Clinical trial: Outpatient Rehabilitation Programmes for Myocardial Ischemia, Heart Failure, and COPD: Satisfaction, Participation, Test Outcomes, and Factors Associated With Positive Changes in Test Results as Well as Level of Participation. NCT ID: NCT07591792. Phase: Not reported. Status: Recruiting. Sponsor: Nordsjaellands Hospital. Study link: https://clinicaltrials.gov/study/NCT07591792."
+    },
+    {
+      "id": "heart-failure-trial-NCT05279742",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05279742",
+      "text": "Clinical trial: Enhancing the Natriuretic Peptide System in HFpEF. NCT ID: NCT05279742. Phase: Phase 1, Phase 2. Status: Enrolling By Invitation. Sponsor: Horng Chen. Interventions: MANP; Sacubitril/Valsartan; Oral Placebo; Injection Placebo. Study link: https://clinicaltrials.gov/study/NCT05279742."
+    },
+    {
+      "id": "heart-failure-trial-NCT05700708",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05700708",
+      "text": "Clinical trial: Point-of-Care Echocardiography to Assess Impact of Dynamic Cardiac Function, Renal and Cardiac Biomarkers in Cirrhosis With Refractory Ascites. NCT ID: NCT05700708. Phase: Not reported. Status: Active Not Recruiting. Sponsor: Post Graduate Institute of Medical Education and Research, Chandigarh. Interventions: Echocardiographic assessment. Study link: https://clinicaltrials.gov/study/NCT05700708."
+    },
+    {
+      "id": "heart-failure-trial-NCT05834803",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05834803",
+      "text": "Clinical trial: Effects of Percutaneous Transluminal Renal Angioplasty of Atherosclerotic Renal Artery Stenosis in High-Risk Patients.. NCT ID: NCT05834803. Phase: Not applicable. Status: Recruiting. Sponsor: University of Aarhus. Collaborators: Aarhus University Hospital; Copenhagen University Hospital, Rigshospitalet; Odense University Hospital; Aalborg University Hospital; Gødstrup Hospital; Holbaek Sygehus; Amsterdam UMC; The Augustinus Foundation, Denmark.. Interventions: Optimal medical therapy (OMT); Catheter-based angiography; Measurement of translesional pressure gradients; Renal artery stenting; Sham (No Treatment). Study link: https://clinicaltrials.gov/study/NCT05834803."
+    },
+    {
+      "id": "heart-failure-trial-NCT06158698",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06158698",
+      "text": "Clinical trial: CMP-MYTHiC Trial and Registry - CardioMyoPathy With MYocarditis THerapy With Colchicine. NCT ID: NCT06158698. Phase: Phase 3. Status: Recruiting. Sponsor: Niguarda Hospital. Collaborators: European Union; Ministry of Health, Italy; Mario Negri Institute for Pharmacological Research; University of Milano Bicocca. Interventions: Colchicine; Placebo. Study link: https://clinicaltrials.gov/study/NCT06158698."
+    },
+    {
+      "id": "heart-failure-trial-NCT05714085",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05714085",
+      "text": "Clinical trial: Efficacy, Safety, and Pharmacokinetics of Vericiguat in Pediatric Participants With Heart Failure Due to Left Ventricular Systolic Dysfunction (MK-1242-036). NCT ID: NCT05714085. Phase: Phase 2, Phase 3. Status: Recruiting. Sponsor: Merck Sharp & Dohme LLC. Interventions: Vericiguat tablet; Vericiguat suspension; Placebo tablet; Placebo suspension. Study link: https://clinicaltrials.gov/study/NCT05714085."
+    },
+    {
+      "id": "heart-failure-trial-NCT06424288",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06424288",
+      "text": "Clinical trial: A Study to Test Whether Vicadrostat in Combination With Empagliflozin Helps People With Heart Failure. NCT ID: NCT06424288. Phase: Phase 3. Status: Recruiting. Sponsor: Boehringer Ingelheim. Interventions: vicadrostat; empagliflozin; placebo. Study link: https://clinicaltrials.gov/study/NCT06424288."
+    },
+    {
+      "id": "heart-failure-trial-NCT06056297",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06056297",
+      "text": "Clinical trial: A Study of Mavorixafor in Participants With Congenital and Acquired Primary Autoimmune and Idiopathic Chronic Neutropenic Disorders Who Are Experiencing Recurrent and/or Serious Infections. NCT ID: NCT06056297. Phase: Phase 3. Status: Recruiting. Sponsor: X4 Pharmaceuticals. Interventions: Mavorixafor; Placebo. Study link: https://clinicaltrials.gov/study/NCT06056297."
+    },
+    {
+      "id": "heart-failure-trial-NCT07930390",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07930390",
+      "text": "Clinical trial: Handheld Fan Direction for Breathlessness in Chronic Heart and Lung Disease. NCT ID: NCT07930390. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Alexandria University. Interventions: Handheld Fan Directed at the Face; Handheld Fan Directed at the Leg. Study link: https://clinicaltrials.gov/study/NCT07930390."
+    },
+    {
+      "id": "heart-failure-trial-NCT07465653",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07465653",
+      "text": "Clinical trial: A Safety and Tolerability Study of HJB647 in Heart Failure Participants With Reduced Ejection Fraction. NCT ID: NCT07465653. Phase: Phase 1. Status: Recruiting. Sponsor: Novartis Pharmaceuticals. Interventions: HJB647 low dose; HJB647 high dose; Placebo. Study link: https://clinicaltrials.gov/study/NCT07465653."
+    },
+    {
+      "id": "heart-failure-trial-NCT06935370",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06935370",
+      "text": "Clinical trial: A Study to Test Whether Vicadrostat (BI 690517) in Combination With Empagliflozin Helps People With Heart Failure and a Weak Pumping Function of the Left Side of the Heart. NCT ID: NCT06935370. Phase: Phase 3. Status: Recruiting. Sponsor: Boehringer Ingelheim. Interventions: vicadrostat; empagliflozin; Placebo. Study link: https://clinicaltrials.gov/study/NCT06935370."
+    },
+    {
+      "id": "heart-failure-trial-NCT06992089",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06992089",
+      "text": "Clinical trial: SHort Of Pace - Heart Failure (SHOP-HF). NCT ID: NCT06992089. Phase: Not applicable. Status: Recruiting. Sponsor: Fundación para la Investigación del Hospital Clínico de Valencia. Interventions: Dual-chamber cardiac pacemaker (Proponent MRI L211/L231 or Accolade MRI L311/L331, Boston Scientific), single-chamber cardiac pacemaker (Essentio MRI L110 or Accolade MRI L310, Boston Scientific). Study link: https://clinicaltrials.gov/study/NCT06992089."
+    },
+    {
+      "id": "heart-failure-trial-NCT07101289",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07101289",
+      "text": "Clinical trial: Eat Well Heart Failure. NCT ID: NCT07101289. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Duke University. Collaborators: Reinvestment Partners; ZealCare. Interventions: Personal health planning and nutritional coaching; Prescription Produce. Study link: https://clinicaltrials.gov/study/NCT07101289."
+    },
+    {
+      "id": "heart-failure-trial-NCT07443696",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07443696",
+      "text": "Clinical trial: PET Myocardial Fatty-acid Metabolic Imaging With XTR003 Injection and 18F-FDG to Assess Myocardial Viability in Ischemic Cardiomyopathy. NCT ID: NCT07443696. Phase: Phase 2. Status: Recruiting. Sponsor: Sinotau Pharmaceutical Group. Interventions: Fasting XTR003/¹⁸F-FDG PET myocardial metabolic imaging; Glucose-loaded ¹⁸F-FDG PET Myocardial Metabolic Imaging. Study link: https://clinicaltrials.gov/study/NCT07443696."
+    },
+    {
+      "id": "heart-failure-trial-NCT07584967",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07584967",
+      "text": "Clinical trial: A Study to Evaluate the Safety and Efficacy of AC01 Compared to Placebo in Participants With Chronic Heart Failure. NCT ID: NCT07584967. Phase: Phase 2. Status: Recruiting. Sponsor: AnaCardio AB. Interventions: AC01; Placebo. Study link: https://clinicaltrials.gov/study/NCT07584967."
+    },
+    {
+      "id": "heart-failure-trial-NCT06904144",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06904144",
+      "text": "Clinical trial: Health Coaching for Patients With Cardiovascular Disease. NCT ID: NCT06904144. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Ohio State University. Interventions: Health Coaching. Study link: https://clinicaltrials.gov/study/NCT06904144."
+    },
+    {
+      "id": "heart-failure-trial-NCT05650658",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05650658",
+      "text": "Clinical trial: Left vs Left Randomized Clinical Trial. NCT ID: NCT05650658. Phase: Not applicable. Status: Recruiting. Sponsor: Baylor College of Medicine. Collaborators: Patient-Centered Outcomes Research Institute; University of Utah; Virginia Commonwealth University; Cleveland Clinic Florida; East Carolina University. Interventions: His/LBBP; BiVP. Study link: https://clinicaltrials.gov/study/NCT05650658."
+    },
+    {
+      "id": "heart-failure-trial-NCT07695363",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07695363",
+      "text": "Clinical trial: Restrictive Fluid Management In Liver Transplantation (REFIL). NCT ID: NCT07695363. Phase: Not applicable. Status: Recruiting. Sponsor: Centre hospitalier de l'Université de Montréal (CHUM). Collaborators: Canadian Institutes of Health Research (CIHR); Canadian Donation and Transplantation Research Program (CDTRP); Canadian Perioperative Anesthesia Clinical Trial (PACT) Group; PHRC, Ministry of Health France. Interventions: Low splanchnic blood volume restrictive fluid management strategy; Phlebotomy; Optimized cardiac output liberal fluid management strategy. Study link: https://clinicaltrials.gov/study/NCT07695363."
+    },
+    {
+      "id": "heart-failure-trial-NCT06093100",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06093100",
+      "text": "Clinical trial: Wearable Technology to Evaluate Hyperglycemia and HRV in DMD - Longitudinal Aim. NCT ID: NCT06093100. Phase: Not reported. Status: Active Not Recruiting. Sponsor: Vanderbilt University Medical Center. Interventions: wearable technology. Study link: https://clinicaltrials.gov/study/NCT06093100."
+    },
+    {
+      "id": "heart-failure-trial-NCT07864363",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07864363",
+      "text": "Clinical trial: Rhythmic Auditory Stimulation in Heart Failure Patients. NCT ID: NCT07864363. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Necmettin Erbakan University. Interventions: functional capacity; Fatigue and dyspnea. Study link: https://clinicaltrials.gov/study/NCT07864363."
+    },
+    {
+      "id": "heart-failure-trial-NCT06965504",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06965504",
+      "text": "Clinical trial: INitiation and Titration of Guideline Directed Medical TheRApy in HearT Failure Cardiogenic Shock With ImpElla 5.5 for Cardiac Recovery. NCT ID: NCT06965504. Phase: Not applicable. Status: Recruiting. Sponsor: Abiomed Inc.. Collaborators: Johnson & Johnson. Interventions: Impella 5.5 SmartAssist. Study link: https://clinicaltrials.gov/study/NCT06965504."
+    },
+    {
+      "id": "heart-failure-trial-NCT07830758",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07830758",
+      "text": "Clinical trial: Resmetirom in Patients With MASH and HFpEF. NCT ID: NCT07830758. Phase: Phase 1. Status: Recruiting. Sponsor: Madrigal Pharmaceuticals, Inc.. Interventions: Resmetirom; Placebo. Study link: https://clinicaltrials.gov/study/NCT07830758."
+    },
+    {
+      "id": "heart-failure-trial-NCT07727304",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07727304",
+      "text": "Clinical trial: Implementation of Acute Heart Failure Checklist. NCT ID: NCT07727304. Phase: Not applicable. Status: Enrolling By Invitation. Sponsor: Ottawa Hospital Research Institute. Collaborators: The Ottawa Hospital Academic Medical Association. Interventions: CAEP Acute Heart Failure (AHF) Best Practices Checklist Implementation; Usual care. Study link: https://clinicaltrials.gov/study/NCT07727304."
+    },
+    {
+      "id": "heart-failure-trial-NCT07816458",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07816458",
+      "text": "Clinical trial: Alert-HF: Early Detection and Intervention on Atrial Fibrillation in Heart Failure Patients. NCT ID: NCT07816458. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Medisch Spectrum Twente. Interventions: Implantable loop recorder; Patient-driven portable ECG monitoring; Usual Care. Study link: https://clinicaltrials.gov/study/NCT07816458."
+    },
+    {
+      "id": "heart-failure-trial-NCT07855692",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07855692",
+      "text": "Clinical trial: The Clinical Trial of Tamibarotene for Patients With HFpEF (RELIEF Trial). NCT ID: NCT07855692. Phase: Phase 2. Status: Recruiting. Sponsor: Nagoya University. Interventions: Tamibarotene; Placebo. Study link: https://clinicaltrials.gov/study/NCT07855692."
+    },
+    {
+      "id": "heart-failure-trial-NCT07741396",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07741396",
+      "text": "Clinical trial: BRIDGE Trial: Embedding Consumer-grade mHealth Technologies Into Cardiac Rehabilitation. NCT ID: NCT07741396. Phase: Not applicable. Status: Recruiting. Sponsor: University of Illinois Chicago. Collaborators: National Center for Advancing Translational Sciences (NCATS). Interventions: CBCR; BRIDGE mHealth intervention. Study link: https://clinicaltrials.gov/study/NCT07741396."
+    },
+    {
+      "id": "heart-failure-trial-NCT05987670",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05987670",
+      "text": "Clinical trial: Triple Cardiovascular Disease Detection With an Artificial Intelligence-enabled Stethoscope. NCT ID: NCT05987670. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Imperial College London. Collaborators: Imperial College Health Partners (ICHP). Interventions: AI-stethoscope. Study link: https://clinicaltrials.gov/study/NCT05987670."
+    },
+    {
+      "id": "heart-failure-trial-NCT07928934",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07928934",
+      "text": "Clinical trial: Mobile Application to Improve Physical Activity in Patients With Heart Failure. NCT ID: NCT07928934. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Abant Izzet Baysal University. Interventions: Intervention. Study link: https://clinicaltrials.gov/study/NCT07928934."
+    },
+    {
+      "id": "heart-failure-trial-NCT07646210",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07646210",
+      "text": "Clinical trial: HiCM-188 Cell Therapy in Adults With Advanced Heart Failure Undergoing Heart Bypass Surgery. NCT ID: NCT07646210. Phase: Phase 1, Phase 2. Status: Not Yet Recruiting. Sponsor: HELP Therapeutics, Inc.. Interventions: HiCM-188 Cells. Study link: https://clinicaltrials.gov/study/NCT07646210."
+    },
+    {
+      "id": "heart-failure-trial-NCT05784753",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05784753",
+      "text": "Clinical trial: HEART Camp Connect -Promoting Exercise in Adults With Heart Failure With Preserved Ejection Fraction. NCT ID: NCT05784753. Phase: Not applicable. Status: Recruiting. Sponsor: University of Nebraska. Interventions: HEART Camp; HEART Camp Connect. Study link: https://clinicaltrials.gov/study/NCT05784753."
+    },
+    {
+      "id": "heart-failure-trial-NCT07489352",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07489352",
+      "text": "Clinical trial: N-of-1 Trial to Promote Beta-Blocker Titration in Heart Failure. NCT ID: NCT07489352. Phase: Not applicable. Status: Enrolling By Invitation. Sponsor: Brigham and Women's Hospital. Collaborators: National Institute on Aging (NIA); Weill Medical College of Cornell University. Interventions: N-of-1 trials; Enhanced usual care. Study link: https://clinicaltrials.gov/study/NCT07489352."
+    },
+    {
+      "id": "heart-failure-trial-NCT07864558",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07864558",
+      "text": "Clinical trial: PrEcision Pacing in HFpEF: the PEP-HFpEF Trial. NCT ID: NCT07864558. Phase: Not applicable. Status: Recruiting. Sponsor: Tufts Medical Center. Interventions: Individualized myPACE pacemaker programming. Study link: https://clinicaltrials.gov/study/NCT07864558."
+    },
+    {
+      "id": "heart-failure-trial-NCT06646601",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06646601",
+      "text": "Clinical trial: A Preventive, Multidisciplinary Primary Care Intervention Organized Around a Therapeutic Garden: Acceptability to Patients Suffering From Cardio-neurovascular Pathology and to Those Involved in the Action.. NCT ID: NCT06646601. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Assistance Publique Hopitaux De Marseille. Interventions: Intervention of prevention. Study link: https://clinicaltrials.gov/study/NCT06646601."
+    },
+    {
+      "id": "heart-failure-trial-NCT07927127",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07927127",
+      "text": "Clinical trial: DESAL-HEART: Hypertonic Saline Added to a Pre-declared Furosemide Dose in Acute Heart Failure. NCT ID: NCT07927127. Phase: Phase 4. Status: Not Yet Recruiting. Sponsor: University of Alberta. Collaborators: Canadian VIGOUR Centre; University Hospital Foundation. Interventions: Hypertonic Saline (3% Sodium Chloride); Furosemide (Diuretic). Study link: https://clinicaltrials.gov/study/NCT07927127."
+    },
+    {
+      "id": "heart-failure-trial-NCT07929467",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07929467",
+      "text": "Clinical trial: Leadless Versus Conventional Pacemakers: Effects on Heart Function and Heart Failure. NCT ID: NCT07929467. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Karl Landsteiner University of Health Sciences. Interventions: Leadless pacemaker implantation; Conventional transvenous pacemaker implantation. Study link: https://clinicaltrials.gov/study/NCT07929467."
+    },
+    {
+      "id": "heart-failure-trial-NCT07214376",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07214376",
+      "text": "Clinical trial: A Randomized Placebo-procedure Controlled Trial of the Enhancor System (PULmonary Artery Denervation) to Evaluate Safety and Efficacy in Patients With Combined Pre- and Post-capillary Pulmonary Hypertension Associated With Left Heart Disease. NCT ID: NCT07214376. Phase: Not applicable. Status: Recruiting. Sponsor: Pulnovo Medical, Inc.. Interventions: Pulmonary Artery Denervation (PADN); Sham procedure control. Study link: https://clinicaltrials.gov/study/NCT07214376."
+    },
+    {
+      "id": "heart-failure-trial-NCT06217120",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06217120",
+      "text": "Clinical trial: Reversing Microvascular Dysfunction in Heart Failure With Preserved Ejection Fraction. NCT ID: NCT06217120. Phase: Phase 2. Status: Recruiting. Sponsor: Montreal Heart Institute. Collaborators: Heart and Stroke Foundation of Canada; Centre hospitalier de l'Université de Montréal (CHUM). Interventions: Colchicine; Placebo. Study link: https://clinicaltrials.gov/study/NCT06217120."
+    },
+    {
+      "id": "heart-failure-trial-NCT07434466",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07434466",
+      "text": "Clinical trial: Ketone Ester for Treatment Of Acute Heart Failure. NCT ID: NCT07434466. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: University of Alberta. Collaborators: Canadian VIGOUR Centre; University Hospital Foundation. Interventions: Ketone Ester (KetoneAid MonoEster); Placebo. Study link: https://clinicaltrials.gov/study/NCT07434466."
+    },
+    {
+      "id": "heart-failure-trial-NCT07925515",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07925515",
+      "text": "Clinical trial: High-Intensity Interval Versus Aerobic Training for Patient-Reported Outcomes in Women With Heart Failure.. NCT ID: NCT07925515. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Universidad Internacional Isabel I de Castilla. Collaborators: Hospital Universitario Reina Sofia de Cordoba. Interventions: HIIT + Strength Training; MICT + Strength Training. Study link: https://clinicaltrials.gov/study/NCT07925515."
+    },
+    {
+      "id": "heart-failure-trial-NCT07428135",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07428135",
+      "text": "Clinical trial: Heart Failure Efficacy and Research Trial (HEART) Platform. NCT ID: NCT07428135. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: University of Alberta. Collaborators: Canadian VIGOUR Centre. Interventions: Domain Intervention(s); Control / Standard of Care Comparator. Study link: https://clinicaltrials.gov/study/NCT07428135."
+    },
+    {
+      "id": "heart-failure-trial-NCT07609381",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07609381",
+      "text": "Clinical trial: Clinical Information System Impact on Hospitalized Patients With Chronic Disease. NCT ID: NCT07609381. Phase: Not reported. Status: Recruiting. Sponsor: University of Calgary. Interventions: Clinical Information System (CIS) / Connect Care Implementation. Study link: https://clinicaltrials.gov/study/NCT07609381."
+    },
+    {
+      "id": "heart-failure-trial-NCT07906353",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07906353",
+      "text": "Clinical trial: Routine Magnesium Testing and Supplementation in Acute Heart Failure (MAG-HF). NCT ID: NCT07906353. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: University of Alberta. Interventions: No Routine Magnesium Testing or Supplementation; Routine Magnesium Testing and Supplementation. Study link: https://clinicaltrials.gov/study/NCT07906353."
+    },
+    {
+      "id": "heart-failure-trial-NCT07737899",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07737899",
+      "text": "Clinical trial: Primary Palliative Care - a Feasibility Cluster Trial. NCT ID: NCT07737899. Phase: Not applicable. Status: Recruiting. Sponsor: University of Coimbra. Collaborators: Unidade Local de Saúde de Coimbra, EPE. Interventions: Primary Palliative Care Complex Intervention (PrimPal). Study link: https://clinicaltrials.gov/study/NCT07737899."
+    },
+    {
+      "id": "heart-failure-trial-NCT07926958",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07926958",
+      "text": "Clinical trial: Natriuresis With Acetazolamide or SGLT2 Inhibitors Added to Intravenous Loop Diuretics in Decompensated Heart Failure. NCT ID: NCT07926958. Phase: Phase 4. Status: Active Not Recruiting. Sponsor: Universidade do Porto. Interventions: Furosemide; Acetazolamide; Dapagliflozin; Empagliflozin. Study link: https://clinicaltrials.gov/study/NCT07926958."
+    },
+    {
+      "id": "heart-failure-trial-NCT03892265",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT03892265",
+      "text": "Clinical trial: A Longitudinal Cohort Study to Evaluate Cardiovascular Risk Factors and Disease in Haiti. NCT ID: NCT03892265. Phase: Not reported. Status: Active Not Recruiting. Sponsor: Washington University School of Medicine. Collaborators: Haitian Group for the Study of Kaposi's Sarcoma and Opportunistic; National Heart, Lung, and Blood Institute (NHLBI). Interventions: Observational Study. Study link: https://clinicaltrials.gov/study/NCT03892265."
+    },
+    {
+      "id": "heart-failure-trial-NCT05991128",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05991128",
+      "text": "Clinical trial: The Effects of Ferric Derisomaltose in Patients With Acute Heart Failure and Iron Deficiency on Exercise Capacity and Quality of Life. NCT ID: NCT05991128. Phase: Phase 4. Status: Recruiting. Sponsor: China-Japan Friendship Hospital. Interventions: Ferric derisomaltose; Placebo. Study link: https://clinicaltrials.gov/study/NCT05991128."
+    },
+    {
+      "id": "heart-failure-trial-NCT07920887",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07920887",
+      "text": "Clinical trial: A Study of Bimagrumab in Participants With HFpEF. NCT ID: NCT07920887. Phase: Phase 2. Status: Not Yet Recruiting. Sponsor: Eli Lilly and Company. Interventions: Bimagrumab; Placebo. Study link: https://clinicaltrials.gov/study/NCT07920887."
+    },
+    {
+      "id": "heart-failure-trial-NCT05971732",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05971732",
+      "text": "Clinical trial: The Effects of Ferric Derisomaltose in Patients With Acute Heart Failure and Iron Deficiency on Exercise Capacity and Quality of Life(COREVIVE-HFrEF). NCT ID: NCT05971732. Phase: Phase 4. Status: Recruiting. Sponsor: China-Japan Friendship Hospital. Interventions: Ferric derisomaltose; Placebo. Study link: https://clinicaltrials.gov/study/NCT05971732."
+    },
+    {
+      "id": "heart-failure-trial-NCT07403058",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07403058",
+      "text": "Clinical trial: Endovascular Ablation of the Right Greater Splanchnic Nerve in Subjects With Reduced Ejection Fraction. NCT ID: NCT07403058. Phase: Not applicable. Status: Recruiting. Sponsor: Axon Therapies, Inc.. Interventions: Right Greater Splanchnic Nerve (GSN) ablation; Sham Control. Study link: https://clinicaltrials.gov/study/NCT07403058."
+    },
+    {
+      "id": "heart-failure-trial-NCT07696975",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07696975",
+      "text": "Clinical trial: RELIEVE-HFrEF TRIAL: REducing Lung congestIon Symptoms Using the v-wavE Shunt in adVancEd Heart Failure With Reduced EF. NCT ID: NCT07696975. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: V-Wave Ltd. Collaborators: Johnson & Johnson. Interventions: Implantation of the V-Wave Interatrial shunt; Sham (no implant). Study link: https://clinicaltrials.gov/study/NCT07696975."
+    },
+    {
+      "id": "heart-failure-trial-NCT07654426",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07654426",
+      "text": "Clinical trial: The CARDIOPROTECT Trial. NCT ID: NCT07654426. Phase: Phase 2. Status: Not Yet Recruiting. Sponsor: Beth Israel Deaconess Medical Center. Interventions: Dexrazoxane; Dexrazoxane placebo; Doxorubicin; Liposomal Doxorubicin; Cyclophosphamide; Vincristine; Prednisone; Rituximab. Study link: https://clinicaltrials.gov/study/NCT07654426."
+    },
+    {
+      "id": "heart-failure-trial-NCT07706543",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07706543",
+      "text": "Clinical trial: Evaluation of a French Hospital Discharge Therapeutic Education Program by Nurses for Heart Failure Patient (EduSor). NCT ID: NCT07706543. Phase: Not applicable. Status: Recruiting. Sponsor: University Hospital, Clermont-Ferrand. Interventions: Nurse-led discharge education. Study link: https://clinicaltrials.gov/study/NCT07706543."
+    },
+    {
+      "id": "heart-failure-trial-NCT05855135",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05855135",
+      "text": "Clinical trial: Assessment of Combined CCM and ICD Device in HFrEF. NCT ID: NCT05855135. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Impulse Dynamics. Interventions: OPTIMIZER® Integra CCM-D System (Treatment Arm). Study link: https://clinicaltrials.gov/study/NCT05855135."
+    },
+    {
+      "id": "heart-failure-trial-NCT07922863",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07922863",
+      "text": "Clinical trial: MUTTON-HF Pilot Expansion. NCT ID: NCT07922863. Phase: Phase 3. Status: Not Yet Recruiting. Sponsor: University of Pennsylvania. Collaborators: Indian Health Service (IHS); Rockefeller Foundation. Interventions: Culturally and Medically Tailored Meals Incorporating Traditional Indigenous Foods and Recipes. Study link: https://clinicaltrials.gov/study/NCT07922863."
+    },
+    {
+      "id": "heart-failure-trial-NCT07766109",
+      "condition_id": "heart-failure",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07766109",
+      "text": "Clinical trial: Discontinuation or Continuation of SGLT-2 Inhibitors Before Cardiac Surgery. NCT ID: NCT07766109. Phase: Phase 4. Status: Not Yet Recruiting. Sponsor: University Hospital, Toulouse. Interventions: treatment discontinuation; treatment continuation; ketone levels. Study link: https://clinicaltrials.gov/study/NCT07766109."
+    },
+    {
+      "id": "heart-failure-pmid-43061285-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43061285/",
+      "text": "Circulating LRG1 in heart failure: association with type 2 diabetes and antidiabetic therapy class. BACKGROUND: Heart failure (HF) and type 2 diabetes mellitus (T2DM) frequently coexist and share remodelling and inflammatory mechanisms. Although leucine-rich α-2 glycoprotein 1 (LRG1) has been identified as a biomarker associated with vascular remodelling, fibrosis, and inflammation, its role in HF patients with type 2 diabetes and its connection to antidiabetic treatments remains unclear."
+    },
+    {
+      "id": "heart-failure-pmid-43061285-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43061285/",
+      "text": "Circulating LRG1 in heart failure: association with type 2 diabetes and antidiabetic therapy class. its role in HF patients with type 2 diabetes and its connection to antidiabetic treatments remains unclear. METHODS: 115 patients with HF were divided into three groups for this cross-sectional study: HF who had no previously documented diagnosis of diabetes mellitus and were not receiving antidiabetic medication at enrolment (n = 42), HF with T2DM treated with DPP-4 inhibitors (n = 35), and HF with T2DM treated with SGLT-2 inhibitors (n = 38). The groups' clinical characteristics, metabolic parameters, and circulating LRG1 levels were compared. RESULTS: LRG1 levels differed significantly across the groups (p = 0.002), with the lowest levels observed in the SGLT-2 inhibitor group."
+    },
+    {
+      "id": "heart-failure-pmid-43061285-3",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43061285/",
+      "text": "Circulating LRG1 in heart failure: association with type 2 diabetes and antidiabetic therapy class. differed significantly across the groups (p = 0.002), with the lowest levels observed in the SGLT-2 inhibitor group. A post hoc analysis revealed a significant difference between the SGLT-2 inhibitor group and group of no previously documented diagnosis of diabetes mellitus (p = 0.001). No significant correlations were observed between LRG1 and clinical or metabolic variables. CONCLUSION: Circulating LRG1 levels in HF patients differed between study groups, with the lowest levels observed in the SGLT-2 inhibitor group."
+    },
+    {
+      "id": "heart-failure-pmid-43061285-4",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43061285/",
+      "text": "Circulating LRG1 in heart failure: association with type 2 diabetes and antidiabetic therapy class. levels in HF patients differed between study groups, with the lowest levels observed in the SGLT-2 inhibitor group. These findings suggest an association between treatment group and LRG1 levels, but the cross-sectional design precludes causal inference regarding the effects of antidiabetic medications on inflammatory and remodelling pathways."
+    },
+    {
+      "id": "heart-failure-pmid-42338918-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42338918/",
+      "text": "Initial Experience With Endoscopic Ultrasound-Guided Gallbladder Drainage Using Lumen-apposing Metal Stents in Extremely Elderly and Frail Patients. OBJECTIVES: Endoscopic ultrasound-guided gallbladder drainage (EUS-GBD) using lumen-apposing metal stents (LAMS) is a treatment option for acute cholecystitis in high-risk surgical patients. However, data on extremely elderly and frail patients are limited. We report our initial experience with EUS-GBD using electrocautery-enhanced LAMS in this population after reimbursement approval in Japan. METHODS: We retrospectively analyzed consecutive patients who underwent EUS-GBD using electrocautery-enhanced LAMS for acute cholecystitis at a single center after reimbursement approval in June 2025."
+    },
+    {
+      "id": "heart-failure-pmid-42338918-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42338918/",
+      "text": "Initial Experience With Endoscopic Ultrasound-Guided Gallbladder Drainage Using Lumen-apposing Metal Stents in Extremely Elderly and Frail Patients. electrocautery-enhanced LAMS for acute cholecystitis at a single center after reimbursement approval in June 2025. RESULTS: Ten patients (median age, 90 years; median Clinical Frailty Scale score, 7) underwent EUS-GBD. All procedures were performed via a transduodenal approach using a 10-mm LAMS. Technical success was achieved in all patients. Clinical success was achieved in nine of the 10 patients (90%); one patient with Grade III cholecystitis complicated by severe pneumonia and heart failure died on postoperative day 1 before clinical assessment. The median stent deployment time was 3.5 min, and the median total procedure time was 16 min."
+    },
+    {
+      "id": "heart-failure-pmid-42338918-3",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42338918/",
+      "text": "Initial Experience With Endoscopic Ultrasound-Guided Gallbladder Drainage Using Lumen-apposing Metal Stents in Extremely Elderly and Frail Patients. The median stent deployment time was 3.5 min, and the median total procedure time was 16 min. Cholecystoscopy through the LAMS using a slim endoscope was feasible when required. CONCLUSION: In this pilot study, EUS-GBD using electrocautery-enhanced LAMS was technically successful in extremely elderly and frail patients. Although short-term outcomes appeared acceptable in most patients, the single POD1 death underscores the importance of careful patient selection. These preliminary findings require validation in larger studies. TRIAL REGISTRATION: N/A."
+    },
+    {
+      "id": "heart-failure-pmid-42785224-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42785224/",
+      "text": "Biomimetic inhalable nanovesicles for enhanced cardiac therapy of heart failure following myocardial infarction. Cardiovascular diseases (CVDs) remain the leading cause of mortality worldwide, and myocardial infarction (MI) frequently progresses to heart failure despite advances in contemporary therapies. A major barrier to the clinical translation of cardioprotective biologics is the lack of noninvasive, organ-targeted delivery systems suitable for repeated administration. Although inhalation is an attractive route for systemic delivery, strategies that efficiently direct inhaled nanocarriers from the lung to the injured heart remain limited. In a murine MI model, inhaled PPL showed greater accumulation in infarcted myocardium than unmodified liposomes after pulmonary administration."
+    },
+    {
+      "id": "heart-failure-pmid-42785224-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42785224/",
+      "text": "Biomimetic inhalable nanovesicles for enhanced cardiac therapy of heart failure following myocardial infarction. PPL showed greater accumulation in infarcted myocardium than unmodified liposomes after pulmonary administration. Repeated administration of IGF@PPL significantly improved cardiac function, attenuated adverse ventricular remodeling and fibrosis, and enhanced angiogenesis, without inducing detectable pulmonary or systemic toxicity. Collectively, these findings support the feasibility of pulmonary-to-systemic delivery followed by preferential cardiac accumulation and provides a broadly applicable framework for inhalable nanomedicine-based treatment of myocardial injury."
+    },
+    {
+      "id": "heart-failure-pmid-42962525-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42962525/",
+      "text": "Platinum-based Nanozyme screening coupled with ISAR-generated pyrophosphate for dual-mode detection of cardiovascular disease-associated miRNA-21. Early assessment of cardiovascular disease (CVD)-associated molecular alterations may provide valuable information for disease monitoring and clinical evaluation. MicroRNA-21 (miRNA-21) is involved in multiple cardiovascular pathological processes and has been widely investigated as a CVD-associated circulating biomarker. Rationally modulating the activity of platinum-based nanozymes can expand sensing strategies and improve the performance of miRNA-21 detection. Herein, four platinum-based nanozymes are synthesized via a one-step reduction method and systematically evaluate their peroxidase (POD)-like catalytic activities."
+    },
+    {
+      "id": "heart-failure-pmid-42962525-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42962525/",
+      "text": "Platinum-based Nanozyme screening coupled with ISAR-generated pyrophosphate for dual-mode detection of cardiovascular disease-associated miRNA-21. via a one-step reduction method and systematically evaluate their peroxidase (POD)-like catalytic activities. Among them, the NiPt nanozyme exhibits a favorable apparent peroxidase-like activity under an equal mass concentration, with the lowest Michaelis-Menten constant of 0.462 mM. Then, a colorimetric and fluorescent dual-mode biosensor is developed for the rapid and sensitive detection of miRNA-21 via NiPt nanozyme couple with the target-triggered invading stacking primer-based amplification reaction (ISAR)."
+    },
+    {
+      "id": "heart-failure-pmid-42962525-3",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42962525/",
+      "text": "Platinum-based Nanozyme screening coupled with ISAR-generated pyrophosphate for dual-mode detection of cardiovascular disease-associated miRNA-21. via NiPt nanozyme couple with the target-triggered invading stacking primer-based amplification reaction (ISAR). Sequence-specific hybridization between miRNA-21 and the designed hairpin DNA probe initiates ISAR and generates pyrophosphate (PPi), which suppresses the peroxidase-like activity of NiPt NPs and enables fast, instrument-free, and colorimetric qualitative detection of miRNA-21 at 5 × 10-11 M. Simultaneously, the Cy5 fluorescence signal exhibits sensitive quantitative detection of miRNA-21 with a limit of detection (LOD) of 2.27 × 10-13 M over a linear range of 10-12-10-9 M (R2 = 0.971)."
+    },
+    {
+      "id": "heart-failure-pmid-42962525-4",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42962525/",
+      "text": "Platinum-based Nanozyme screening coupled with ISAR-generated pyrophosphate for dual-mode detection of cardiovascular disease-associated miRNA-21. of miRNA-21 with a limit of detection (LOD) of 2.27 × 10-13 M over a linear range of 10-12-10-9 M (R2 = 0.971). The biosensor demonstrated high selectivity toward miRNA-21 against representative interfering miRNA sequences and showed consistency with qRT-PCR in clinical serum samples from heart failure patients and healthy individuals. This dual-mode platform provides a rapid, sensitive, and reliable approach for miRNA-21 detection, demonstrating potential utility for CVD-associated biomarker analysis and further clinical investigation."
+    },
+    {
+      "id": "heart-failure-pmid-42679882-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42679882/",
+      "text": "GDF15: A new biomarker in cardiovascular diseases. Growth differentiation factor 15 (GDF15) is a divergent member of the transforming growth factor-β (TGF-β) superfamily. It was initially identified as macrophage inhibitory factor-1 (MIC-1). Under normal physiological conditions, its expression level is relatively low, but it significantly increases under conditions such as inflammation, oxidative stress, tissue damage, and hypoxia. Notably, in the context of cardiovascular diseases, GDF15 reflects common pathophysiological processes such as metabolic stress, inflammation, and tissue damage. Furthermore, elevated circulating GDF15 levels are closely associated with major cardiovascular diseases and poor prognosis."
+    },
+    {
+      "id": "heart-failure-pmid-42679882-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42679882/",
+      "text": "GDF15: A new biomarker in cardiovascular diseases. elevated circulating GDF15 levels are closely associated with major cardiovascular diseases and poor prognosis. In this review, we systematically analyze the differential expression, mechanisms of action, and prognostic prediction functions of GDF15 in five major cardiovascular diseases including hypertension, atherosclerosis, heart failure, pulmonary hypertension and coronary heart disease to demonstrate its significant role as a novel biomarker in CVD."
+    },
+    {
+      "id": "heart-failure-pmid-43022402-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43022402/",
+      "text": "Orthostatic hypotension in continuous-flow LVADs: Baroreflex unloading, preload dependence, and a phenotype-specific framework. Orthostatic hypotension (OH) is an underrecognized consequence of continuous-flow left ventricular assist device (CF-LVAD) therapy, affecting 12-30% of patients. Reduced arterial pulsatility during CF support creates a distinct autonomic environment characterized by impaired baroreceptor stimulation, defective sympathetic vasoconstriction, exaggerated venous pooling, and extreme preload dependence. Traditional blood pressure assessments often fail to identify OH in this population, and resting hemodynamics rarely reveal the underlying mechanism. In this perspective piece, we propose a two-phenotype, physiology-based framework for OH specific to CF-LVAD patients."
+    },
+    {
+      "id": "heart-failure-pmid-43022402-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43022402/",
+      "text": "Orthostatic hypotension in continuous-flow LVADs: Baroreflex unloading, preload dependence, and a phenotype-specific framework. In this perspective piece, we propose a two-phenotype, physiology-based framework for OH specific to CF-LVAD patients. We synthesize current knowledge of baroreflex biology, vascular capacitance, and pump dynamics to describe how reduced pulsatility disrupts cardiovascular responses to upright posture. Within this framework, we define two dominant mechanistic phenotypes: (1) autonomic dysfunction-predominant failure, where impaired reflexes drive orthostatic venous pooling and LV underfilling, and (2) right ventricular (RV) failure-limited forward flow, where RV dysfunction constrains preload delivery to the pump despite preserved autonomic tone."
+    },
+    {
+      "id": "heart-failure-pmid-43022402-3",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43022402/",
+      "text": "Orthostatic hypotension in continuous-flow LVADs: Baroreflex unloading, preload dependence, and a phenotype-specific framework. forward flow, where RV dysfunction constrains preload delivery to the pump despite preserved autonomic tone. We outline how integrating autonomic data with LVAD hemodynamics and posture-linked imaging-specifically dynamic changes in venous capacitance, inferior vena cava behavior, left ventricular end-diastolic dimension, and pump performance-forms a coherent diagnostic and management pathway. This physiology-first approach allows clinicians to distinguish between preload failure and RV-limited flow at the bedside and tailor therapy accordingly."
+    },
+    {
+      "id": "heart-failure-pmid-43022402-4",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43022402/",
+      "text": "Orthostatic hypotension in continuous-flow LVADs: Baroreflex unloading, preload dependence, and a phenotype-specific framework. clinicians to distinguish between preload failure and RV-limited flow at the bedside and tailor therapy accordingly. A mechanistic understanding of OH in CF-LVAD patients is essential for accurate diagnosis, preventing suction events, optimizing device settings, and reducing morbidity through targeted, mechanism-specific management."
+    },
+    {
+      "id": "heart-failure-pmid-43017512-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43017512/",
+      "text": "Long-term trajectories of invasive hemodynamic parameters and clinical outcomes after durable left ventricular assist device implantation. BACKGROUND: Long-term hemodynamic changes after durable left ventricular assist device (LVAD) implantation are not well characterized. Characterizing these trajectories is clinically relevant, as persistent or evolving abnormalities in filling pressures and pulmonary circulation may identify patients at risk for adverse outcomes. METHOD: We conducted a retrospective single-center study including all patients who underwent durable LVAD implantation at the University Medical Center Groningen (2012 to 2025). We evaluated serial right heart catheterization (RHC) measurements to describe hemodynamic trajectories."
+    },
+    {
+      "id": "heart-failure-pmid-43017512-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43017512/",
+      "text": "Long-term trajectories of invasive hemodynamic parameters and clinical outcomes after durable left ventricular assist device implantation. We evaluated serial right heart catheterization (RHC) measurements to describe hemodynamic trajectories. Repeated measures, mixed-effect models were used to analyze hemodynamic trajectories up to 60 months of follow-up, including mean pulmonary artery pressure (mPAP), pulmonary capillary wedge pressure (PCWP), right atrial pressure (RAP), and pulmonary artery pulsatility index (PAPi). Trajectories were compared according to survivor status, baseline LVAD strategy, development of late right ventricular failure (RVF), presence of aortic regurgitation (AR), and worsening renal function (WRF)."
+    },
+    {
+      "id": "heart-failure-pmid-43017512-3",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43017512/",
+      "text": "Long-term trajectories of invasive hemodynamic parameters and clinical outcomes after durable left ventricular assist device implantation. of late right ventricular failure (RVF), presence of aortic regurgitation (AR), and worsening renal function (WRF). RESULTS: Among 199 patients (176 HeartMate 3; 23 HeartMate II), mean PAP (-10.1 mmHg, 95% CI -13.1 to -7.1) and PCWP (-9.9 mmHg, 95% CI -12.5 to -7.2) decreased significantly within the first 6 months after LVAD implantation, while RAP (0.0 mmHg, 95% CI -0.8 to 0.8) remained unchanged. Cardiac index (+0.6 L/min/m², 95% CI 0.4-0.8) and cardiac output (+1.3 L/min, 95% CI 0.9-1.7) increased significantly over the same interval. Beyond 6 months, trajectories for most hemodynamic parameters remained generally stable."
+    },
+    {
+      "id": "heart-failure-pmid-43017512-4",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43017512/",
+      "text": "Long-term trajectories of invasive hemodynamic parameters and clinical outcomes after durable left ventricular assist device implantation. Beyond 6 months, trajectories for most hemodynamic parameters remained generally stable. Non-survivors and patients developing late RVF showed consistently higher filling pressures with trajectories largely parallel to those of survivors or those without RVF. Hemodynamic trajectories did not differ by initial LVAD strategy. In contrast, clinically significant aortic regurgitation and WRF were associated with distinct hemodynamic trajectories. CONCLUSION: Hemodynamic parameters after durable LVAD implantation improved early and remained largely stable thereafter. Patients with adverse clinical outcomes showed persistently higher and/or altered hemodynamic profiles."
+    },
+    {
+      "id": "heart-failure-pmid-43017512-5",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43017512/",
+      "text": "Long-term trajectories of invasive hemodynamic parameters and clinical outcomes after durable left ventricular assist device implantation. Patients with adverse clinical outcomes showed persistently higher and/or altered hemodynamic profiles. These findings suggest that longitudinal hemodynamic assessment may enable early identification of patients at risk for adverse outcomes."
+    },
+    {
+      "id": "heart-failure-pmid-43001221-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43001221/",
+      "text": "Endovascular temporary occlusion of an aortocaval fistula via a transvenous balloon-wedging technique before endovascular aneurysm repair. Endovascular repair for aortocaval fistula remains a critical challenge. An 82-year-old man presented with high-output heart failure due to an abdominal aortic aneurysm with a 7-mm aortocaval fistula. To stabilize the patient, we performed temporary occlusion of the fistula by cannulating it from the venous side and wedging a 12-mm balloon into the fistula. This immediately restored patient hemodynamics. In this controlled state, we achieved precise coil embolization of a patent lumbar artery and successfully deployed an iliac branch endoprosthesis and stent graft."
+    },
+    {
+      "id": "heart-failure-pmid-43001221-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43001221/",
+      "text": "Endovascular temporary occlusion of an aortocaval fistula via a transvenous balloon-wedging technique before endovascular aneurysm repair. coil embolization of a patent lumbar artery and successfully deployed an iliac branch endoprosthesis and stent graft. Transvenous balloon wedging of an ACF provides immediate hemodynamic control, allowing essential time to safely perform complex endovascular reconstructions."
+    },
+    {
+      "id": "heart-failure-pmid-42906793-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42906793/",
+      "text": "Mitochondrial pharmacology of cardiovascular and antidiabetic drugs: Mechanistic basis of cardioprotection and cardiotoxicity in the diseased heart. Mitochondrial function is a central determinant of cardiomyocyte survival, yet mitochondrial pharmacology remains under-integrated into cardiovascular and antidiabetic drug classification, safety assessment, and therapeutic decision-making. Many cardiometabolic drugs exert direct or indirect effects on mitochondrial bioenergetics, redox balance, calcium handling, quality control, and genome stability effects that can confer protection in some contexts while precipitating toxicity in others."
+    },
+    {
+      "id": "heart-failure-pmid-42906793-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42906793/",
+      "text": "Mitochondrial pharmacology of cardiovascular and antidiabetic drugs: Mechanistic basis of cardioprotection and cardiotoxicity in the diseased heart. and genome stability effects that can confer protection in some contexts while precipitating toxicity in others. In diseased myocardium, where mitochondrial reserve is constrained by ischemia, metabolic stress, ageing, or heart failure, these drug-mitochondria interactions frequently dictate clinical benefit or harm beyond the nominal drug class. This review synthesises the mitochondrial actions of widely used cardiovascular and antidiabetic therapies, including statins, renin-angiotensin-aldosterone system inhibitors, β-blockers, metformin, sodium-glucose cotransporter-2 inhibitors, and incretin-based agents, across acute and chronic exposure windows."
+    },
+    {
+      "id": "heart-failure-pmid-42906793-3",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42906793/",
+      "text": "Mitochondrial pharmacology of cardiovascular and antidiabetic drugs: Mechanistic basis of cardioprotection and cardiotoxicity in the diseased heart. sodium-glucose cotransporter-2 inhibitors, and incretin-based agents, across acute and chronic exposure windows. We integrate key mechanistic domains encompassing electron transport chain modulation, redox and cofactor reprogramming, calcium permeability transition coupling, mitochondrial dynamics, mitophagy, and stress signalling, and relate these signatures to clinically relevant cardiometabolic disease contexts. We propose a unifying framework in which mitochondrial reserve capacity and quality control competence function as the central decision node determining whether pharmacologic mitochondrial engagement is adaptive or injurious."
+    },
+    {
+      "id": "heart-failure-pmid-42906793-4",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42906793/",
+      "text": "Mitochondrial pharmacology of cardiovascular and antidiabetic drugs: Mechanistic basis of cardioprotection and cardiotoxicity in the diseased heart. as the central decision node determining whether pharmacologic mitochondrial engagement is adaptive or injurious. Finally, we outline principles for mitochondria-conscious prescribing, risk stratification, and drug development, and propose that systematic incorporation of mitochondrial endpoints into clinical trials and safety pipelines is essential for advancing precision cardiometabolic therapy."
+    },
+    {
+      "id": "heart-failure-pmid-42632341-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42632341/",
+      "text": "Ultrasound-triggered dual-mode therapy for heart failure via synchronized electrical stimulation and nitric oxide release. The multifaceted pathophysiology of heart failure demands therapeutic strategies that can concurrently address its electrophysiological and metabolic components. Here, we report a lead-free and battery-free piezoelectric nanoplatform that, under ultrasound irradiation, serves as a dual-mode platform to simultaneously generate localized electrical stimulation and trigger spatiotemporally controlled nitric oxide (NO) release. In a mouse model of pressure-overload-induced heart failure, this ultrasound-driven regimen restored cardiac contractile function, reversed pathological remodeling, and suppressed arrhythmogenesis."
+    },
+    {
+      "id": "heart-failure-pmid-42632341-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42632341/",
+      "text": "Ultrasound-triggered dual-mode therapy for heart failure via synchronized electrical stimulation and nitric oxide release. regimen restored cardiac contractile function, reversed pathological remodeling, and suppressed arrhythmogenesis. Integrated transcriptomic and proteomic analyses revealed that the therapeutic benefits were mediated by the combined action of electrical stimulation and nitric oxide. Electrical stimulation restored autonomic nervous system balance, and the two factors jointly reprogrammed sphingolipid metabolism to ameliorate mitochondrial dysfunction and oxidative stress. This work offers a paradigm for wire-free, multi-mechanistic cardiac therapy that leverages the non-invasiveness of ultrasound to concurrently rectify electrical and metabolic dysfunctions in the failing heart."
+    },
+    {
+      "id": "heart-failure-pmid-42612493-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42612493/",
+      "text": "Beyond myocardial infarction: Point-of-care cardiac troponin biosensors for heart failure prognosis and remote monitoring. Heart failure (HF) is a long-term condition that often causes repeated hospital visits and requires close monitoring. Cardiac troponin I (cTnI) and cardiac troponin T (cTnT) are widely known as markers of myocardial infarction, but in HF they can also show ongoing heart-muscle injury, disease progression, and poor prognosis. This review examines the clinical value of repeated troponin measurements and the development of point-of-care testing (PoCT) biosensors for faster and more accessible monitoring. It covers electrochemical immunosensors, aptamer-based sensors, electrochemiluminescence (ECL) systems, field-effect transistor (FET) devices, and emerging wearable and microfluidic platforms."
+    },
+    {
+      "id": "heart-failure-pmid-42612493-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42612493/",
+      "text": "Beyond myocardial infarction: Point-of-care cardiac troponin biosensors for heart failure prognosis and remote monitoring. (ECL) systems, field-effect transistor (FET) devices, and emerging wearable and microfluidic platforms. The review also discusses post-discharge follow-up, remote care, and combined interpretation with B-type natriuretic peptide (BNP), N-terminal pro-B-type natriuretic peptide (NT-proBNP), electrocardiogram (ECG), kidney function, symptoms, and wearable data. Artificial intelligence (AI) may support patient-specific trend analysis and early risk alerts. However, major challenges remain, including low-level sensitivity, whole-blood testing, assay differences, signal drift, false alarms, and limited validation in real HF patients."
+    },
+    {
+      "id": "heart-failure-pmid-42612493-3",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42612493/",
+      "text": "Beyond myocardial infarction: Point-of-care cardiac troponin biosensors for heart failure prognosis and remote monitoring. whole-blood testing, assay differences, signal drift, false alarms, and limited validation in real HF patients. Future progress will require reliable devices, clear clinical pathways, and outcome-based studies."
+    },
+    {
+      "id": "heart-failure-pmid-42551665-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42551665/",
+      "text": "Zhigancao decoction ameliorates ischemic heart failure-related ventricular arrhythmias through attenuation of transforming growth factor-β/Smad-associated myocardial fibrosis. ETHNOPHARMACOLOGICAL RELEVANCE: Zhigancao Decoction (ZGCT), also known as Fumai Decoction, is a classical traditional Chinese medicine formula recorded in Shanghan Lun and has long been used for the treatment of \"palpitations\" and \"irregular pulse,\" corresponding to arrhythmias in modern medicine. Although ZGCT has shown beneficial effects against cardiac arrhythmias, its absorbed bioactive constituents and the underlying mechanisms involved in ischemic heart failure (IHF)-related ventricular arrhythmias (VAs) remain unclear."
+    },
+    {
+      "id": "heart-failure-pmid-42551665-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42551665/",
+      "text": "Zhigancao decoction ameliorates ischemic heart failure-related ventricular arrhythmias through attenuation of transforming growth factor-β/Smad-associated myocardial fibrosis. underlying mechanisms involved in ischemic heart failure (IHF)-related ventricular arrhythmias (VAs) remain unclear. AIM OF THE STUDY: This study aimed to characterize the chemical profile of ZGCT and identify its circulating and cardiac constituents using ultra-performance liquid chromatography-quadrupole time-of-flight mass spectrometry (UPLC-Q-TOF-MS), to identify key pathways through transcriptomic analysis, and evaluate the effects of ZGCT on IHF-related VAs in rats while exploring the potential involvement of myocardial fibrosis and TGF-β/Smad signaling."
+    },
+    {
+      "id": "heart-failure-pmid-42551665-3",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42551665/",
+      "text": "Zhigancao decoction ameliorates ischemic heart failure-related ventricular arrhythmias through attenuation of transforming growth factor-β/Smad-associated myocardial fibrosis. on IHF-related VAs in rats while exploring the potential involvement of myocardial fibrosis and TGF-β/Smad signaling. MATERIALS AND METHODS: UPLC-Q-TOF-MS was employed to characterize the chemical constituents of ZGCT extract and to identify its absorbed components in rat serum and myocardial tissue after administration, thereby defining its in vivo bioactive basis."
+    },
+    {
+      "id": "heart-failure-pmid-42551665-4",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42551665/",
+      "text": "Zhigancao decoction ameliorates ischemic heart failure-related ventricular arrhythmias through attenuation of transforming growth factor-β/Smad-associated myocardial fibrosis. components in rat serum and myocardial tissue after administration, thereby defining its in vivo bioactive basis. RNA sequencing (RNA-seq)-based transcriptomic profiling was then performed on myocardial tissues from the control, model, and ZGCT-treated groups to identify differentially expressed genes, followed by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses to screen candidate signaling pathways underlying ZGCT activity. In addition, a rat model of IHF was established by permanent ligation of the left anterior descending coronary artery."
+    },
+    {
+      "id": "heart-failure-pmid-42551665-5",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42551665/",
+      "text": "Zhigancao decoction ameliorates ischemic heart failure-related ventricular arrhythmias through attenuation of transforming growth factor-β/Smad-associated myocardial fibrosis. In addition, a rat model of IHF was established by permanent ligation of the left anterior descending coronary artery. Rats were randomly assigned to the control, model, low-, medium-, and high-dose ZGCT, metoprolol, SB-431542(a selective TGF-β receptor type I inhibitor), and SB-431542 plus ZGCT groups. Cardiac function was evaluated by echocardiography; ventricular arrhythmia susceptibility, conduction velocity, and electrical conduction dispersion were assessed by burst pacing and multichannel electrical mapping; infarct size and myocardial fibrosis were determined by 2,3,5-triphenyltetrazolium chloride (TTC), hematoxylin and eosin (H&E), and Masson's trichrome staining; and the"
+    },
+    {
+      "id": "heart-failure-pmid-42551665-6",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42551665/",
+      "text": "Zhigancao decoction ameliorates ischemic heart failure-related ventricular arrhythmias through attenuation of transforming growth factor-β/Smad-associated myocardial fibrosis. by 2,3,5-triphenyltetrazolium chloride (TTC), hematoxylin and eosin (H&E), and Masson's trichrome staining; and the expression of TGF-β1, phosphorylated Smad3 (p-Smad3), Smad7, and matrix metalloproteinase 2 (MMP2) was measured by Western blotting and RT-qPCR. RESULTS: UPLC-Q-TOF-MS identified 113 constituents in the ZGCT extract in vitro, of which 80 were detected in serum and 53 were distributed in myocardial tissue after administration. Transcriptomic analysis revealed that ZGCT predominantly regulated the extracellular matrix (ECM)-receptor interaction and TGF-β signaling pathways, with the TGF-β pathway emerging as a putative key target."
+    },
+    {
+      "id": "heart-failure-pmid-42551665-7",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42551665/",
+      "text": "Zhigancao decoction ameliorates ischemic heart failure-related ventricular arrhythmias through attenuation of transforming growth factor-β/Smad-associated myocardial fibrosis. (ECM)-receptor interaction and TGF-β signaling pathways, with the TGF-β pathway emerging as a putative key target. In IHF rats, ZGCT significantly improved cardiac function and reduced both the incidence and duration of ventricular arrhythmias. Multichannel electrical mapping further demonstrated that ZGCT reversed IHF-induced slowing of conduction velocity and increased conduction dispersion. Mechanistically, ZGCT downregulated the expression of TGF-β1, p-Smad3, and MMP2, while upregulating Smad7. SB-431542 elicited anti-fibrotic and pathway-related molecular changes comparable to those of ZGCT, further supporting a role for TGF-β/Smad signaling in the anti-fibrotic effects of ZGCT."
+    },
+    {
+      "id": "heart-failure-pmid-42551665-8",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42551665/",
+      "text": "Zhigancao decoction ameliorates ischemic heart failure-related ventricular arrhythmias through attenuation of transforming growth factor-β/Smad-associated myocardial fibrosis. comparable to those of ZGCT, further supporting a role for TGF-β/Smad signaling in the anti-fibrotic effects of ZGCT. CONCLUSIONS: ZGCT reduced ventricular arrhythmia susceptibility and improved conduction abnormalities in IHF rats in association with attenuation of myocardial fibrosis and modulation of transforming growth factor-β/Smad-related signaling. However, these findings were obtained from a single batch of ZGCT, and further multi-batch validation is required to confirm its chemical consistency and pharmacological reproducibility."
+    },
+    {
+      "id": "heart-failure-pmid-42962313-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42962313/",
+      "text": "Design and synthesis of carvedilol-derived dual-functional adjuvant agents with oral activity against doxorubicin cardiotoxicity and anticancer efficacy. Developing dual-functional agents that simultaneously exert potent antitumor effects and attenuate chemotherapy-induced cardiotoxicity represents a promising strategy in cancer adjuvant therapeutics. Herein, forty-six carvedilol (CAR) derivatives were designed and synthesized to potentiate neddylation-inhibitory anticancer potency and bioavailability, while retaining cardioprotective property originating from CAR. Among these, the optimal derivative 28 exhibited potent antiproliferative activity across multiple cancer cell lines, and mitigated cardiomyocyte injury."
+    },
+    {
+      "id": "heart-failure-pmid-42962313-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42962313/",
+      "text": "Design and synthesis of carvedilol-derived dual-functional adjuvant agents with oral activity against doxorubicin cardiotoxicity and anticancer efficacy. 28 exhibited potent antiproliferative activity across multiple cancer cell lines, and mitigated cardiomyocyte injury. Mechanistically, 28 targets Nedd8-activating enzyme (NAE) to inhibit the neddylation pathway, thereby suppressing tumor growth in vitro and in vivo. In addition, 28 attenuates Doxorubicin (DOX)-induced cardiotoxicity via pleiotropic effects, mainly including β-AR antagonism and suppression of reactive oxygen species (ROS) accumulation. In tumor-bearing and DOX-induced heart failure mouse models, 28 enhances antitumor activity of DOX and mitigates its cardiotoxicity by oral administration."
+    },
+    {
+      "id": "heart-failure-pmid-42962313-3",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42962313/",
+      "text": "Design and synthesis of carvedilol-derived dual-functional adjuvant agents with oral activity against doxorubicin cardiotoxicity and anticancer efficacy. failure mouse models, 28 enhances antitumor activity of DOX and mitigates its cardiotoxicity by oral administration. Overall, this study provides a reliable strategy for the development of novel adjuvant agents that concurrently suppress tumor progression and mitigate DOX-induced cardiotoxicity."
+    },
+    {
+      "id": "heart-failure-pmid-43059374-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43059374/",
+      "text": "Regulatory roles of microRNA‑145 in cardiovascular diseases (Review). MicroRNA‑145 (miR‑145) is a non‑coding RNA involved in vascular remodeling, myocardial injury and fibrosis, and it contributes to the onset and progression of several cardiovascular disorders. Accumulating evidence indicates that the functions of miR‑145 depend on cell subtypes and pathological microenvironments. miR‑145 exerts dual regulatory effects in atherosclerosis, myocardial ischemia‑reperfusion injury, hypertension, pulmonary arterial hypertension ventricular remodeling and heart failure."
+    },
+    {
+      "id": "heart-failure-pmid-43059374-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43059374/",
+      "text": "Regulatory roles of microRNA‑145 in cardiovascular diseases (Review). ischemia‑reperfusion injury, hypertension, pulmonary arterial hypertension ventricular remodeling and heart failure. In some settings, for example in cardiomyocytes subjected to myocardial ischemia‑reperfusion injury (MIRI), miR‑145 can suppress disease progression and protect the myocardium and vasculature; conversely, it may trigger tissue injury and exacerbate disease in specific cell types and pathological setting; for example, in cardiac microvascular endothelial cells during MIRI."
+    },
+    {
+      "id": "heart-failure-pmid-43059374-3",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43059374/",
+      "text": "Regulatory roles of microRNA‑145 in cardiovascular diseases (Review). in specific cell types and pathological setting; for example, in cardiac microvascular endothelial cells during MIRI. Abnormal expression of miR‑145 is associated with disease severity, risk stratification and the incidence of long‑term adverse cardiovascular events, suggesting its potential as a molecular biomarker for early screening, disease assessment and prognosis of cardiovascular diseases (CVDs). Unconjugated or unformulated miR is limited by poor in vivo stability, rapid degradation by ribonucleases and low cellular transfection efficiency."
+    },
+    {
+      "id": "heart-failure-pmid-43059374-4",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43059374/",
+      "text": "Regulatory roles of microRNA‑145 in cardiovascular diseases (Review). miR is limited by poor in vivo stability, rapid degradation by ribonucleases and low cellular transfection efficiency. To address these limitations, three major delivery platforms, namely extracellular vesicles, viral vectors and nanoparticles, have been developed for targeted delivery of miR‑145 and these platforms differ in biosafety, delivery efficacy and modifiability. As research advances in nucleic acid‑based targeted therapeutics, several miR‑based agents have entered clinical trials, supporting the development of targeted interventions for CVDs."
+    },
+    {
+      "id": "heart-failure-pmid-43059374-5",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43059374/",
+      "text": "Regulatory roles of microRNA‑145 in cardiovascular diseases (Review). several miR‑based agents have entered clinical trials, supporting the development of targeted interventions for CVDs. The present review examined the dual regulatory mechanisms, potential clinical applications and current delivery technologies of miR‑145 across CVDs. The translational progress and limitations of current miR therapeutics were reviewed, as well as unresolved controversies and unanswered scientific questions. The present work aimed to inform further mechanistic studies of miR‑145 and the research, development and clinical translation of cardiovascular nucleic acid‑targeted therapies."
+    },
+    {
+      "id": "heart-failure-pmid-43039588-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039588/",
+      "text": "Computational Echocardiography for Heart Failure: Bench or Bedside?. Heart failure (HF) affects millions, and while echocardiography is the first-line diagnostic tool, its reliability and accessibility are limited by operator dependence and time-consuming manual analysis. Artificial intelligence (AI) is particularly suited to HF echocardiography because it can standardize image acquisition, automate quantitative assessment, and detect complex imaging patterns across the clinical pathway. This article examines AI applications spanning acquisition guidance, point-of-care screening, laboratory workflow optimization, and disease phenotyping."
+    },
+    {
+      "id": "heart-failure-pmid-43039588-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039588/",
+      "text": "Computational Echocardiography for Heart Failure: Bench or Bedside?. spanning acquisition guidance, point-of-care screening, laboratory workflow optimization, and disease phenotyping. Significant barriers nonetheless impede clinical translation, including spectrum bias from non-diverse datasets, the need for prospective multicenter validation, concerns about algorithmic interpretability, and limited evidence of sustained improvements in patient outcomes."
+    },
+    {
+      "id": "heart-failure-pmid-43039583-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039583/",
+      "text": "Computational Models of Cardiac Flow as a Support for Outcome Prediction. The human heart sustains blood circulation through complex fluid-structure interactions, making fluid mechanics fundamental to cardiac development and disease. \"In vivo\" blood velocity fields can be assessed using advanced imaging modalities, including 3 dimensional imaging and 3 directional phase-contrast MRI. Despite enabling direct flow quantification, these techniques remain limited by accuracy and clinical complexity. Image-based computational modeling provides a complementary approach, enabling patient-specific numerical simulations and prediction of physiologic and pathologic scenarios prior to clinical realization."
+    },
+    {
+      "id": "heart-failure-pmid-43039583-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039583/",
+      "text": "Computational Models of Cardiac Flow as a Support for Outcome Prediction. numerical simulations and prediction of physiologic and pathologic scenarios prior to clinical realization. This lecture discusses key methodological challenges and emerging clinical applications of computational cardiac modeling."
+    },
+    {
+      "id": "heart-failure-pmid-43039582-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039582/",
+      "text": "Artificial Intelligence and Computational Methods in Cardiovascular Ultrasound. Cardiovascular ultrasound is particularly suitable for artificial intelligence: it is widely available, information-rich, dynamic, and strongly dependent on acquisition quality and operator interpretation. Contemporary computational methods can guide image acquisition, recognize views, segment chambers, quantify ventricular function, characterize myocardial mechanics, and detect disease signatures."
+    },
+    {
+      "id": "heart-failure-pmid-43039582-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039582/",
+      "text": "Artificial Intelligence and Computational Methods in Cardiovascular Ultrasound. segment chambers, quantify ventricular function, characterize myocardial mechanics, and detect disease signatures. In heart failure, multimodal architectures can combine echocardiographic images and Doppler data with clinical variables, biomarkers, electrocardiograms, and omics to support patient-level phenotyping and prognostic assessment, while emerging foundation models enable adaptation across multiple tasks. The most credible near-term model is augmented echocardiography: automation of repetitive measurements combined with transparent quality control and expert clinical interpretation."
+    },
+    {
+      "id": "heart-failure-pmid-43039581-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039581/",
+      "text": "Cardiovascular Structured Reporting: Enabling Precision Medicine Through Data Standardization. Structured cardiovascular reporting represents a paradigm shift from narrative documentation to standardized, machine-readable formats that enhance clinical decision-making and enable precision medicine. This article examines the evolution of structured reporting systems across cardiovascular domains, from coronary artery disease to cardiac allograft vasculopathy surveillance, demonstrating significant improvements in guideline concordance and interobserver agreement."
+    },
+    {
+      "id": "heart-failure-pmid-43039581-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039581/",
+      "text": "Cardiovascular Structured Reporting: Enabling Precision Medicine Through Data Standardization. vasculopathy surveillance, demonstrating significant improvements in guideline concordance and interobserver agreement. We explore technical frameworks, including digital imaging and communications in medicine (DICOM)-Structured Reporting and HL7 fast healthcare interoperability resources (FHIR), which facilitate interoperability, address implementation barriers in real-world clinical environments, and discuss how computational phenotyping through structured data advances health equity and personalized therapeutic strategies in cardiovascular care."
+    },
+    {
+      "id": "heart-failure-pmid-43039580-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039580/",
+      "text": "Moving Toward Clinical Cardiac Magnetic Resonance: Full Integration of Imaging Data into Patient Care Pathways. Cardiac magnetic resonance (CMR) provides the greatest clinical value when performed to answer a specific clinical question rather than as a stand-alone imaging test. The significance of CMR findings depends on integration with the patient's clinical history, Electrocardiogram , laboratory data, and other imaging results. Clinical CMR extends beyond image acquisition by integrating tailored imaging, clinical interpretation, and management-oriented reporting. In heart failure, clinical CMR supports etiologic diagnosis, phenotyping, risk stratification, therapeutic decisions, and selected follow-up."
+    },
+    {
+      "id": "heart-failure-pmid-43039580-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039580/",
+      "text": "Moving Toward Clinical Cardiac Magnetic Resonance: Full Integration of Imaging Data into Patient Care Pathways. CMR supports etiologic diagnosis, phenotyping, risk stratification, therapeutic decisions, and selected follow-up. Artificial intelligence will streamline CMR workflows, but clinical reasoning will remain essential for translating imaging findings into patient care."
+    },
+    {
+      "id": "heart-failure-pmid-43039576-1",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039576/",
+      "text": "Computational and Artificial Intelligence-Driven Insights in Heart Failure. Heart failure (HF) remains a major global health challenge associated with substantial morbidity, mortality, and health care utilization. Despite advances in pharmacologic and device-based therapies, outcomes remain suboptimal, with high rates of hospitalization, readmission, and long-term mortality. At the same time, contemporary HF care generates vast amounts of data from routine diagnostic procedures and monitoring technologies, including electrocardiography, imaging, laboratory testing, wearable devices, implantable hemodynamic sensors, and cardiac implantable electronic devices."
+    },
+    {
+      "id": "heart-failure-pmid-43039576-2",
+      "condition_id": "heart-failure",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43039576/",
+      "text": "Computational and Artificial Intelligence-Driven Insights in Heart Failure. laboratory testing, wearable devices, implantable hemodynamic sensors, and cardiac implantable electronic devices. Much of this information remains underutilized, as traditional clinical workflows are not designed to fully capture or interpret these complex, high- dimensional data streams."
+    }
+  ],
+  "sources": [
+    {
+      "source_name": "MedlinePlus",
+      "ok": true,
+      "chunks": 12,
+      "error": null
+    },
+    {
+      "source_name": "ClinicalTrials.gov",
+      "ok": true,
+      "chunks": 100,
+      "error": null
+    },
+    {
+      "source_name": "PubMed",
+      "ok": true,
+      "chunks": 63,
+      "error": null
+    }
+  ]
+}

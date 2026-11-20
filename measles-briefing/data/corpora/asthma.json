@@ -1,0 +1,1377 @@
+{
+  "condition": {
+    "id": "asthma",
+    "name": "Asthma",
+    "synonyms": [
+      "Bronchial Asthma"
+    ],
+    "mesh_id": "D001249",
+    "last_fetched": "2026-11-20"
+  },
+  "chunks": [
+    {
+      "id": "asthma-mplus-001",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthma.html",
+      "text": "Asthma. What is asthma ? Asthma is a chronic (long-term) lung disease. It affects your airways, the tubes that carry air in and out of your lungs. When you have asthma , your airways can become inflamed and narrowed. This can cause wheezing, coughing, and tightness in your chest. When these symptoms get worse than usual, it is called an asthma attack or flare-up. What causes asthma ? The exact cause of asthma is unknown. Genetics and your environment likely play a role in who gets asthma . An asthma attack can happen when you are exposed to an asthma trigger. An asthma trigger is something that can set off or worsen your asthma symptoms. Different triggers can cause different types of asthma : Allergic asthma is caused by allergens."
+    },
+    {
+      "id": "asthma-mplus-002",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthma.html",
+      "text": "Different triggers can cause different types of asthma : Allergic asthma is caused by allergens. Allergens are substances that cause an allergic reaction. They can include: Dust mites Mold Pets Pollen from grass, trees, and weeds Waste from pests such as cockroaches and mice Nonallergic asthma is caused by triggers that are not allergens, such as: Breathing in cold air Certain medicines Household chemicals Infections such as colds and the flu Outdoor air pollution Tobacco smoke Occupational asthma is caused by breathing in chemicals or industrial dusts at work Exercise-induced asthma happens during physical exercise, especially when the air is dry Asthma triggers may be different for each person and can change over time. Who is at risk for asthma ?"
+    },
+    {
+      "id": "asthma-mplus-003",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthma.html",
+      "text": "Who is at risk for asthma ? Asthma affects people of all ages, but it often starts during childhood. Certain factors can raise your risk of having asthma : Being exposed to secondhand smoke when your mother is pregnant with you or when you are a small child. Being exposed to certain substances at work, such as chemical irritants or industrial dusts. Genetics and family history. You are more likely to have asthma if one of your parents has it, especially if it's your mother. Race or ethnicity. Black and African Americans and Puerto Ricans are at higher risk of asthma than people of other races or ethnicities. Having other diseases or conditions such as obesity and allergies. Often having viral respiratory infections as a young child. Sex. In children, asthma is more common in boys."
+    },
+    {
+      "id": "asthma-mplus-004",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthma.html",
+      "text": "Often having viral respiratory infections as a young child. Sex. In children, asthma is more common in boys. In teens and adults, it is more common in women. What are the symptoms of asthma ? The symptoms of asthma include: Chest tightness Coughing, especially at night or early morning Shortness of breath Wheezing, which causes a whistling sound when you breathe out These symptoms can range from mild to severe. You may have them every day or only once in a while. When you are having an asthma attack, your symptoms get much worse. The attacks may come on gradually or suddenly. Sometimes they can be life-threatening. They are more common in people who have severe asthma . If you are having asthma attacks, you may need a change in your treatment. How is asthma diagnosed?"
+    },
+    {
+      "id": "asthma-mplus-005",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthma.html",
+      "text": "They are more common in people who have severe asthma . If you are having asthma attacks, you may need a change in your treatment. How is asthma diagnosed? Your health care provider may use many tools to diagnose asthma : Physical exam. Medical history. Lung function tests, including spirometry, to test how well your lungs work. Tests to measure how your airways react to specific exposures. During this test, you inhale different concentrations of allergens or medicines that may tighten the muscles in your airways. Spirometry is done before and after the test. Peak expiratory flow (PEF) tests to measure how fast you can blow air out using maximum effort Fractional exhaled nitric oxide (FeNO) tests to measure levels of nitric oxide in your breath when you breathe out."
+    },
+    {
+      "id": "asthma-mplus-006",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthma.html",
+      "text": "you can blow air out using maximum effort Fractional exhaled nitric oxide (FeNO) tests to measure levels of nitric oxide in your breath when you breathe out. High levels of nitric oxide may mean that your lungs are inflamed. Allergy skin or blood tests, if you have a history of allergies. These tests check which allergens cause a reaction from your immune system. What are the treatments for asthma ? If you have asthma , you will work with your health care provider to create a treatment plan. The plan will include ways to manage your asthma symptoms and prevent asthma attacks. It will include: Strategies to avoid triggers. For example, if tobacco smoke is a trigger for you, you should not smoke or allow other people to smoke in your home or car."
+    },
+    {
+      "id": "asthma-mplus-007",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthma.html",
+      "text": "For example, if tobacco smoke is a trigger for you, you should not smoke or allow other people to smoke in your home or car. Short-term relief medicines, also called quick-relief medicines. They help prevent symptoms or relieve symptoms during an asthma attack. They include an inhaler to carry with you all the time. It may also include other types of medicines which work quickly to help open your airways. Control medicines. You take them every day to help prevent symptoms. They work by reducing airway inflammation and preventing narrowing of the airways. If you have a severe attack and the short-term relief medicines do not work, you will need emergency care. Your provider may adjust your treatment until asthma symptoms are controlled."
+    },
+    {
+      "id": "asthma-mplus-008",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthma.html",
+      "text": "Your provider may adjust your treatment until asthma symptoms are controlled. Sometimes asthma is severe and cannot be controlled with other treatments. If you are an adult with uncontrolled asthma , in some cases your provider might suggest bronchial thermoplasty. This is a procedure that uses heat to shrink the smooth muscle in the lungs. Shrinking the muscle reduces your airway's ability to tighten and allows you to breathe more easily. The procedure has some risks, so it's important to discuss them with your provider."
+    },
+    {
+      "id": "asthma-mplus-009",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthmainchildren.html",
+      "text": "Asthma in Children. What is asthma ? Asthma is a chronic (long-term) lung disease. It affects your airways, the tubes that carry air in and out of your lungs. When you have asthma , your airways can become inflamed and narrowed. This can cause wheezing, coughing, and tightness in your chest. When these symptoms get worse than usual, it is called an asthma attack or flare-up. How does asthma affect children? Asthma often starts during childhood, usually before age 5. Many children have asthma - it is the most common chronic disease of childhood. It can cause children to miss school and end up in the hospital. But treatments can help manage asthma . What causes asthma in children? The exact cause of asthma is unknown."
+    },
+    {
+      "id": "asthma-mplus-010",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthmainchildren.html",
+      "text": "The exact cause of asthma is unknown. Genetics and environment likely play a role in which children get asthma . An asthma attack can happen when your child is exposed to an asthma trigger. An asthma trigger is something that can set off or worsen asthma symptoms. Different triggers can cause different types of asthma : Allergic asthma is caused by allergens. Allergens are substances that cause an allergic reaction."
+    },
+    {
+      "id": "asthma-mplus-011",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthmainchildren.html",
+      "text": "Different triggers can cause different types of asthma : Allergic asthma is caused by allergens. Allergens are substances that cause an allergic reaction. They can include Dust mites Mold Pets Pollen from grass, trees, and weeds Waste from pests such as cockroaches and mice Nonallergic asthma is caused by triggers that are not allergens, such as Breathing in cold air Certain medicines Household chemicals Infections such as colds and the flu Outdoor air pollution Tobacco smoke Exercise-induced asthma happens during physical exercise, especially when the air is dry Asthma triggers may be different for each child and can change over time. Which children are at risk for asthma ?"
+    },
+    {
+      "id": "asthma-mplus-012",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthmainchildren.html",
+      "text": "Which children are at risk for asthma ? Certain factors raise the risk of asthma in children: Being exposed to secondhand smoke when their mother is pregnant with them or when they are small children Genetics and family history. Children are more likely to have asthma if one of their parents has it, especially if it's the mother. Race or ethnicity. Black and African Americans and Puerto Ricans are at higher risk of asthma than people of other races or ethnicities. Having other diseases or conditions such as obesity and allergies Often having viral respiratory infections as young children Sex. In children, asthma is more common in boys. In teens, it is more common in girls. What are the symptoms of asthma in children?"
+    },
+    {
+      "id": "asthma-mplus-013",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthmainchildren.html",
+      "text": "In children, asthma is more common in boys. In teens, it is more common in girls. What are the symptoms of asthma in children? The symptoms of asthma in children include: Chest tightness Coughing, especially at night or early morning Breathing problems, such as shortness of breath, rapid breathing, or gasping for air Feeling tired Dark circles under the eyes Being irritable Wheezing, which causes a whistling sound when they breathe out Trouble eating or sucking (in infants) These symptoms can range from mild to severe. They may happen often or only once in a while. When children have an asthma attack, their symptoms get much worse. The attacks may come on gradually or suddenly. Sometimes they can be life-threatening."
+    },
+    {
+      "id": "asthma-mplus-014",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthmainchildren.html",
+      "text": "When children have an asthma attack, their symptoms get much worse. The attacks may come on gradually or suddenly. Sometimes they can be life-threatening. Warning signs of a severe attack include severe coughing, serious breathing problems, and turning very pale or blue in the face, lips and/or fingernails. If your child has those symptoms, get medical help right away. How is asthma in children diagnosed? It can be hard to diagnose asthma in children, especially if they are young. Asthma has similar symptoms as other childhood conditions. And some children may not have asthma symptoms very often, so it may seem like they are having respiratory infections instead."
+    },
+    {
+      "id": "asthma-mplus-015",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthmainchildren.html",
+      "text": "And some children may not have asthma symptoms very often, so it may seem like they are having respiratory infections instead. Your child's health care provider may use many tools to diagnose asthma : Physical exam Medical history Chest x-ray Lung function tests, including spirometry, to test how well the lungs work. Younger children are usually not able to do these tests. Allergy skin or blood tests, if you have a history of allergies. These tests check which allergens cause a reaction from your immune system. If you have a young child who cannot do lung function tests, the provider may suggest doing a trial of asthma medicines. The trial involves giving your child the medicines for several weeks to see whether the symptoms get better. What are the treatments for asthma in children?"
+    },
+    {
+      "id": "asthma-mplus-016",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthmainchildren.html",
+      "text": "The trial involves giving your child the medicines for several weeks to see whether the symptoms get better. What are the treatments for asthma in children? If your child has asthma , you will work with their health care provider to create a treatment plan. The plan will include ways to manage your child's asthma symptoms and prevent asthma attacks, such as: Strategies to avoid triggers. For example, if tobacco smoke is a trigger for your child, you should not allow anyone to smoke in your home or car. Short-term relief medicines, also called quick-relief medicines. They help prevent symptoms or relieve symptoms during an asthma attack. They include an inhaler to have for your child at all times."
+    },
+    {
+      "id": "asthma-mplus-017",
+      "condition_id": "asthma",
+      "source_name": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/asthmainchildren.html",
+      "text": "They help prevent symptoms or relieve symptoms during an asthma attack. They include an inhaler to have for your child at all times. It may also include other types of medicines which work quickly to help open your child's airways. Control medicines. They work by reducing airway inflammation and preventing narrowing of the airways. Not all children will take control medicines. Whether or not your child needs them depends on how severe the asthma is and how often your child has symptoms. If your child has a severe attack and the short-term relief medicines do not work, get medical help right away. Your child's provider may adjust the treatment until the asthma symptoms are controlled."
+    },
+    {
+      "id": "asthma-trial-NCT02327897",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT02327897",
+      "text": "Clinical trial: NHALES (Natural History of Asthma With Longitudinal Environmental Sampling). NCT ID: NCT02327897. Phase: Not reported. Status: Recruiting. Sponsor: National Institute of Environmental Health Sciences (NIEHS). Study link: https://clinicaltrials.gov/study/NCT02327897."
+    },
+    {
+      "id": "asthma-trial-NCT03539705",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT03539705",
+      "text": "Clinical trial: Food Allergy Registry at a Single Site. NCT ID: NCT03539705. Phase: Not reported. Status: Recruiting. Sponsor: Stanford University. Collaborators: National Institute of Allergy and Infectious Diseases (NIAID); Food Allergy Research & Education. Interventions: There is no intervention. Study link: https://clinicaltrials.gov/study/NCT03539705."
+    },
+    {
+      "id": "asthma-trial-NCT00001532",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT00001532",
+      "text": "Clinical trial: Role of Genetic Factors in the Development of Lung Disease. NCT ID: NCT00001532. Phase: Not reported. Status: Recruiting. Sponsor: National Heart, Lung, and Blood Institute (NHLBI). Collaborators: Suburban Hospital. Study link: https://clinicaltrials.gov/study/NCT00001532."
+    },
+    {
+      "id": "asthma-trial-NCT07191535",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07191535",
+      "text": "Clinical trial: Effect of Linvemastat in Patients With Partially Controlled Asthma (syMMPonia). NCT ID: NCT07191535. Phase: Phase 2. Status: Not Yet Recruiting. Sponsor: Primevera Therapeutics, LLC.. Collaborators: QPS Holdings LLC. Interventions: linvemastat; Placebo. Study link: https://clinicaltrials.gov/study/NCT07191535."
+    },
+    {
+      "id": "asthma-trial-NCT07914010",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07914010",
+      "text": "Clinical trial: Reducing Exposure With Air Cleaners and Technology. NCT ID: NCT07914010. Phase: Not applicable. Status: Recruiting. Sponsor: University of California, Berkeley. Collaborators: University of California, San Francisco; California Air Resources Board; Brightline Defense Project. Interventions: Air Cleaner; PM2.5 Monitor with Visual Air Quality Indicator; Educational Materials; Air Cleaner Technical Assistance. Study link: https://clinicaltrials.gov/study/NCT07914010."
+    },
+    {
+      "id": "asthma-trial-NCT06732414",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06732414",
+      "text": "Clinical trial: A Biorepository of Multiple Allergic Diseases (MADREP) With Longitudinal Follow-Up. NCT ID: NCT06732414. Phase: Not reported. Status: Recruiting. Sponsor: National Institute of Allergy and Infectious Diseases (NIAID). Study link: https://clinicaltrials.gov/study/NCT06732414."
+    },
+    {
+      "id": "asthma-trial-NCT06796894",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06796894",
+      "text": "Clinical trial: Symptoms, Respiratory Dysfunction and Frailty Level in Allergic and Eosonophilic Asthmatics. NCT ID: NCT06796894. Phase: Not reported. Status: Recruiting. Sponsor: Hacettepe University. Study link: https://clinicaltrials.gov/study/NCT06796894."
+    },
+    {
+      "id": "asthma-trial-NCT07856667",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07856667",
+      "text": "Clinical trial: COINCIDE: Cardineurovascular dIsease and Obstructive Airway Disease. NCT ID: NCT07856667. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: VASCage GmbH. Interventions: Routine Clinical Care. Study link: https://clinicaltrials.gov/study/NCT07856667."
+    },
+    {
+      "id": "asthma-trial-NCT07939022",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07939022",
+      "text": "Clinical trial: A Comprehensive Psychometric Validation of EQ Instruments for Early Childhood Health-Related Quality of Life and Caregiver Spillover. NCT ID: NCT07939022. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: RenJi Hospital. Collaborators: The EuroQol Research Foundation; The Children's Hospital of Zhejiang University School of Medicine; The Affiliated Hospital Of Guizhou Medical University. Interventions: Health-Related Quality of Life Assessment Using EuroQol Instruments. Study link: https://clinicaltrials.gov/study/NCT07939022."
+    },
+    {
+      "id": "asthma-trial-NCT07139899",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07139899",
+      "text": "Clinical trial: Downstream Effects of Airway Mucus Plugs on 129Xenon MRI in Severe Asthma. NCT ID: NCT07139899. Phase: Not reported. Status: Recruiting. Sponsor: Bastiaan Driehuys. Collaborators: University of Kansas Medical Center; Polarean, Inc.. Interventions: Hyperpolarized Xenon 129. Study link: https://clinicaltrials.gov/study/NCT07139899."
+    },
+    {
+      "id": "asthma-trial-NCT07359846",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07359846",
+      "text": "Clinical trial: A Study to Investigate GB-0895 Adjunctive Therapy in Adults and Adolescents With Severe Uncontrolled Asthma (SOLAIRIA-2). NCT ID: NCT07359846. Phase: Phase 3. Status: Recruiting. Sponsor: Generate Biomedicines. Interventions: GB-0895; Placebo. Study link: https://clinicaltrials.gov/study/NCT07359846."
+    },
+    {
+      "id": "asthma-trial-NCT06069310",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06069310",
+      "text": "Clinical trial: Mepolizumab Effectiveness in Patients With Chronic Rhinosinusitis, Nasal Polyps and Comorbid Severe Eosinophilic Asthma. NCT ID: NCT06069310. Phase: Not reported. Status: Active Not Recruiting. Sponsor: National and Kapodistrian University of Athens. Interventions: Mepolizumab 100 MG. Study link: https://clinicaltrials.gov/study/NCT06069310."
+    },
+    {
+      "id": "asthma-trial-NCT06609239",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06609239",
+      "text": "Clinical trial: Long-term Safety and Efficacy Evaluation of Lunsekimig (SAR443765) in Adult Participants With Asthma. NCT ID: NCT06609239. Phase: Phase 2. Status: Enrolling By Invitation. Sponsor: Sanofi. Interventions: Lunsekimig. Study link: https://clinicaltrials.gov/study/NCT06609239."
+    },
+    {
+      "id": "asthma-trial-NCT05991115",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05991115",
+      "text": "Clinical trial: Hospital to Home Study: Trial to Optimize Transitions and Address Disparities in Asthma Care. NCT ID: NCT05991115. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Kavita Parikh. Interventions: Hospital to Home Transition (H2H). Study link: https://clinicaltrials.gov/study/NCT05991115."
+    },
+    {
+      "id": "asthma-trial-NCT02073708",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT02073708",
+      "text": "Clinical trial: A Population-based Investigation of Asthma in the Telemark Region of Norway. NCT ID: NCT02073708. Phase: Not reported. Status: Recruiting. Sponsor: Sykehuset Telemark. Collaborators: Oslo University Hospital; National Institute for Occupational Safety and Health (NIOSH/CDC); Göteborg University. Study link: https://clinicaltrials.gov/study/NCT02073708."
+    },
+    {
+      "id": "asthma-trial-NCT07942298",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07942298",
+      "text": "Clinical trial: Utility of Respiratory Biomarker Guidance in Exacerbations. NCT ID: NCT07942298. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Université de Sherbrooke. Collaborators: BioMérieux. Interventions: Respiratory pathogen detection via molecular PCR; C-reactive protein (CRP) quantification; Disclosure of dual POCT results with advisory PCR+CRP algorithm. Study link: https://clinicaltrials.gov/study/NCT07942298."
+    },
+    {
+      "id": "asthma-trial-NCT06623981",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06623981",
+      "text": "Clinical trial: The Exhale Study: Treating Maternal Depression in an Urban Pediatric Asthma Clinic. NCT ID: NCT06623981. Phase: Not applicable. Status: Recruiting. Sponsor: Children's National Research Institute. Collaborators: National Institute on Minority Health and Health Disparities (NIMHD). Interventions: Enhanced Brief Interpersonal Psychotherapy; Supplemented Usual Care. Study link: https://clinicaltrials.gov/study/NCT06623981."
+    },
+    {
+      "id": "asthma-trial-NCT07904195",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07904195",
+      "text": "Clinical trial: Specific Immunotherapy With Mannan-Conjugated Allergoids for HDM-Allergic Rhinitis/Rhinoconjunctivitis_MM09-SIT-069.. NCT ID: NCT07904195. Phase: Phase 3. Status: Recruiting. Sponsor: Inmunotek S.L.. Collaborators: Astrum CRO, S.L.; Eurofins. Interventions: EP-088_MM09; Placebo. Study link: https://clinicaltrials.gov/study/NCT07904195."
+    },
+    {
+      "id": "asthma-trial-NCT05210361",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05210361",
+      "text": "Clinical trial: Critical Windows in the Development of Asthma Endotypes and Phenotypes in High-Risk Toddlers. NCT ID: NCT05210361. Phase: Not reported. Status: Active Not Recruiting. Sponsor: University of Colorado, Denver. Collaborators: National Institute of Allergy and Infectious Diseases (NIAID). Study link: https://clinicaltrials.gov/study/NCT05210361."
+    },
+    {
+      "id": "asthma-trial-NCT07665892",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07665892",
+      "text": "Clinical trial: Phase 1 Study Evaluating Safety and Pharmacokinetics of ASY202 in Adults With Asthma. NCT ID: NCT07665892. Phase: Phase 1. Status: Recruiting. Sponsor: Aspeya, Inc.. Interventions: ASY202; Placebo. Study link: https://clinicaltrials.gov/study/NCT07665892."
+    },
+    {
+      "id": "asthma-trial-NCT07937982",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07937982",
+      "text": "Clinical trial: Protocol CAUSE-05 RHINO. NCT ID: NCT07937982. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: National Institute of Allergy and Infectious Diseases (NIAID). Collaborators: Childhood Asthma in Urban Settings (CAUSE); Rho, Inc.. Study link: https://clinicaltrials.gov/study/NCT07937982."
+    },
+    {
+      "id": "asthma-trial-NCT06360393",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06360393",
+      "text": "Clinical trial: Inhaler Adherence and Inhalation Technique Assessed by a Smart Spacer in Patients With Severe Asthma on Biologics. NCT ID: NCT06360393. Phase: Not reported. Status: Recruiting. Sponsor: University Medical Center Groningen. Collaborators: Trudell Medical International. Interventions: Smart spacer. Study link: https://clinicaltrials.gov/study/NCT06360393."
+    },
+    {
+      "id": "asthma-trial-NCT05692180",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05692180",
+      "text": "Clinical trial: A Multicentre, Randomised, Double-blind, Parallel Group, Placebo-controlled, Time-to-first Asthma Exacerbation Phase III Efficacy and Safety Study of Benralizumab in Paediatric Patients With Severe Eosinophilic Asthma. NCT ID: NCT05692180. Phase: Phase 3. Status: Active Not Recruiting. Sponsor: AstraZeneca. Collaborators: Parexel. Interventions: Benralizumab; Placebo. Study link: https://clinicaltrials.gov/study/NCT05692180."
+    },
+    {
+      "id": "asthma-trial-NCT01603368",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT01603368",
+      "text": "Clinical trial: Prophylactic Probiotics to Extremely Low Birth Weight Prematures. NCT ID: NCT01603368. Phase: Phase 2. Status: Active Not Recruiting. Sponsor: Ostergotland County Council, Sweden. Collaborators: BioGaia AB; Ekhaga Foundation, Sweden; Medical Research Council of Southeast Sweden; University Hospital, Linkoeping; The Swedish Research Council; The Swedish Society of Medicine; Heart and lungfoundation; Karolinska University Hospital. Interventions: Lactobacillus reuteri; Placebo. Study link: https://clinicaltrials.gov/study/NCT01603368."
+    },
+    {
+      "id": "asthma-trial-NCT07276724",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07276724",
+      "text": "Clinical trial: A Study to Investigate GB-0895 Adjunctive Therapy in Adults and Adolescents With Severe Uncontrolled Asthma (SOLAIRIA-1). NCT ID: NCT07276724. Phase: Phase 3. Status: Recruiting. Sponsor: Generate Biomedicines. Interventions: GB-0895; Placebo. Study link: https://clinicaltrials.gov/study/NCT07276724."
+    },
+    {
+      "id": "asthma-trial-NCT07934654",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07934654",
+      "text": "Clinical trial: The LITTLE OWLS Study (in German: \"Kleine Eulen OWL\"): Exploring the Early-life Microbiome Development and Physical and Mental Health Outcomes During Childhood.. NCT ID: NCT07934654. Phase: Not reported. Status: Recruiting. Sponsor: Bielefeld University. Collaborators: Maastricht University Medical Center. Study link: https://clinicaltrials.gov/study/NCT07934654."
+    },
+    {
+      "id": "asthma-trial-NCT07444567",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07444567",
+      "text": "Clinical trial: Roll-over Study for Participants Who Have Completed a Previous Clinical Study With Benralizumab (Fasenra) and Benefit From Continued Treatment. NCT ID: NCT07444567. Phase: Phase 3. Status: Recruiting. Sponsor: AstraZeneca. Interventions: Benralizumab. Study link: https://clinicaltrials.gov/study/NCT07444567."
+    },
+    {
+      "id": "asthma-trial-NCT05575037",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05575037",
+      "text": "Clinical trial: Mechanisms of Benefit of IL4RA Inhibition in Aspirin-Exacerbated Respiratory Disease. NCT ID: NCT05575037. Phase: Phase 2. Status: Active Not Recruiting. Sponsor: Brigham and Women's Hospital. Collaborators: National Institute of Allergy and Infectious Diseases (NIAID). Interventions: Dupilumab. Study link: https://clinicaltrials.gov/study/NCT05575037."
+    },
+    {
+      "id": "asthma-trial-NCT07934420",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07934420",
+      "text": "Clinical trial: An Efficacy and Safety Study to Assess an Inhaled, Fixed-dose, Budesonide/Formoterol Fumarate in Participants Aged 4 to Less Than 12 Years of Age With Moderate Persistent Asthma. NCT ID: NCT07934420. Phase: Phase 3. Status: Not Yet Recruiting. Sponsor: AstraZeneca. Interventions: BFF MDI; BD MDI. Study link: https://clinicaltrials.gov/study/NCT07934420."
+    },
+    {
+      "id": "asthma-trial-NCT06513832",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06513832",
+      "text": "Clinical trial: Asthma Navigator Intervention to Improve Health Equity in Children. NCT ID: NCT06513832. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Emory University. Collaborators: Georgia Clinical & Translational Science Alliance. Interventions: The asthma navigator. Study link: https://clinicaltrials.gov/study/NCT06513832."
+    },
+    {
+      "id": "asthma-trial-NCT07933913",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07933913",
+      "text": "Clinical trial: Sustainable Inhaler Prescribing in Intermediate Care Units. NCT ID: NCT07933913. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Consorci Sanitari de l'Alt Penedès i Garraf. Interventions: Multidisciplinary inhaler optimization intervention. Study link: https://clinicaltrials.gov/study/NCT07933913."
+    },
+    {
+      "id": "asthma-trial-NCT07782996",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07782996",
+      "text": "Clinical trial: A Study to Investigate the Efficacy and Safety of GSK5784283 Compared With Placebo in Participants With Uncontrolled Asthma (PERSIST ASTHMA-2). NCT ID: NCT07782996. Phase: Phase 3. Status: Recruiting. Sponsor: GlaxoSmithKline. Interventions: GSK5784283; Placebo; Standard of care. Study link: https://clinicaltrials.gov/study/NCT07782996."
+    },
+    {
+      "id": "asthma-trial-NCT07933510",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07933510",
+      "text": "Clinical trial: Changes in Symptom and Quality of Life in Patients With Uncontrolled Asthma Treated With Budesonide/Glycopyrronium/Formoterol Fumarate Metered Dose Inhaler (BGF MDI). NCT ID: NCT07933510. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: AstraZeneca. Interventions: Budesonide/Glycopyrronium/Formoterol fumarate metered dose inhaler. Study link: https://clinicaltrials.gov/study/NCT07933510."
+    },
+    {
+      "id": "asthma-trial-NCT07500246",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07500246",
+      "text": "Clinical trial: Advancing Diagnosis and Treatment of Pediatric Asthma. NCT ID: NCT07500246. Phase: Not applicable. Status: Recruiting. Sponsor: Luxembourg Institute of Health. Collaborators: Luxembourg National Research Fund; Centre Hospitalier du Luxembourg; Meracle Health (Luxembourg) S.à.r.l. Interventions: Whizz spacer system; AeroChamber Plus® Flow-Vu®. Study link: https://clinicaltrials.gov/study/NCT07500246."
+    },
+    {
+      "id": "asthma-trial-NCT05222529",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05222529",
+      "text": "Clinical trial: Pharmacokinetics, Pharmacodynamics, Safety and Tolerability of Glycopyrronium (Bromide) in Children (6 to Less Than 12 Years) With Asthma. NCT ID: NCT05222529. Phase: Phase 2. Status: Recruiting. Sponsor: Novartis Pharmaceuticals. Interventions: Glycopyrronium bromide 25ug; Placebo; Glycopyrronium bromide 12.5ug. Study link: https://clinicaltrials.gov/study/NCT05222529."
+    },
+    {
+      "id": "asthma-trial-NCT06023589",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06023589",
+      "text": "Clinical trial: A Study to Investigate the Efficacy and Safety of Tezepelumab Compared With Placebo in Children 5 to < 12 Years Old With Severe Asthma. NCT ID: NCT06023589. Phase: Phase 3. Status: Recruiting. Sponsor: AstraZeneca. Collaborators: Amgen. Interventions: Tezepelumab; Placebo. Study link: https://clinicaltrials.gov/study/NCT06023589."
+    },
+    {
+      "id": "asthma-trial-NCT07745907",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07745907",
+      "text": "Clinical trial: A Phase 1 Trial of AMG 691 in Healthy Chinese and Japanese Volunteers. NCT ID: NCT07745907. Phase: Phase 1. Status: Active Not Recruiting. Sponsor: Amgen. Interventions: AMG 691. Study link: https://clinicaltrials.gov/study/NCT07745907."
+    },
+    {
+      "id": "asthma-trial-NCT05776927",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05776927",
+      "text": "Clinical trial: A Study to Evaluate the Efficacy and Safety of QVM149 (Indacaterol Acetate / Glycopyrronium Bromide / Mometasone Furoate) Versus Salmeterol Xinafoate/Fluticasone Propionate in Children From 12 Years to Less Than 18 Years of Age With Asthma.. NCT ID: NCT05776927. Phase: Phase 3. Status: Recruiting. Sponsor: Novartis Pharmaceuticals. Interventions: QVM149; Salmeterol Xinafoate / Fluticasone Propionate; Placebo to QVM149; Placebo to salmeterol xinafoate / fluticasone propionate. Study link: https://clinicaltrials.gov/study/NCT05776927."
+    },
+    {
+      "id": "asthma-trial-NCT06041386",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06041386",
+      "text": "Clinical trial: REIMAGINE - Real World EvaluatIon of Mepolizumab in Severe Asthma achievinG on Treatment clinIcal remissioN, a prospEctive Study. NCT ID: NCT06041386. Phase: Phase 4. Status: Active Not Recruiting. Sponsor: GlaxoSmithKline. Interventions: Mepolizumab; Spirometry. Study link: https://clinicaltrials.gov/study/NCT06041386."
+    },
+    {
+      "id": "asthma-trial-NCT05562466",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05562466",
+      "text": "Clinical trial: A Study to Evaluate the Efficacy and Safety of QMF149 (Indacaterol Acetate/Mometasone Furoate) Versus Budesonide in Children From 6 to Less Than 12 Years of Age With Asthma. NCT ID: NCT05562466. Phase: Phase 3. Status: Recruiting. Sponsor: Novartis Pharmaceuticals. Interventions: QMF149; Budesonide. Study link: https://clinicaltrials.gov/study/NCT05562466."
+    },
+    {
+      "id": "asthma-trial-NCT06307665",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06307665",
+      "text": "Clinical trial: Evaluating the Efficacy and Safety of PT027 Compared With PT007 Administered As Needed in Participants 12 to < 18 Years of Age With Asthma. NCT ID: NCT06307665. Phase: Phase 3. Status: Recruiting. Sponsor: AstraZeneca. Collaborators: Parexel. Interventions: BDA MDI; AS MDI. Study link: https://clinicaltrials.gov/study/NCT06307665."
+    },
+    {
+      "id": "asthma-trial-NCT07924462",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07924462",
+      "text": "Clinical trial: Chronic Respiratory Disease Participant Engagement Study. NCT ID: NCT07924462. Phase: Not reported. Status: Recruiting. Sponsor: Richmond Research Institute. Study link: https://clinicaltrials.gov/study/NCT07924462."
+    },
+    {
+      "id": "asthma-trial-NCT06488755",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06488755",
+      "text": "Clinical trial: SIM0718 Treatment of Asthma Clinical Study. NCT ID: NCT06488755. Phase: Phase 3. Status: Active Not Recruiting. Sponsor: Simcere Pharmaceutical Co., Ltd. Interventions: SIM0718 injection; SIM0718 injection of placebo. Study link: https://clinicaltrials.gov/study/NCT06488755."
+    },
+    {
+      "id": "asthma-trial-NCT07602673",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07602673",
+      "text": "Clinical trial: Pulmonary Rehabilitation in African Countries. NCT ID: NCT07602673. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: University of Edinburgh. Interventions: Centre-based Pulmonary Rehabilitation; Community-based Pulmonary Rehabilitation. Study link: https://clinicaltrials.gov/study/NCT07602673."
+    },
+    {
+      "id": "asthma-trial-NCT06862206",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06862206",
+      "text": "Clinical trial: A Multicentre, Single Arm, Non-interventional, Real-world Study to Assess Demographic Characteristics and Patient Reported Outcomes in Patients With Severe Eosinophilic Asthma Treated With Benralizumab in China. NCT ID: NCT06862206. Phase: Not reported. Status: Recruiting. Sponsor: AstraZeneca. Interventions: benralizumab. Study link: https://clinicaltrials.gov/study/NCT06862206."
+    },
+    {
+      "id": "asthma-trial-NCT06859450",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06859450",
+      "text": "Clinical trial: Local Antibiotic Delivery for Community Acquired Pneumonia. NCT ID: NCT06859450. Phase: Phase 2, Phase 3. Status: Active Not Recruiting. Sponsor: Copenhagen Respiratory Research. Interventions: Levofloxacin; Placebo. Study link: https://clinicaltrials.gov/study/NCT06859450."
+    },
+    {
+      "id": "asthma-trial-NCT00595491",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT00595491",
+      "text": "Clinical trial: Pilot Study to Identify the Mediators and Inflammatory Cell Surface Receptors Involved in Allergic Airway Inflammation. NCT ID: NCT00595491. Phase: Phase 1. Status: Recruiting. Sponsor: Benjamin Medoff. Collaborators: National Institutes of Health (NIH); U.S. Army Medical Research and Development Command. Interventions: Bronchoscopy, Segmental Allergen Challenge, and Broncheoalveolar Lavage. Study link: https://clinicaltrials.gov/study/NCT00595491."
+    },
+    {
+      "id": "asthma-trial-NCT06977581",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06977581",
+      "text": "Clinical trial: A Study to Learn About the Study Medicine Called PF-07275315 in People With Moderate-To-Severe Asthma. NCT ID: NCT06977581. Phase: Phase 2. Status: Recruiting. Sponsor: Pfizer. Interventions: PF-07275315; Placebo. Study link: https://clinicaltrials.gov/study/NCT06977581."
+    },
+    {
+      "id": "asthma-trial-NCT06433921",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06433921",
+      "text": "Clinical trial: A Study to Compare the Relative Potency of Salbutamol Administered Via Metered Dose Inhalers (MDI) Containing Propellants HFA-152a to HFA-134a in Mild Asthmatics Aged 18 to 65 Inclusive. NCT ID: NCT06433921. Phase: Phase 1. Status: Recruiting. Sponsor: GlaxoSmithKline. Interventions: Salbutamol HFA-152a; Salbutamol HFA-134a; Placebo. Study link: https://clinicaltrials.gov/study/NCT06433921."
+    },
+    {
+      "id": "asthma-trial-NCT07309614",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07309614",
+      "text": "Clinical trial: A Study Assessing the Effect of Dupilumab on Inducing Clinical Remission in Asthma. NCT ID: NCT07309614. Phase: Phase 3. Status: Recruiting. Sponsor: Université de Sherbrooke. Collaborators: Sanofi; University of Oxford; The University of Western Australia; Regeneron Pharmaceuticals; Fonds de la Recherche en Santé du Québec; Association Pulmonaire du Quebec. Interventions: Dupilumab Prefilled Syringe; Placebo Injection. Study link: https://clinicaltrials.gov/study/NCT07309614."
+    },
+    {
+      "id": "asthma-trial-NCT05351242",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05351242",
+      "text": "Clinical trial: THERMotherapy Against Persistent Bacterial LUNG Infections. NCT ID: NCT05351242. Phase: Not applicable. Status: Recruiting. Sponsor: Chronic Obstructive Pulmonary Disease Trial Network, Denmark. Interventions: Thermotherapy/sauna bath. Study link: https://clinicaltrials.gov/study/NCT05351242."
+    },
+    {
+      "id": "asthma-trial-NCT07556159",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07556159",
+      "text": "Clinical trial: A Study Evaluating Disease Characteristics and Outcomes in Participants With Asthma in Routine Clinical Practice. NCT ID: NCT07556159. Phase: Not reported. Status: Recruiting. Sponsor: Sanofi. Collaborators: Syneos Health. Interventions: Procedure: Investigational Procedures. Study link: https://clinicaltrials.gov/study/NCT07556159."
+    },
+    {
+      "id": "asthma-trial-NCT07645248",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07645248",
+      "text": "Clinical trial: A Study to Compare Safety of 4 Weeks Exposure to Propellants Hydrofluoroalkane 1,1-difluoroethane (HFA-152a) and HFA-1,1,1,2-tetrafluoroethane (134a). NCT ID: NCT07645248. Phase: Phase 3. Status: Recruiting. Sponsor: GlaxoSmithKline. Interventions: HFA-152a; HFA-134a. Study link: https://clinicaltrials.gov/study/NCT07645248."
+    },
+    {
+      "id": "asthma-trial-NCT07712393",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07712393",
+      "text": "Clinical trial: A Comparative Study to Investigate the Difference in Blood Levels of Two Different Formulations of GSK5784283. NCT ID: NCT07712393. Phase: Phase 1. Status: Active Not Recruiting. Sponsor: GlaxoSmithKline. Interventions: GSK5784283. Study link: https://clinicaltrials.gov/study/NCT07712393."
+    },
+    {
+      "id": "asthma-trial-NCT07869043",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07869043",
+      "text": "Clinical trial: A Study to Learn About the Study Medicine Called Tilrekimig ( PF-07275315) in People With Severe Asthma. NCT ID: NCT07869043. Phase: Phase 3. Status: Recruiting. Sponsor: Pfizer. Interventions: tilrekimig; Placebo. Study link: https://clinicaltrials.gov/study/NCT07869043."
+    },
+    {
+      "id": "asthma-trial-NCT07219173",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07219173",
+      "text": "Clinical trial: A Study to Evaluate Brenipatide Compared With Placebo in Adult Participants With Uncontrolled Moderate to Severe Asthma. NCT ID: NCT07219173. Phase: Phase 2. Status: Recruiting. Sponsor: Eli Lilly and Company. Interventions: Brenipatide; Placebo. Study link: https://clinicaltrials.gov/study/NCT07219173."
+    },
+    {
+      "id": "asthma-trial-NCT07664527",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07664527",
+      "text": "Clinical trial: Novel Method for Removal of Orally Deposited Inhaled Fluticasone Propionate. NCT ID: NCT07664527. Phase: Phase 4. Status: Not Yet Recruiting. Sponsor: University of Wisconsin, Madison. Interventions: Fluticasone Propionate; Water Mouthwash; EVOOW Mouthwash. Study link: https://clinicaltrials.gov/study/NCT07664527."
+    },
+    {
+      "id": "asthma-trial-NCT07363642",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07363642",
+      "text": "Clinical trial: Phase 3b Study in Patients With Severe Asthma Treated With Tezepelumab. NCT ID: NCT07363642. Phase: Phase 3. Status: Recruiting. Sponsor: AstraZeneca. Interventions: Tezepelumab. Study link: https://clinicaltrials.gov/study/NCT07363642."
+    },
+    {
+      "id": "asthma-trial-NCT06052267",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06052267",
+      "text": "Clinical trial: A Study to Test if a Fixed-Dose Combination of Fluticasone Propionate/Albuterol Sulfate is Effective in Preventing Asthma Exacerbations. NCT ID: NCT06052267. Phase: Phase 3. Status: Active Not Recruiting. Sponsor: Teva Branded Pharmaceutical Products R&D LLC. Interventions: TEV-56248; Albuterol sulfate. Study link: https://clinicaltrials.gov/study/NCT06052267."
+    },
+    {
+      "id": "asthma-trial-NCT07512622",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07512622",
+      "text": "Clinical trial: Asthma Ctrl SMART Trial. NCT ID: NCT07512622. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Children's Hospital Medical Center, Cincinnati. Collaborators: National Heart, Lung, and Blood Institute (NHLBI). Interventions: Asthma Ctrl; Asthma Ctrl+; Control. Study link: https://clinicaltrials.gov/study/NCT07512622."
+    },
+    {
+      "id": "asthma-trial-NCT07705737",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07705737",
+      "text": "Clinical trial: Rademikibart IV for Acute Asthma and COPD Exacerbation. NCT ID: NCT07705737. Phase: Phase 2. Status: Recruiting. Sponsor: Connect Biopharm LLC. Interventions: Rademikibart. Study link: https://clinicaltrials.gov/study/NCT07705737."
+    },
+    {
+      "id": "asthma-trial-NCT05757102",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05757102",
+      "text": "Clinical trial: A Study to Compare the Efficacy, Safety and Tolerability of FF/UMEC/VI With FF/VI in 12-17-year-olds With Asthma. NCT ID: NCT05757102. Phase: Phase 3. Status: Active Not Recruiting. Sponsor: GlaxoSmithKline. Interventions: FF/UMEC/VI; ELLIPTA; FF/VI. Study link: https://clinicaltrials.gov/study/NCT05757102."
+    },
+    {
+      "id": "asthma-trial-NCT06488118",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06488118",
+      "text": "Clinical trial: Lung Immune Challenge Study: Controlled Exposure to Inhaled Resiquimod (R848). NCT ID: NCT06488118. Phase: Not applicable. Status: Recruiting. Sponsor: Akhilesh Jha. Collaborators: University of Cambridge. Interventions: R848; Saline. Study link: https://clinicaltrials.gov/study/NCT06488118."
+    },
+    {
+      "id": "asthma-trial-NCT07582211",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07582211",
+      "text": "Clinical trial: Bilevel Positive Airway Pressure (BPAP) for Severe Asthma. NCT ID: NCT07582211. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Columbia University. Collaborators: Children's Hospital of Philadelphia; Nationwide Children's Hospital; University of Utah; National Heart, Lung, and Blood Institute (NHLBI). Interventions: Bilevel positive airway pressure ventilation. Study link: https://clinicaltrials.gov/study/NCT07582211."
+    },
+    {
+      "id": "asthma-trial-NCT07746687",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07746687",
+      "text": "Clinical trial: A Study of JNJ-95597528 in Participants With Inadequately Controlled Moderate to Severe Asthma. NCT ID: NCT07746687. Phase: Phase 2. Status: Recruiting. Sponsor: Janssen Research & Development, LLC. Interventions: JNJ-95597528; Placebo. Study link: https://clinicaltrials.gov/study/NCT07746687."
+    },
+    {
+      "id": "asthma-trial-NCT07660731",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07660731",
+      "text": "Clinical trial: A Study to Learn How Different Amounts of the Study Medicine Called PF-08103402 Are Tolerated and Act in the Body in Healthy Adults or Adults With Mild To-moderate Asthma. NCT ID: NCT07660731. Phase: Phase 1. Status: Recruiting. Sponsor: Pfizer. Interventions: PF-08103402; Placebo; Midazolam. Study link: https://clinicaltrials.gov/study/NCT07660731."
+    },
+    {
+      "id": "asthma-trial-NCT06021002",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06021002",
+      "text": "Clinical trial: Nasal Immune Challenge Study. NCT ID: NCT06021002. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Cambridge University Hospitals NHS Foundation Trust. Interventions: R848; Saline. Study link: https://clinicaltrials.gov/study/NCT06021002."
+    },
+    {
+      "id": "asthma-trial-NCT07738016",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07738016",
+      "text": "Clinical trial: Artificially Intelligent Robot Control. NCT ID: NCT07738016. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: University of Miami. Interventions: Artificially Intelligent Robot (AIR) Control Intervention; Standard Asthma Education. Study link: https://clinicaltrials.gov/study/NCT07738016."
+    },
+    {
+      "id": "asthma-trial-NCT07867184",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07867184",
+      "text": "Clinical trial: Firefighter's Longitudinal Airway and Respiratory Exposome/Multiome Study (FLARES). NCT ID: NCT07867184. Phase: Not reported. Status: Enrolling By Invitation. Sponsor: National Institute of Allergy and Infectious Diseases (NIAID). Study link: https://clinicaltrials.gov/study/NCT07867184."
+    },
+    {
+      "id": "asthma-trial-NCT03984253",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT03984253",
+      "text": "Clinical trial: Swiss Severe Asthma Register. NCT ID: NCT03984253. Phase: Not reported. Status: Recruiting. Sponsor: Prof. Dr. Jörg Leuppi. Collaborators: AstraZeneca; GlaxoSmithKline; Lungenliga Schweiz; Novartis. Study link: https://clinicaltrials.gov/study/NCT03984253."
+    },
+    {
+      "id": "asthma-trial-NCT07910409",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07910409",
+      "text": "Clinical trial: Construction and Validation of an Impulse Oscillometry (IOS)-Based Platform for Screening, Diagnosis, and Management of Chronic Airway Diseases. NCT ID: NCT07910409. Phase: Not reported. Status: Recruiting. Sponsor: Beijing Chao Yang Hospital. Collaborators: The First Affiliated Hospital of Shanxi Medical University; Tongji Hospital; General Hospital of Beijing Jingmei Group; Suqian Branch, Jiangsu Province Hospital. Study link: https://clinicaltrials.gov/study/NCT07910409."
+    },
+    {
+      "id": "asthma-trial-NCT07903805",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07903805",
+      "text": "Clinical trial: Asthma and Primary Arterial Hypertension: an Inflammatory Link?. NCT ID: NCT07903805. Phase: Not reported. Status: Recruiting. Sponsor: Istituti Clinici Scientifici Maugeri SpA. Interventions: measurement of inflammatory markers. Study link: https://clinicaltrials.gov/study/NCT07903805."
+    },
+    {
+      "id": "asthma-trial-NCT06637371",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06637371",
+      "text": "Clinical trial: A Phase 1, Randomized, Double-blind, Placebo-controlled Study Evaluating AMG 691 in Healthy Participants and Participants With Mild-to-Moderate Asthma. NCT ID: NCT06637371. Phase: Phase 1. Status: Active Not Recruiting. Sponsor: Amgen. Interventions: AMG 691; Placebo. Study link: https://clinicaltrials.gov/study/NCT06637371."
+    },
+    {
+      "id": "asthma-trial-NCT06932263",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06932263",
+      "text": "Clinical trial: Dose Range Finding Study to Assess Efficacy and Safety of Tozorakimab in Adults With Uncontrolled Asthma on Medium-to-High Dose Inhaled Corticosteroids. NCT ID: NCT06932263. Phase: Phase 2. Status: Recruiting. Sponsor: AstraZeneca. Interventions: Tozorakimab; Placebo. Study link: https://clinicaltrials.gov/study/NCT06932263."
+    },
+    {
+      "id": "asthma-trial-NCT07772921",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07772921",
+      "text": "Clinical trial: A Study to Learn About the Study Medicine Called Tilrekimig in People With Severe Asthma. NCT ID: NCT07772921. Phase: Phase 3. Status: Recruiting. Sponsor: Pfizer. Interventions: tilrekimig; Placebo. Study link: https://clinicaltrials.gov/study/NCT07772921."
+    },
+    {
+      "id": "asthma-trial-NCT07904052",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07904052",
+      "text": "Clinical trial: Specific Immunotherapy With Mannan-Conjugated Allergoids for HDM-Allergic Rhinitis/Rhinoconjunctivitis. MM09-SIT-063.. NCT ID: NCT07904052. Phase: Phase 3. Status: Recruiting. Sponsor: Inmunotek S.L.. Collaborators: Astrum CRO, S.L.; Eurofins. Interventions: EP-088_MM09; Placebo. Study link: https://clinicaltrials.gov/study/NCT07904052."
+    },
+    {
+      "id": "asthma-trial-NCT06746077",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06746077",
+      "text": "Clinical trial: Investigating Novel Strategies in Pediatric Immune Responses and Microbiome Environment: Comprehensive Lung Disease Investigation in Children.. NCT ID: NCT06746077. Phase: Not reported. Status: Enrolling By Invitation. Sponsor: Aarhus University Hospital. Interventions: No intervention. Study link: https://clinicaltrials.gov/study/NCT06746077."
+    },
+    {
+      "id": "asthma-trial-NCT06015256",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06015256",
+      "text": "Clinical trial: Characterization of Natural Killer Cells in Severe Asthma Patients in Comparison With Control Subjects. NCT ID: NCT06015256. Phase: Not applicable. Status: Recruiting. Sponsor: Institut National de la Santé Et de la Recherche Médicale, France. Interventions: blood sample. Study link: https://clinicaltrials.gov/study/NCT06015256."
+    },
+    {
+      "id": "asthma-trial-NCT07883967",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07883967",
+      "text": "Clinical trial: Effects of Tele-rehabilitation-Guided Qigong on Children and Adolescents With Asthma. NCT ID: NCT07883967. Phase: Not applicable. Status: Recruiting. Sponsor: Antalya Health Sciences University. Interventions: Tele-rehabilitation-guided Qigong. Study link: https://clinicaltrials.gov/study/NCT07883967."
+    },
+    {
+      "id": "asthma-trial-NCT07900568",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07900568",
+      "text": "Clinical trial: Study of HXN-1013 in Healthy Participants and Participants With Mild-to-Moderate Asthma. NCT ID: NCT07900568. Phase: Phase 1. Status: Not Yet Recruiting. Sponsor: Helixon Biotechnology (Suzhou) Co., Ltd. Interventions: HXN-1013; Placebo. Study link: https://clinicaltrials.gov/study/NCT07900568."
+    },
+    {
+      "id": "asthma-trial-NCT07899996",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07899996",
+      "text": "Clinical trial: A Study of HB0056 in Adult Participants With Moderate to Severe Asthma. NCT ID: NCT07899996. Phase: Phase 1, Phase 2. Status: Recruiting. Sponsor: Shanghai Huaota Biopharmaceutical Co., Ltd.. Interventions: Placebo; HB0056. Study link: https://clinicaltrials.gov/study/NCT07899996."
+    },
+    {
+      "id": "asthma-trial-NCT07129616",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07129616",
+      "text": "Clinical trial: Remote Monitoring of Asthma in Children and Young People. NCT ID: NCT07129616. Phase: Not reported. Status: Recruiting. Sponsor: University of Edinburgh. Study link: https://clinicaltrials.gov/study/NCT07129616."
+    },
+    {
+      "id": "asthma-trial-NCT06330974",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06330974",
+      "text": "Clinical trial: Allergy, Asthma, and Atopic Eczema in Finland. NCT ID: NCT06330974. Phase: Not reported. Status: Enrolling By Invitation. Sponsor: Tampere University. Collaborators: Professor Lauri Lehtimäki; Professor Mika Mäkelä; Professor Sanna Toppila-Salmi; Professor Ilkka Junttila. Interventions: No intervention; No Intervention: Observational Cohort. Study link: https://clinicaltrials.gov/study/NCT06330974."
+    },
+    {
+      "id": "asthma-trial-NCT06507943",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06507943",
+      "text": "Clinical trial: Community Health Equity Accelerator (CHEA) Pediatric Asthma Intervention. NCT ID: NCT06507943. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Yale University. Collaborators: Hispanic Federation, Inc.. Interventions: Promotora Home Visit. Study link: https://clinicaltrials.gov/study/NCT06507943."
+    },
+    {
+      "id": "asthma-trial-NCT07896291",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07896291",
+      "text": "Clinical trial: Prevelance of Bronchial Asthma and Allergic Rhinitis Among Children With Nephrotic Syndrom at Sohag University Hospital. NCT ID: NCT07896291. Phase: Not reported. Status: Not Yet Recruiting. Sponsor: Sohag University. Study link: https://clinicaltrials.gov/study/NCT07896291."
+    },
+    {
+      "id": "asthma-trial-NCT01143480",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT01143480",
+      "text": "Clinical trial: Study of the Effect of Innate on the Inflammatory Response to Endotoxin. NCT ID: NCT01143480. Phase: Not reported. Status: Recruiting. Sponsor: National Institute of Environmental Health Sciences (NIEHS). Study link: https://clinicaltrials.gov/study/NCT01143480."
+    },
+    {
+      "id": "asthma-trial-NCT07536178",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07536178",
+      "text": "Clinical trial: Lungs on Fire: Wildfire Smoke, Incident Diseases, Susceptible Populations, and Community Values in Canada. NCT ID: NCT07536178. Phase: Not applicable. Status: Recruiting. Sponsor: University of British Columbia. Interventions: Woodsmoke (Lodgepole Pine) exposure; Filtered air exposure. Study link: https://clinicaltrials.gov/study/NCT07536178."
+    },
+    {
+      "id": "asthma-trial-NCT06820593",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06820593",
+      "text": "Clinical trial: Technology-Enhanced Asthma Care in Children at Clinic and Home Study. NCT ID: NCT06820593. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Ann & Robert H Lurie Children's Hospital of Chicago. Collaborators: National Heart, Lung, and Blood Institute (NHLBI). Interventions: Digital Asthma Intervention; Comparison Group. Study link: https://clinicaltrials.gov/study/NCT06820593."
+    },
+    {
+      "id": "asthma-trial-NCT07895576",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07895576",
+      "text": "Clinical trial: R34 Asthma Depression. NCT ID: NCT07895576. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Icahn School of Medicine at Mount Sinai. Collaborators: Yeshiva University. Interventions: SAMBA; Cognitive Behavioral Therapy-Asthma Depression (CBT-AD); Original SAMBA. Study link: https://clinicaltrials.gov/study/NCT07895576."
+    },
+    {
+      "id": "asthma-trial-NCT06748053",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06748053",
+      "text": "Clinical trial: A Dose Finding Study With an Anti-TSLP Antibody (GSK5784283) in Adults Aged 18 to 75 Years of Age With Uncontrolled Asthma. NCT ID: NCT06748053. Phase: Phase 2. Status: Active Not Recruiting. Sponsor: GlaxoSmithKline. Interventions: GSK5784283; Placebo. Study link: https://clinicaltrials.gov/study/NCT06748053."
+    },
+    {
+      "id": "asthma-trial-NCT07426458",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07426458",
+      "text": "Clinical trial: Ventilation and Perfusion in Asthmatics. NCT ID: NCT07426458. Phase: Phase 4. Status: Recruiting. Sponsor: University of Miami. Collaborators: Australian Lung Health Initiative Pty Ltd. Interventions: Albuterol Sulfate; Albuterol-Budesonide. Study link: https://clinicaltrials.gov/study/NCT07426458."
+    },
+    {
+      "id": "asthma-trial-NCT05341726",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT05341726",
+      "text": "Clinical trial: BREATHE: An Efficacy-implementation Trial Among Black Adults With Uncontrolled Asthma. NCT ID: NCT05341726. Phase: Not applicable. Status: Recruiting. Sponsor: Columbia University. Collaborators: National Institute of Nursing Research (NINR). Interventions: BREATHE Intervention; Control Intervention. Study link: https://clinicaltrials.gov/study/NCT05341726."
+    },
+    {
+      "id": "asthma-trial-NCT02763917",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT02763917",
+      "text": "Clinical trial: AIRWEIGHS: Investigating Obesity as a Susceptibility Factor for Air Pollution in Childhood Asthma. NCT ID: NCT02763917. Phase: Not applicable. Status: Active Not Recruiting. Sponsor: Johns Hopkins University. Collaborators: National Institute of Environmental Health Sciences (NIEHS). Interventions: Active Air Purifier; Placebo Air Purifier. Study link: https://clinicaltrials.gov/study/NCT02763917."
+    },
+    {
+      "id": "asthma-trial-NCT07870980",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07870980",
+      "text": "Clinical trial: Changing Lifestyle to Improve Quality of Life in Spanish Adolescents With Asthma. NCT ID: NCT07870980. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Universitat Internacional de Catalunya. Interventions: Lifestyle-change intervention. Study link: https://clinicaltrials.gov/study/NCT07870980."
+    },
+    {
+      "id": "asthma-trial-NCT07120503",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07120503",
+      "text": "Clinical trial: Study to Evaluate the Safety, Pharmacology and Efficacy of WIN378 in Adults With Moderate or Severe Asthma. NCT ID: NCT07120503. Phase: Phase 2. Status: Recruiting. Sponsor: Windward Bio. Interventions: WIN378; Placebo. Study link: https://clinicaltrials.gov/study/NCT07120503."
+    },
+    {
+      "id": "asthma-trial-NCT07886710",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07886710",
+      "text": "Clinical trial: A Randomized, Double-Blind, Placebo-Controlled Phase Ib Study of Multiple Ascending Doses of EB070 Injection in Adults With Moderate-to-Severe Asthma. NCT ID: NCT07886710. Phase: Phase 1. Status: Not Yet Recruiting. Sponsor: Biotech Pharmaceutical Co., Ltd.. Interventions: EB070. Study link: https://clinicaltrials.gov/study/NCT07886710."
+    },
+    {
+      "id": "asthma-trial-NCT06524856",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06524856",
+      "text": "Clinical trial: The Increase of Lung Capacity Using the Lung Master (Pulmonary Exerciser). NCT ID: NCT06524856. Phase: Not applicable. Status: Recruiting. Sponsor: University of Nebraska. Interventions: Lung Master (Pulmonary Exerciser). Study link: https://clinicaltrials.gov/study/NCT06524856."
+    },
+    {
+      "id": "asthma-trial-NCT07112456",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07112456",
+      "text": "Clinical trial: Nebulized Ketamine Plus Standard Care vs. Standard Care Alone in Moderate to Severe Asthma Exacerbations. NCT ID: NCT07112456. Phase: Phase 2. Status: Recruiting. Sponsor: Oman Medical Speciality Board. Interventions: Nebulized ketamine (0.5 mg/kg in normal saline to a total volume of 5ml) plus standard asthma excaerbationcare; Placebo nebulization (5 mL normal saline) plus standard asthma care. Study link: https://clinicaltrials.gov/study/NCT07112456."
+    },
+    {
+      "id": "asthma-trial-NCT07880145",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07880145",
+      "text": "Clinical trial: Effects of Respiratory Muscle Strength Training in Children With Asthma. NCT ID: NCT07880145. Phase: Not applicable. Status: Not Yet Recruiting. Sponsor: Hasan Kalyoncu University. Interventions: Exercise. Study link: https://clinicaltrials.gov/study/NCT07880145."
+    },
+    {
+      "id": "asthma-trial-NCT06902766",
+      "condition_id": "asthma",
+      "source_name": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT06902766",
+      "text": "Clinical trial: Towards Digital Management of Paediatric Asthma. NCT ID: NCT06902766. Phase: Not applicable. Status: Recruiting. Sponsor: Assistance Publique - Hôpitaux de Paris. Collaborators: URC-CIC Paris Descartes Necker Cochin. Interventions: Active telemonitoring using real-time data from digital inhalers.; Standard. Study link: https://clinicaltrials.gov/study/NCT06902766."
+    },
+    {
+      "id": "asthma-pmid-42894311-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42894311/",
+      "text": "Comorbid asthma - occurrence and associations with patient-related outcomes in COPD: a cohort study. PURPOSE: Clinical features of COPD and asthma overlap, complicating differential diagnosis. This study investigated the prevalence of comorbid asthma in COPD patients and its association with patient-related outcomes. MATERIALS AND METHODS: Patients with a doctor's diagnosis of COPD were randomly selected in two cohorts 2005 (n = 1060) and 2014 (n = 1671), from primary and secondary care in Sweden. Data were collected from medical records and patient questionnaires at baseline and at follow-up (2012 and 2022, respectively). Questionnaires included data on exacerbations. Symptoms were assessed using the clinical COPD questionnaire (CCQ)."
+    },
+    {
+      "id": "asthma-pmid-42894311-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42894311/",
+      "text": "Comorbid asthma - occurrence and associations with patient-related outcomes in COPD: a cohort study. Questionnaires included data on exacerbations. Symptoms were assessed using the clinical COPD questionnaire (CCQ). Comorbid asthma was identified through medical records. Ten-year mortality data were obtained from national registers. Logistic and linear regression assessed associations with patient-reported outcomes; Cox regression was applied for mortality analyses. RESULTS: Comorbid asthma was found in 22% of the 2005 cohort and 9% of the 2014 cohort (p < .001). In both cohorts, it was associated with an increased risk of exacerbations: OR (95% CI) 1.58 (1.07-2.32), p = .02, and 2.20 (1.38-3.52), p < .001, respectively."
+    },
+    {
+      "id": "asthma-pmid-42894311-3",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42894311/",
+      "text": "Comorbid asthma - occurrence and associations with patient-related outcomes in COPD: a cohort study. increased risk of exacerbations: OR (95% CI) 1.58 (1.07-2.32), p = .02, and 2.20 (1.38-3.52), p < .001, respectively. No associations were found between comorbid asthma and worsening of health status (CCQ). Mortality risk did not differ in the 2005 cohort, HR (95% CI) 0.92 (0.71-1.18), but was lower in the 2014 cohort, HR (95% CI) 0.67 (0.49-0.93), p = .02. CONCLUSION: Comorbid asthma in COPD has changed from 22 to 9%, potentially due to improved diagnostics. Comorbid asthma remains clinically relevant due to its association with an increased exacerbation risk."
+    },
+    {
+      "id": "asthma-pmid-42892489-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42892489/",
+      "text": "Exploring the pharmacological mechanism of Sanfu Patch for prevention and treatment of asthma from chronopharmacodynamics and pharmacokinetics based on \"winter disease cured in summer\". ETHNOPHARMACOLOGICAL RELEVANCE: The Sanfu Patch (SFP) is applied to back acupoints on the hottest days in summer to treat asthma, a winter-prone disease, and has been used in China for thousands of years. However, chrono- and temperature-related properties of treating asthma and the transdermal properties of active components are not fully clarified. AIM OF STUDY: This study aimed to investigate the anti-asthmatic chronopharmacodynamics and transdermal pharmacokinetics of SFP based on the theory of \"winter disease cured in summer\". MATERIALS AND METHODS: Chrono- and temperature-dependent Balb/c mouse models of OVA-induced asthma were established."
+    },
+    {
+      "id": "asthma-pmid-42892489-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42892489/",
+      "text": "Exploring the pharmacological mechanism of Sanfu Patch for prevention and treatment of asthma from chronopharmacodynamics and pharmacokinetics based on \"winter disease cured in summer\". MATERIALS AND METHODS: Chrono- and temperature-dependent Balb/c mouse models of OVA-induced asthma were established. The lung histopathology, pulmonary function testing, ELISA assays and Western blotting experiments were used for evaluating anti-asthma effect of transdermal SFP. The anti-inflammatory effects of six bioactive compounds were evaluated in vitro using BEAS-2B cells. The CETSA and SPR technique were employed to investigate whether the active components of SFP bind to anti-asthmatic proteins. The transdermal properties of active ingredients were analyzed by in vivo microdialysis assays."
+    },
+    {
+      "id": "asthma-pmid-42892489-3",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42892489/",
+      "text": "Exploring the pharmacological mechanism of Sanfu Patch for prevention and treatment of asthma from chronopharmacodynamics and pharmacokinetics based on \"winter disease cured in summer\". The transdermal properties of active ingredients were analyzed by in vivo microdialysis assays. RESULTS: Applying SFP on the back in summer can prevent the occurrence of asthma over a relatively long period of time. The preventive effect against asthma diminished progressively at one, three and five months after administration of SFP. Compared with SFP administration in low-temperature (17°C) environment, SFP transdermal administration in high-temperature (33°C) environment was demonstrated a more significant therapeutic effect in alleviating asthma symptoms, airway hyperresponsiveness, and airway inflammation."
+    },
+    {
+      "id": "asthma-pmid-42892489-4",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42892489/",
+      "text": "Exploring the pharmacological mechanism of Sanfu Patch for prevention and treatment of asthma from chronopharmacodynamics and pharmacokinetics based on \"winter disease cured in summer\". significant therapeutic effect in alleviating asthma symptoms, airway hyperresponsiveness, and airway inflammation. High-temperature administration of SFP further reduced the expression of CD40, CD40L, and CLN5 in asthmatic mice. Tetrahydropalmatine, allocryptopine, protopine, tetrahydrocoptisine, dehydrocorydaline, and sinapine thiocyanate were screened as key components contributing to the therapeutic effects of SFP against asthma, exhibiting in vitro anti-inflammatory effects. CETSA results showed that the thermal stability of CD40, CD40L and CLN5 was significantly enhanced after the treatment of the above six components."
+    },
+    {
+      "id": "asthma-pmid-42892489-5",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42892489/",
+      "text": "Exploring the pharmacological mechanism of Sanfu Patch for prevention and treatment of asthma from chronopharmacodynamics and pharmacokinetics based on \"winter disease cured in summer\". thermal stability of CD40, CD40L and CLN5 was significantly enhanced after the treatment of the above six components. The direct SPR binding confirmed that protopine and sinapine thiocyanate could bind to the three target proteins. The AUC(0-t) and Cmax values of all six components were higher at 33°C than those at 17°C after transdermal administration of SFP. CONCLUSIONS: This study has demonstrated the temperature advantages of the SFP application method for relieving asthma from chronopharmacodynamics and pharmacokinetic perspectives, providing a foundation for subsequent research and therapeutic applications."
+    },
+    {
+      "id": "asthma-pmid-42833365-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42833365/",
+      "text": "Shema Zhichuan Liquid alleviates airway inflammation in Allergic Asthma by regulating autophagy pathways through DNA methylation. ETHNOPHARMACOLOGICAL RELEVANCE: Shema Zhichuan Liquid (SMZCL) is a traditional Chinese medicine formulation used clinically as an adjunct therapy for asthma. Its therapeutic mechanism in allergic asthma (AA), however, remains poorly understood. AIMS OF THE STUDY: This study aimed to evaluate the efficacy of SMZCL in treating AA and to elucidate its molecular mechanisms, with particular focus on the regulation of autophagy via DNMT1-mediated promoter demethylation of autophagy-related genes. MATERIALS AND METHODS: The AA mouse model was established by ovalbumin (OVA)/Al(OH)3 sensitization and challenge."
+    },
+    {
+      "id": "asthma-pmid-42833365-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42833365/",
+      "text": "Shema Zhichuan Liquid alleviates airway inflammation in Allergic Asthma by regulating autophagy pathways through DNA methylation. MATERIALS AND METHODS: The AA mouse model was established by ovalbumin (OVA)/Al(OH)3 sensitization and challenge. Lung histopathological, inflammatory cytokine levels, Th2 cell proportion, methylation status of autophagy-related genes, and the expression of autophagy-associated markers were assessed. Additionally, an in vitro inflammatory model was generated using lipopolysaccharide (LPS)-stimulated RAW264.7 macrophages to further investigate the mechanism by which SMZCL modulates autophagy through modulating DNA methylation. RESULTS: In vivo, SMZCL attenuated airway inflammation in AA mice and reduced the proportion of Th2 cells in BALF."
+    },
+    {
+      "id": "asthma-pmid-42833365-3",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42833365/",
+      "text": "Shema Zhichuan Liquid alleviates airway inflammation in Allergic Asthma by regulating autophagy pathways through DNA methylation. RESULTS: In vivo, SMZCL attenuated airway inflammation in AA mice and reduced the proportion of Th2 cells in BALF. It significantly decreased serum levels of IgE, Th2 cytokines IL-4 and IL-13, and pro-inflammatory cytokines TNF-α and IL-6, while increasing the Th1 cytokine IFN-γ. Mechanistically, SMZCL inhibited DNMT1 mRNA and protein expression, decreased the relative methylation levels of the ATG5 and Beclin-1 promoters, upregulated mRNA and protein levels of ATG5, Beclin-1, and LC3, and downregulated p62 mRNA expression."
+    },
+    {
+      "id": "asthma-pmid-42833365-4",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42833365/",
+      "text": "Shema Zhichuan Liquid alleviates airway inflammation in Allergic Asthma by regulating autophagy pathways through DNA methylation. promoters, upregulated mRNA and protein levels of ATG5, Beclin-1, and LC3, and downregulated p62 mRNA expression. In vitro, SMZCL treatment reduced pro-inflammatory cytokines (TNF-α, IL-6, and IL-1β), suppressed DNMT1 expression, induced demethylation of ATG5 and Beclin-1 promoters, and upregulated their expression. SMZCL restored autophagic flux, as evidenced by elevated absolute levels of LC3-II, enhanced p62 degradation, an upward trend in the LC3-II/I ratio, a concurrent increase in both autophagosome and autolysosome puncta in mCherry-GFP-LC3 dual-fluorescence analysis, and further LC3-II accumulation in the presence of chloroquine."
+    },
+    {
+      "id": "asthma-pmid-42833365-5",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42833365/",
+      "text": "Shema Zhichuan Liquid alleviates airway inflammation in Allergic Asthma by regulating autophagy pathways through DNA methylation. puncta in mCherry-GFP-LC3 dual-fluorescence analysis, and further LC3-II accumulation in the presence of chloroquine. Moreover, SMZCL inhibited the expression of mTOR and phosphorylated mTOR (p-mTOR). CONCLUSION: SMZCL inhibited DNMT1, leading to demethylation of the ATG5 and Beclin-1 promoters, and concurrently suppressed the mTOR signaling pathway. Through these mechanisms, SMZCL restored autophagic flux, exerted anti-inflammatory effects, and thereby provided protection against AA."
+    },
+    {
+      "id": "asthma-pmid-42777985-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42777985/",
+      "text": "Acute and 28-day repeated-dose oral toxicity of a standardized Aleurites moluccanus leaf extract in rodent and non-rodent models. ETHNOPHARMACOLOGICAL RELEVANCE: Aleurites moluccanus is used in folk medicine to treat pain, fever, asthma, hepatitis, gastric ulcer and inflammatory processes in general. The A. moluccanus leaves extract has been extensively studied confirming its properties and pointing it out as a potential phytomedicine to treat pain and inflammation. However, appropriate toxicity tests are necessary to better establish the A. moluccanus safety profile to allow the inclusion of the standardized extract in subsequent clinical trials. AIM OF THE STUDY: This study evaluated the acute and 28-day repeated-dose oral toxicity of a standardized A."
+    },
+    {
+      "id": "asthma-pmid-42777985-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42777985/",
+      "text": "Acute and 28-day repeated-dose oral toxicity of a standardized Aleurites moluccanus leaf extract in rodent and non-rodent models. AIM OF THE STUDY: This study evaluated the acute and 28-day repeated-dose oral toxicity of a standardized A. moluccanus leaf extract in rats and minipigs, following OECD guidelines. MATERIALS AND METHODS: A. moluccanus was orally administered to rats and minipigs to evaluate the effects in the acute and 28-days sub-acute toxicity assays. Toxicological parameters were checked, including general observations, organ/body weights, food consumption, hematological and serum biochemical values and histopathological findings. RESULTS: Acute toxicity studies showed low toxicity in both species, with an LD50 greater than 5000 mg/kg in rats and greater than 1000 mg/kg in minipigs."
+    },
+    {
+      "id": "asthma-pmid-42777985-3",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42777985/",
+      "text": "Acute and 28-day repeated-dose oral toxicity of a standardized Aleurites moluccanus leaf extract in rodent and non-rodent models. low toxicity in both species, with an LD50 greater than 5000 mg/kg in rats and greater than 1000 mg/kg in minipigs. In the 28-day repeated-dose study, male rats showed mild, non-dose-dependent reductions in body weight gain at 250 and 1000 mg/kg/day, without corroborating clinical, biochemical, or histopathological alterations; a NOAEL of 2000 mg/kg/day, the highest dose tested, was established for rats. In minipigs, the highest dose (350 mg/kg/day) induced mild gastric mucosal inflammation, identifying the stomach as the primary target organ and establishing a NOAEL of 200 mg/kg/day."
+    },
+    {
+      "id": "asthma-pmid-42777985-4",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42777985/",
+      "text": "Acute and 28-day repeated-dose oral toxicity of a standardized Aleurites moluccanus leaf extract in rodent and non-rodent models. mucosal inflammation, identifying the stomach as the primary target organ and establishing a NOAEL of 200 mg/kg/day. The lower minipig NOAEL was used to estimate a Maximum Recommended Starting Dose of approximately 18.9 mg/kg/day for humans. CONCLUSIONS: These findings indicate a favorable preclinical safety profile for the standardized extract in both rodent and non-rodent species, providing a foundation to support its continued development toward clinical trials."
+    },
+    {
+      "id": "asthma-pmid-42772612-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42772612/",
+      "text": "Loquat leaves alleviate OVA-induced allergic airway inflammation by suppressing TNF-α-associated M1 macrophage polarization and MMP12 expression. ETHNOPHARMACOLOGICAL RELEVANCE: Loquat leaves (PPY) have long been used in traditional medicine for cough, phlegm, and wheezing-related respiratory disorders. However, the anti-asthmatic mechanisms of PPY, particularly those associated with airway inflammation and macrophage-derived inflammatory injury, remain incompletely understood. AIM OF THE STUDY: This study aimed to evaluate the protective effect of PPY against OVA-induced allergic asthma and to clarify whether its action involves TNF-α-mediated M1 macrophage polarization and MMP12 expression."
+    },
+    {
+      "id": "asthma-pmid-42772612-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42772612/",
+      "text": "Loquat leaves alleviate OVA-induced allergic airway inflammation by suppressing TNF-α-associated M1 macrophage polarization and MMP12 expression. asthma and to clarify whether its action involves TNF-α-mediated M1 macrophage polarization and MMP12 expression. MATERIALS AND METHODS: An OVA-induced allergic asthmatic mouse model was used to assess AHR, pathological injury, inflammatory cell infiltration, cytokine/chemokine profiles, and airway inflammatory mediators. Network pharmacology, transcriptomic analysis, GEO dataset mining, WGCNA, molecular docking, and molecular dynamics simulation were integrated to identify candidate pathways, targets, and active components, with a focus on TNF-α/TNF-R1, CD86, MMP12, and quercetin."
+    },
+    {
+      "id": "asthma-pmid-42772612-3",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42772612/",
+      "text": "Loquat leaves alleviate OVA-induced allergic airway inflammation by suppressing TNF-α-associated M1 macrophage polarization and MMP12 expression. identify candidate pathways, targets, and active components, with a focus on TNF-α/TNF-R1, CD86, MMP12, and quercetin. A Diprovocim rescue assay was used to examine whether enhanced TNF-α-associated inflammatory activation could attenuate the effects of PPY. PPY-containing serum was used for in vitro pharmacodynamic validation, and quercetin was evaluated as a candidate active component in LPS-induced BEAS-2B and RAW264.7 cells. RESULTS: PPY reduced AHR, cough and asthma-like responses, lung inflammatory infiltration, collagen deposition, BALF inflammatory cells, and OVA-induced cytokine/chemokine imbalance."
+    },
+    {
+      "id": "asthma-pmid-42772612-4",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42772612/",
+      "text": "Loquat leaves alleviate OVA-induced allergic airway inflammation by suppressing TNF-α-associated M1 macrophage polarization and MMP12 expression. inflammatory infiltration, collagen deposition, BALF inflammatory cells, and OVA-induced cytokine/chemokine imbalance. Transcriptomic and network analyses highlighted TNF, IL-17, NF-κB, and MMP12-related inflammatory pathways. Molecular docking and molecular dynamics simulations predicted potential interactions among quercetin, TNF-α/TNF-R1, MMP12, and CD86. PPY suppressed TNF-α/TNF-R1/TRAF2 signaling, NF-κB activation, NLRP3 inflammasome activation, M1 macrophage polarization, and MMP12 expression. Diprovocim attenuated the PPY-mediated suppression of allergic airway inflammation, M1 macrophage polarization, and MMP12 expression in asthmatic mice."
+    },
+    {
+      "id": "asthma-pmid-42772612-5",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42772612/",
+      "text": "Loquat leaves alleviate OVA-induced allergic airway inflammation by suppressing TNF-α-associated M1 macrophage polarization and MMP12 expression. suppression of allergic airway inflammation, M1 macrophage polarization, and MMP12 expression in asthmatic mice. PPY-containing serum and quercetin each attenuated LPS-induced anti-inflammatory effects in BEAS-2B and RAW264.7 cells. CONCLUSIONS: PPY attenuates OVA-induced allergic airway inflammation in association with inhibition of TNF-α-mediated M1 macrophage polarization and MMP12 expression, with quercetin serving as a candidate PPY-related active component. These findings provide experimental support for the traditional use of PPY in asthma-related inflammatory respiratory disorders."
+    },
+    {
+      "id": "asthma-pmid-42762877-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42762877/",
+      "text": "Efficacy and safety of Suhuang Zhike Capsule for post-infectious cough: A multicenter, single-arm, open-label phase IV study. ETHNOPHARMACOLOGICAL RELEVANCE: Suhuang Zhike Capsule is an approved traditional Chinese medicine by the State Drug Administration for the treatment of Cough Variant Asthma (CVA) and post-infectious cough (PIC). It has been used clinically for 18 years since receiving market approval. AIM OF THE STUDY: This Phase IV clinical trial aimed to evaluate the safety and efficacy of Suhuang Zhike Capsule in treating PIC, characterize its efficacy profile in routine clinical practice, and assess adverse reactions to support its rational clinical use."
+    },
+    {
+      "id": "asthma-pmid-42762877-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42762877/",
+      "text": "Efficacy and safety of Suhuang Zhike Capsule for post-infectious cough: A multicenter, single-arm, open-label phase IV study. its efficacy profile in routine clinical practice, and assess adverse reactions to support its rational clinical use. MATERIALS AND METHODS: This multicenter, prospective, open-label, single-arm study enrolled adult participants meeting the diagnostic criteria for PIC and the Traditional Chinese Medicine (TCM) syndrome criteria of \"wind evil invading the lung and lung qi failing to disperse syndrome\". Participants received Suhuang Zhike Capsule orally (three capsules three times daily) for 14 days. The primary outcome was the change in full-day cough symptom score (CSS) between baseline and Day 14. Cough severity was assessed twice daily."
+    },
+    {
+      "id": "asthma-pmid-42762877-3",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42762877/",
+      "text": "Efficacy and safety of Suhuang Zhike Capsule for post-infectious cough: A multicenter, single-arm, open-label phase IV study. Cough severity was assessed twice daily. Secondary outcomes included the cough resolution rate, cough relief rate, as well as the time to cough relief and cough resolution. TCM symptoms related to PIC were also evaluated using a symptom score. A subgroup analysis compared the efficacy of Suhuang Zhike Capsule used as a monotherapy with its combination with other respiratory medications. A generalized linear regression analysis was performed, adjusting for age, sex, and other covariates to account for potential baseline confounders. In addition, a sensitivity analysis was performed using the per-protocol set (PPS)."
+    },
+    {
+      "id": "asthma-pmid-42762877-4",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42762877/",
+      "text": "Efficacy and safety of Suhuang Zhike Capsule for post-infectious cough: A multicenter, single-arm, open-label phase IV study. In addition, a sensitivity analysis was performed using the per-protocol set (PPS). Safety was assessed by evaluating adverse events (AEs) and laboratory test results. RESULTS: A total of 542 patients were enrolled and administered the study medication, with an overall dropout rate of 3.14%. Suhuang Zhike Capsule significantly reduced the full-day CSS and improved other clinical symptoms in patients with PIC. Both the cough resolution rate and the cough relief rate increased with treatment duration. The change in full-day CSS between baseline and Day 14 was -2.72 ± 1.46 points, and the cough resolution rate was 86.48%."
+    },
+    {
+      "id": "asthma-pmid-42762877-5",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42762877/",
+      "text": "Efficacy and safety of Suhuang Zhike Capsule for post-infectious cough: A multicenter, single-arm, open-label phase IV study. change in full-day CSS between baseline and Day 14 was -2.72 ± 1.46 points, and the cough resolution rate was 86.48%. Generalized linear regression analysis indicated that concomitant use of other respiratory medications was not significantly associated with a greater reduction in full-day CSS (β = 0.308, 95% CI: -0.107 to 0.722, P = 0.146). However, a history of allergies (β = 0.612, 95% CI: 0.083 to 1.142, P = 0.024) and increasing age (β = 0.016 per year, P = 0.005) were significantly associated with a reduced therapeutic response. Sensitivity analyses confirmed the robustness of the primary efficacy outcome."
+    },
+    {
+      "id": "asthma-pmid-42762877-6",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42762877/",
+      "text": "Efficacy and safety of Suhuang Zhike Capsule for post-infectious cough: A multicenter, single-arm, open-label phase IV study. Sensitivity analyses confirmed the robustness of the primary efficacy outcome. The median time to cough relief was 3 days, and the median time to cough resolution was 8 days. Suhuang Zhike Capsule also reduced TCM symptom scores for cough frequency, cough severity, throat itching, sputum production, and shortness of breath among patients with PIC. Regarding safety, no serious adverse events (SAEs) occurred. A total of 18 patients experienced 20 treatment-related AEs, corresponding to an incidence rate of 3.32%. CONCLUSIONS: In this real-world phase IV study, Suhuang Zhike Capsule demonstrated potential efficacy and a favorable safety profile in the treatment of PIC."
+    },
+    {
+      "id": "asthma-pmid-42762877-7",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42762877/",
+      "text": "Efficacy and safety of Suhuang Zhike Capsule for post-infectious cough: A multicenter, single-arm, open-label phase IV study. IV study, Suhuang Zhike Capsule demonstrated potential efficacy and a favorable safety profile in the treatment of PIC. These results provide supportive evidence for its clinical use, while acknowledging the limitations inherent to the single-arm study design."
+    },
+    {
+      "id": "asthma-pmid-42759678-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42759678/",
+      "text": "Clinical evidence mapping for 54 types of oral Chinese patent medicines used in adult bronchial asthma: predominantly as add-on therapy and partially as monotherapy. ETHNOPHARMACOLOGICAL RELEVANCE: Oral Chinese patent medicines (CPMs), derived from traditional Chinese medicine (TCM), are commonly utilized in China for adult bronchial asthma (BA); however, the scope and quality of clinical evidence supporting their efficacy remain unclear. AIM OF THE REVIEW: To construct an evidence map of clinical research on 54 oral CPMs for adult BA, focusing on their use as add-on therapy with partial monotherapy evidence also captured, to identify research gaps, and inform future study design and evidence-based practice. MATERIALS AND METHODS: Nine databases were explored from inception until January 5, 2026."
+    },
+    {
+      "id": "asthma-pmid-42759678-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42759678/",
+      "text": "Clinical evidence mapping for 54 types of oral Chinese patent medicines used in adult bronchial asthma: predominantly as add-on therapy and partially as monotherapy. MATERIALS AND METHODS: Nine databases were explored from inception until January 5, 2026. The study included interventional studies, observational studies, systematic reviews, and guidelines/expert consensus on adult BA. The trial interventions consisted of oral CPMs used alone or combined with conventional Western medications. Two researchers conducted independent screenings of the literature and gathered data. We used tools such as RoB 2.0, ROBINS-I, NOS, AMSTAR-2, and AGREE II to assess the methodological quality of the included studies."
+    },
+    {
+      "id": "asthma-pmid-42759678-3",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42759678/",
+      "text": "Clinical evidence mapping for 54 types of oral Chinese patent medicines used in adult bronchial asthma: predominantly as add-on therapy and partially as monotherapy. such as RoB 2.0, ROBINS-I, NOS, AMSTAR-2, and AGREE II to assess the methodological quality of the included studies. RESULTS: A total of 192 publications (159 RCTs, 15 non-RCTs, 8 observational studies, 7 systematic reviews, 3 guidelines/consensuses) covering 54 CPMs were included. Studies on Bailing Capsules/Tablets accounted for the largest proportion, at 10.4%. 56.0% of the studies did not provide information on the staging of BA in adults, and 78.0% did not provide information on TCM syndrome patterns. In 96.7% of the studies, the intervention involved the combined use of CPMs and Western medicines."
+    },
+    {
+      "id": "asthma-pmid-42759678-4",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42759678/",
+      "text": "Clinical evidence mapping for 54 types of oral Chinese patent medicines used in adult bronchial asthma: predominantly as add-on therapy and partially as monotherapy. In 96.7% of the studies, the intervention involved the combined use of CPMs and Western medicines. Clinical efficacy and pulmonary function tests were the most commonly used outcome measures, while TCM syndrome scores, quality of life, and pharmacoeconomic indicators were used less frequently. The overall methodological quality of all study types was rated as poor. CONCLUSION: This evidence map includes a total of 192 studies and 54 types of oral CPMs, demonstrating extensive research activity in this field."
+    },
+    {
+      "id": "asthma-pmid-42759678-5",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42759678/",
+      "text": "Clinical evidence mapping for 54 types of oral Chinese patent medicines used in adult bronchial asthma: predominantly as add-on therapy and partially as monotherapy. map includes a total of 192 studies and 54 types of oral CPMs, demonstrating extensive research activity in this field. However, the quality of the evidence is severely limited by factors such as poor methodological design, insufficient reporting of BA staging and TCM syndrome patterns, overreliance on add-on therapy designs, and a lack of TCM-specific outcome measures. Given the generally low methodological quality, the reported therapeutic benefits should be interpreted as suggestive evidence of add-on therapy rather than definitive conclusions regarding the efficacy of TCM syndrome-differentiation-based treatment."
+    },
+    {
+      "id": "asthma-pmid-42759678-6",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42759678/",
+      "text": "Clinical evidence mapping for 54 types of oral Chinese patent medicines used in adult bronchial asthma: predominantly as add-on therapy and partially as monotherapy. therapy rather than definitive conclusions regarding the efficacy of TCM syndrome-differentiation-based treatment. Future studies should employ rigorously designed placebo-controlled add-on trials, incorporate TCM syndrome-type and staging criteria, establish a core set of outcome measures that includes TCM-specific indicators, and strengthen pharmacoeconomic evaluations."
+    },
+    {
+      "id": "asthma-pmid-42665169-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42665169/",
+      "text": "African medicinal plants: an appraisal of inhalation techniques and therapeutic potential. ETHNOPHARMACOLOGICAL RELEVANCE: Traditional medicine remains a vital part of African healthcare, with a substantial proportion of the population relying on plant-based remedies for their primary health needs. Among the various preparation methods are therapies administered via the respiratory system, such as smoking, fumigation, steam inhalation, and snuffing. AIM: This review aims to provide a comprehensive synthesis of African medicinal plants administered via the respiratory route, examining their ethnobotanical significance, preparation methods, pharmacological and clinical relevance, and socio-economic value."
+    },
+    {
+      "id": "asthma-pmid-42665169-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42665169/",
+      "text": "African medicinal plants: an appraisal of inhalation techniques and therapeutic potential. ethnobotanical significance, preparation methods, pharmacological and clinical relevance, and socio-economic value. METHOD: This review compiled and analysed 46 peer-reviewed articles and provided a descriptive overview of the plant species, families, preparation methods and uses. RESULTS: A total of 209 plant species from 72 families were identified. The prominent families were Asteraceae, Lamiaceae, Euphorbiaceae, Fabaceae, and Solanaceae, which accounted for 34.5% of the recorded plants. Southern and Eastern Africa exhibit the highest regional diversity, reflecting ecological richness and strong ethnomedical traditions."
+    },
+    {
+      "id": "asthma-pmid-42665169-3",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42665169/",
+      "text": "African medicinal plants: an appraisal of inhalation techniques and therapeutic potential. Africa exhibit the highest regional diversity, reflecting ecological richness and strong ethnomedical traditions. These plant families address conditions ranging from respiratory infections such as asthma and tuberculosis to neurological and spiritual disorders, including the \"evil eye\". Leaves (34.3%) and roots (30.4%) are the most utilised parts, primarily administered via smoking (31.4%) and steam inhalation (30.2%). Validating these plant species offers significant socio-economic potential for reducing rural poverty, supporting sustainable livelihoods, and possibly enabling further local drug development."
+    },
+    {
+      "id": "asthma-pmid-42665169-4",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42665169/",
+      "text": "African medicinal plants: an appraisal of inhalation techniques and therapeutic potential. for reducing rural poverty, supporting sustainable livelihoods, and possibly enabling further local drug development. CONCLUSION: Despite widespread use, scientific understanding of phytochemical changes during combustion and of clinical validation remains limited. Further research into pharmacological efficacy, toxicity, and herb-drug interactions is essential to bridge traditional ethnomedicine and modern pharmacotherapeutics."
+    },
+    {
+      "id": "asthma-pmid-43045425-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045425/",
+      "text": "Bridging Asthma Care: Digital Health Tools and the Emergency Department Visit. Digital health technologies offer promising opportunities to enhance acute asthma care, though further validation is needed to establish impact on clinical outcomes. Electronic medication monitoring (EMM) serves as an illustrative example of both the potential benefits and challenges of digital health tools in the acute care setting. EMM has demonstrated benefits in improving adherence and reducing exacerbations, yet evidence supporting its use during acute exacerbations remains limited."
+    },
+    {
+      "id": "asthma-pmid-43045425-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045425/",
+      "text": "Bridging Asthma Care: Digital Health Tools and the Emergency Department Visit. adherence and reducing exacerbations, yet evidence supporting its use during acute exacerbations remains limited. Successful implementation of EMM and other digital tools in the acute care context will require electronic health record integration, cross-setting collaboration, and clear approaches to data privacy and clinical responsibility."
+    },
+    {
+      "id": "asthma-pmid-43045424-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045424/",
+      "text": "The Air We Breathe: Utilizing Local Environmental Monitoring to Direct Allergy Care. Air pollution and aeroallergen exposures are important, and often modifiable, factors in the severity and management of allergic diseases, yet exposure assessment remains limited in routine allergy care. This article summarizes current environmental monitoring approaches relevant to clinical practice, including regulatory air pollution networks, pollen surveillance, community sensor networks, modeling tools, and indoor and personal monitors."
+    },
+    {
+      "id": "asthma-pmid-43045424-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045424/",
+      "text": "The Air We Breathe: Utilizing Local Environmental Monitoring to Direct Allergy Care. pollution networks, pollen surveillance, community sensor networks, modeling tools, and indoor and personal monitors. We evaluate evidence supporting their clinical relevance, highlight practical strategies for integrating exposure data into patient-centered care, and discuss emerging innovations and implementation challenges, including data validation, workflow integration, and electronic health record interoperability."
+    },
+    {
+      "id": "asthma-pmid-43045423-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045423/",
+      "text": "Every Breath You Take and Every Move You Make: Physiologic Monitoring to Tailor Treatment for Allergic Diseases. This article explores the role of wearable physiologic monitoring devices in managing allergic diseases, including asthma, atopic dermatitis, and anaphylaxis. It highlights how these technologies are capable of measuring parameters and can help personalize and enhance disease surveillance beyond traditional clinic-based approaches. The integration of physiologic data and artificial intelligence supports earlier identification, predictive interventions, and tailored treatment strategies. Despite promising advances, barriers including data validity, equitable access, and user engagement must be addressed for successful implementation."
+    },
+    {
+      "id": "asthma-pmid-43045423-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045423/",
+      "text": "Every Breath You Take and Every Move You Make: Physiologic Monitoring to Tailor Treatment for Allergic Diseases. including data validity, equitable access, and user engagement must be addressed for successful implementation. Ultimately, wearable monitoring may shift allergy care toward more dynamic, individualized, and patient-centered approaches."
+    },
+    {
+      "id": "asthma-pmid-43045422",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045422/",
+      "text": "Using Electronic Medication Monitoring to Address the Why Behind Poor Adherence. Consistent use of inhaled corticosteroids and appropriate use of short-acting beta2-agonists are foundational to effective asthma care, yet assessing, achieving, and sustaining adherence remains challenging. Electronic medication monitoring (EMM) uses sensor-enabled devices to capture objective, time-stamped data on the actuation of controller and rescue inhalers. EMM data help clinicians to identify clinically meaningful adherence patterns, such as noninitiation, missed doses, and overreliance on rescue medication. This article describes why adherence varies and provides a framework for interpreting EMM patterns and translating them into targeted, barrier-matched adherence support."
+    },
+    {
+      "id": "asthma-pmid-43045421-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045421/",
+      "text": "Moving Your Practice Forward with Technology Implementation: Is It Worth the Leap?. The article explores the benefits and challenges of implementing digital health technologies in clinical practice. These tools offer opportunities for improved patient outcomes, adherence, and data-driven decision-making. However, barriers include workflow integration, technological limitations, data management, reimbursement complexities, and equity concerns. The objective of this review is to summarize the opportunities, challenges, and implementation considerations for integrating digital health technologies into clinical practice."
+    },
+    {
+      "id": "asthma-pmid-43045421-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045421/",
+      "text": "Moving Your Practice Forward with Technology Implementation: Is It Worth the Leap?. challenges, and implementation considerations for integrating digital health technologies into clinical practice. Digital health technologies have significant potential to enhance clinical care when implemented within well-designed workflows supported by appropriate staffing, privacy infrastructure, and equitable access strategies."
+    },
+    {
+      "id": "asthma-pmid-43045420-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045420/",
+      "text": "Employing Implementation Science to Move from Paper to Practice. Implementation Science studies evidence practice gap separating innovation from clinical practice and designs interventions to close this gap. Process, determinant and evaluation frameworks provide a systematic way to ensure Implementation Science efforts are planned in a comprehensive and standardized format maintaining core components of the intervention but allowing for context-specific adaptations necessary for sustainment. Logic models provide a blueprint to allow for the operationalization of these models and frameworks. Otherwise, I would add one more sentence."
+    },
+    {
+      "id": "asthma-pmid-43045420-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045420/",
+      "text": "Employing Implementation Science to Move from Paper to Practice. Otherwise, I would add one more sentence. Evaluation is a critical piece of all implementation science work from pre- to post-implementation and can be accomplished through evaluation frameworks. Future efforts are needed to close evidence to practice gaps that exist in the field of allergy-immunology, including crucial technological advancements proven to improve health outcomes."
+    },
+    {
+      "id": "asthma-pmid-43045417",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045417/",
+      "text": "Is the Answer in Our Pocket? Prescribing Mobile Health Applications (Apps) for Allergy Care. Mobile health (mHealth) applications enhance management of chronic diseases in the field of allergy by providing tools for symptom monitoring, medication reminders, and patient education. These platforms can improve patients' quality of life and disease awareness and also provide valuable data to clinicians to enhance quality of care. However, mHealth applications struggle with low user retention, inconsistent clinical oversight, and data security concerns. Utilizing standardized rating scales such as the Mobile App Rating Scale helps identify high-quality, evidence-based tools. Future considerations include improving integration of mHealth data into electronic health records."
+    },
+    {
+      "id": "asthma-pmid-43045416",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/43045416/",
+      "text": "Leveraging the Electronic Health Record to Improve Quality. The electronic health record (EHR) has evolved as a tool to improve multiple aspects of allergic/immunologic disease diagnoses and care. Clinical decision support, best practice alerts, and patient portals are employed in asthma, atopic dermatitis, drug allergy, food allergy, and chronic urticaria. Surveillance of the EHR improves diagnosis of inborn errors of immunity and rare drug hypersensitivity reactions, such as severe cutaneous adverse reactions and drug induced liver injury. Electronic consults are another efficient application of the EHR. Data surrounding these uses of the EHR are discussed with a focus on approaches that are clinically relevant and executable."
+    },
+    {
+      "id": "asthma-pmid-42753515-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42753515/",
+      "text": "Computational identification of candidate ST2-binding bioactive compounds as putative modulators for severe type 2-high asthma. This hypothesis-generating in silico screening study aimed to prioritize candidate ST2-binding bioactive compounds for severe Type 2-high asthma using an integrated workflow comprising molecular docking, protein-ligand interaction analysis, predicted ADMET profiling, molecular dynamics simulations, MM-GBSA binding-energy estimation, and density functional theory calculations. Sixteen compounds, including fifteen phytochemicals and one reference drug Zafirlukast, were screened against the ST2 receptor. Docking results indicated that several flavonoids, particularly Fisetin, Myricetin, Hesperetin, and Luteolin, showed more favorable predicted docking scores than the reference compound."
+    },
+    {
+      "id": "asthma-pmid-42753515-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42753515/",
+      "text": "Computational identification of candidate ST2-binding bioactive compounds as putative modulators for severe type 2-high asthma. Myricetin, Hesperetin, and Luteolin, showed more favorable predicted docking scores than the reference compound. Interaction analysis identified hydrogen-bonding and hydrophobic contacts with residues located within the selected ST2 binding pocket. Predicted ADMET profiling identified generally acceptable physicochemical and oral drug-likeness characteristics among the top-ranked compounds, although these predictions did not evaluate pulmonary delivery or inhalation pharmacokinetics."
+    },
+    {
+      "id": "asthma-pmid-42753515-3",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42753515/",
+      "text": "Computational identification of candidate ST2-binding bioactive compounds as putative modulators for severe type 2-high asthma. top-ranked compounds, although these predictions did not evaluate pulmonary delivery or inhalation pharmacokinetics. Among all candidates, Hesperetin was prioritized as a putative ST2-binding candidate based on its favorable predicted docking score, generally acceptable SwissADME profile, and recurring docking-derived interaction pattern within the selected ST2 pocket. Across three independently initialized molecular dynamics trajectories, the Hesperetin-ST2 complex showed dynamic persistence after an initial adjustment phase, whereas the Zafirlukast complex generally equilibrated earlier and exhibited lower RMSD values."
+    },
+    {
+      "id": "asthma-pmid-42753515-4",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42753515/",
+      "text": "Computational identification of candidate ST2-binding bioactive compounds as putative modulators for severe type 2-high asthma. adjustment phase, whereas the Zafirlukast complex generally equilibrated earlier and exhibited lower RMSD values. Density functional theory analysis indicated a moderate HOMO-LUMO energy gap, providing supportive information on molecular reactivity and electronic stability. Hence, the findings prioritize Hesperetin for further experimental investigation as a candidate ST2-binding compound; however, receptor binding, functional IL-33/ST2 pathway inhibition, efficacy, and safety require validation through in vitro and in vivo studies."
+    },
+    {
+      "id": "asthma-pmid-42575331-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42575331/",
+      "text": "Leaf senescence reshapes phytochemistry and bioactivity in Carica papaya: Implications for the traditional use of aged leaf extracts. ETHNOPHARMACOLOGICAL RELEVANCE: Leaf preparations of Carica papaya L. (Caricaceae) are widely used in traditional medicine across Africa, Asia, the Caribbean, and Australia for the management of inflammatory conditions, dengue fever, asthma, infections, wound healing, and, in some traditions, cancer. Ethnopharmacological reports further indicate that aged or senescent leaves are sometimes preferred over fresh material for extract preparation, yet the scientific basis for this practice remains largely unexplored. AIM OF THE STUDY: This study aims to investigate how leaf senescence influences the phytochemical composition and biological activities of C."
+    },
+    {
+      "id": "asthma-pmid-42575331-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42575331/",
+      "text": "Leaf senescence reshapes phytochemistry and bioactivity in Carica papaya: Implications for the traditional use of aged leaf extracts. study aims to investigate how leaf senescence influences the phytochemical composition and biological activities of C. papaya leaf extracts (PLE) and to evaluate whether these changes support the traditional preference for aged leaf material. MATERIAL AND METHODS: Methanolic extracts and traditionally inspired aqueous leaf juice and decoction preparations were characterized by HPLC-DAD-MS and UHPLC-VWD-HRMS/MS. Feature-based molecular networking was applied to visualize compositional differences. Antioxidative activity was evaluated using ferric reducing antioxidant power and 2,2-diphenyl-1-picrylhydrazyl assays and by measuring intracellular reactive oxygen species levels."
+    },
+    {
+      "id": "asthma-pmid-42575331-3",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42575331/",
+      "text": "Leaf senescence reshapes phytochemistry and bioactivity in Carica papaya: Implications for the traditional use of aged leaf extracts. power and 2,2-diphenyl-1-picrylhydrazyl assays and by measuring intracellular reactive oxygen species levels. Wound-healing potential was assessed in scratch assays using rat epithelial and alveolar cells. Immunomodulatory effects were investigated using a THP-1-Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) reporter system and pro-inflammatory cytokine quantification. Lipid mediator profiling in polarized macrophages was performed using a UHPLC-QTRAP setup. Antiviral activity was assessed in dengue virus serotype 2-infected Huh7 cells and chikungunya virus-infected Vero cells using plaque assay. Antifungal activity was evaluated against five pathogenic fungi."
+    },
+    {
+      "id": "asthma-pmid-42575331-4",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42575331/",
+      "text": "Leaf senescence reshapes phytochemistry and bioactivity in Carica papaya: Implications for the traditional use of aged leaf extracts. Antifungal activity was evaluated against five pathogenic fungi. RESULTS: Senescent extracts showed enrichment of flavonoid-associated compounds, while extracts derived from senescent and withered leaves additionally contained phyllobilins (PBs). Senescent PLE exhibited superior antioxidative effects. Withered extracts demonstrated the most pronounced wound-healing activity. Green PLE significantly reduced NF-κB activation and modestly decreased interleukin 6, interleukin 8, and tumor necrosis factor α release, whereas senescent and withered extracts more strongly reduced the formation of specific 5-lipoxygenase-derived lipid mediators by macrophages."
+    },
+    {
+      "id": "asthma-pmid-42575331-5",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42575331/",
+      "text": "Leaf senescence reshapes phytochemistry and bioactivity in Carica papaya: Implications for the traditional use of aged leaf extracts. extracts more strongly reduced the formation of specific 5-lipoxygenase-derived lipid mediators by macrophages. Only minimal antiviral effects and no antifungal effects were observed under the tested conditions. CONCLUSION: Leaf senescence substantially reshapes the phytochemical composition and bioactivity of PLE. Whereas fresh and aged leaves differentially modulate inflammatory pathways, aged leaves display superior antioxidant and wound-healing properties."
+    },
+    {
+      "id": "asthma-pmid-42575331-6",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42575331/",
+      "text": "Leaf senescence reshapes phytochemistry and bioactivity in Carica papaya: Implications for the traditional use of aged leaf extracts. differentially modulate inflammatory pathways, aged leaves display superior antioxidant and wound-healing properties. These findings provide experimental support for the ethnopharmacological preference for aged leaf material and highlights the importance of plant developmental stage in ethnopharmacological research and standardization of herbal preparations."
+    },
+    {
+      "id": "asthma-pmid-42800465-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42800465/",
+      "text": "A CotB1p-mediated one-step immobilization strategy for constructing GPCR affinity chromatography to screen multi-target natural product ligands. G protein-coupled receptors (GPCRs) are critical targets for drug discovery, yet the screening of GPCR-binding ligands from complex natural products remains challenging due to the lack of mild and universal immobilization strategies for these fragile membrane proteins. Here, we reported CotB1p-mediated one-step immobilization strategy for the construction of GPCR affinity chromatography columns to screen natural product ligands. Three asthma-related GPCRs β2-adrenergic receptor (β2AR), muscarinic M3 receptor (M3R), and cysteinyl leukotriene receptor 1 (CysLT1R) were genetically fused with the silica-binding peptide CotB1p."
+    },
+    {
+      "id": "asthma-pmid-42800465-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42800465/",
+      "text": "A CotB1p-mediated one-step immobilization strategy for constructing GPCR affinity chromatography to screen multi-target natural product ligands. (M3R), and cysteinyl leukotriene receptor 1 (CysLT1R) were genetically fused with the silica-binding peptide CotB1p. These fusion proteins were then directly immobilized onto macroporous silica via simple affinity adsorption, a process that avoids harsh chemical crosslinking and preserves receptor binding activity. The prepared affinity columns showed good specificity, stability, and repeatability, with retention time RSDs of 1.56%, 0.98%, and 1.68% for the β2AR, M3R, and CysLT1R columns, respectively. The three affinity columns were applied to screen ligands from a representative natural product prescription, followed by LC-MS/MS identification."
+    },
+    {
+      "id": "asthma-pmid-42800465-3",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42800465/",
+      "text": "A CotB1p-mediated one-step immobilization strategy for constructing GPCR affinity chromatography to screen multi-target natural product ligands. were applied to screen ligands from a representative natural product prescription, followed by LC-MS/MS identification. Amygdalin, ephedrine/pseudoephedrine, scopolamine, atropine, forsythoside A, and phillyrin were identified as receptor-binding constituents selectively retained by different GPCR columns. Nonlinear chromatography enabled the evaluation of ligand-receptor interactions, with association constants ranging from 4.33 × 104-5.08 × 105 M⁻¹ .Molecular docking and molecular dynamics simulations further supported the possible binding modes and relative conformational stability of the ligand-receptor complexes."
+    },
+    {
+      "id": "asthma-pmid-42800465-4",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42800465/",
+      "text": "A CotB1p-mediated one-step immobilization strategy for constructing GPCR affinity chromatography to screen multi-target natural product ligands. further supported the possible binding modes and relative conformational stability of the ligand-receptor complexes. In addition, cellular assays in human airway smooth muscle cells indicated that the screened compounds could reduce TNF-α-induced inflammatory cytokine production. Overall, this CotB1p-mediated one-step immobilization strategy provides a mild and efficient approach for preparing functional GPCR affinity stationary phases, offering a useful analytical platform for target-resolved screening of natural product ligands against multiple GPCRs."
+    },
+    {
+      "id": "asthma-pmid-42508544-1",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42508544/",
+      "text": "Anti-asthmatic effects of Chai-Po-Tang in experimental models: chemical profiling, exploratory network pharmacology, and assessment of NLRP3/Caspase-1/GSDMD-related pyroptosis signaling. ETHNOPHARMACOLOGICAL RELEVANCE: Chai-Po-Tang (CPT) is a traditional Chinese medicine formula derived from Xiao-Chai-Hu-Tang and Ban-Xia-Hou-Po-Tang, two classical prescriptions historically used for respiratory symptom patterns involving cough, dyspnea, chest oppression, and phlegm obstruction. However, whether the anti-asthmatic effects of CPT are associated with modulation of inflammasome- and pyroptosis-related signaling remains unclear."
+    },
+    {
+      "id": "asthma-pmid-42508544-2",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42508544/",
+      "text": "Anti-asthmatic effects of Chai-Po-Tang in experimental models: chemical profiling, exploratory network pharmacology, and assessment of NLRP3/Caspase-1/GSDMD-related pyroptosis signaling. effects of CPT are associated with modulation of inflammasome- and pyroptosis-related signaling remains unclear. AIM OF THE STUDY: The present study aimed to evaluate the anti-asthmatic effects of CPT and investigate whether these effects were associated with modulation of pyroptosis-related NLRP3/Caspase-1/GSDMD signaling, while using network pharmacology as a hypothesis-generating approach to identify candidate regulatory targets. MATERIALS AND METHODS: The chemical constituents of CPT were identified using ultra-high-performance liquid chromatography coupled with high-resolution mass spectrometry (UHPLC-MS)."
+    },
+    {
+      "id": "asthma-pmid-42508544-3",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42508544/",
+      "text": "Anti-asthmatic effects of Chai-Po-Tang in experimental models: chemical profiling, exploratory network pharmacology, and assessment of NLRP3/Caspase-1/GSDMD-related pyroptosis signaling. using ultra-high-performance liquid chromatography coupled with high-resolution mass spectrometry (UHPLC-MS). Network pharmacology and molecular docking analyses were employed to predict its potential therapeutic targets and signaling pathways. Subsequently, LPS/ATP-induced BEAS-2B cell inflammasome activation model and an ovalbumin (OVA)-induced asthmatic mouse model were established."
+    },
+    {
+      "id": "asthma-pmid-42508544-4",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42508544/",
+      "text": "Anti-asthmatic effects of Chai-Po-Tang in experimental models: chemical profiling, exploratory network pharmacology, and assessment of NLRP3/Caspase-1/GSDMD-related pyroptosis signaling. BEAS-2B cell inflammasome activation model and an ovalbumin (OVA)-induced asthmatic mouse model were established. The effects of CPT were evaluated using cell viability assays, ROS measurement, transmission electron microscopy, inflammatory mediator quantification, pulmonary function testing, histopathology, immunofluorescence, and Western blotting, while pyroptosis-related proteins were assessed as mechanistic correlates rather than as evidence of direct causal dependence."
+    },
+    {
+      "id": "asthma-pmid-42508544-5",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42508544/",
+      "text": "Anti-asthmatic effects of Chai-Po-Tang in experimental models: chemical profiling, exploratory network pharmacology, and assessment of NLRP3/Caspase-1/GSDMD-related pyroptosis signaling. proteins were assessed as mechanistic correlates rather than as evidence of direct causal dependence. RESULTS: A total of 1155 chemical features/components were tentatively annotated in CPT, of which 102 candidate compounds were prioritized for network pharmacology using predefined in silico and literature-based criteria. Among the 102 prioritized candidates, 37 were supported by experimentally acquired MS/MS fragmentation spectra, whereas 65 were tentatively annotated on the basis of accurate mass, isotope distribution, database matching, and literature evidence without complete experimental MS/MS confirmation."
+    },
+    {
+      "id": "asthma-pmid-42508544-6",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42508544/",
+      "text": "Anti-asthmatic effects of Chai-Po-Tang in experimental models: chemical profiling, exploratory network pharmacology, and assessment of NLRP3/Caspase-1/GSDMD-related pyroptosis signaling. isotope distribution, database matching, and literature evidence without complete experimental MS/MS confirmation. Network pharmacology nominated IL6, FN1, and KIT as candidate targets, whereas molecular docking provided in silico support for potential ligand-target interactions only. In vitro experiments demonstrated that CPT-containing serum significantly enhanced the viability of BEAS-2B cells, reduced reactive oxygen species (ROS) levels, ameliorated ultrastructural damage, and inhibited the co-localization of NLRP3 with cleaved Caspase-1, as well as the co-localization of cleaved Caspase-1 with GSDMD-N."
+    },
+    {
+      "id": "asthma-pmid-42508544-7",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42508544/",
+      "text": "Anti-asthmatic effects of Chai-Po-Tang in experimental models: chemical profiling, exploratory network pharmacology, and assessment of NLRP3/Caspase-1/GSDMD-related pyroptosis signaling. the co-localization of NLRP3 with cleaved Caspase-1, as well as the co-localization of cleaved Caspase-1 with GSDMD-N. In vivo studies showed that CPT markedly improved clinical manifestations and pulmonary function in asthmatic mice, alleviated lung inflammation, airway remodeling, and mucus secretion. Additionally, CPT decreased the levels of IL-6, IL-1β, and IL-18, and significantly downregulated the expression of NLRP3, cleaved Caspase-1, and GSDMD-N in lung tissues. Western blot analysis further showed lower NLRP3 and ASC expression, together with lower GSDMD-N/GSDMD and cleaved Caspase-1/pro-Caspase-1 ratios, in CPT-treated lung tissues."
+    },
+    {
+      "id": "asthma-pmid-42508544-8",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42508544/",
+      "text": "Anti-asthmatic effects of Chai-Po-Tang in experimental models: chemical profiling, exploratory network pharmacology, and assessment of NLRP3/Caspase-1/GSDMD-related pyroptosis signaling. expression, together with lower GSDMD-N/GSDMD and cleaved Caspase-1/pro-Caspase-1 ratios, in CPT-treated lung tissues. These findings indicate that CPT treatment was associated with reduced NLRP3/Caspase-1/GSDMD pathway-related signaling in the experimental models. CONCLUSION: In OVA-induced allergic asthma and LPS/ATP-stimulated BEAS-2B cells, CPT improved inflammatory and functional outcomes in parallel with reduced NLRP3/Caspase-1/GSDMD pathway-related signaling."
+    },
+    {
+      "id": "asthma-pmid-42508544-9",
+      "condition_id": "asthma",
+      "source_name": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42508544/",
+      "text": "Anti-asthmatic effects of Chai-Po-Tang in experimental models: chemical profiling, exploratory network pharmacology, and assessment of NLRP3/Caspase-1/GSDMD-related pyroptosis signaling. improved inflammatory and functional outcomes in parallel with reduced NLRP3/Caspase-1/GSDMD pathway-related signaling. These data support further investigation of inflammasome-associated pyroptosis as one plausible contributor to CPT activity, while direct causal dependence and the contribution of other predicted targets require dedicated assessment."
+    }
+  ],
+  "sources": [
+    {
+      "source_name": "MedlinePlus",
+      "ok": true,
+      "chunks": 17,
+      "error": null
+    },
+    {
+      "source_name": "ClinicalTrials.gov",
+      "ok": true,
+      "chunks": 100,
+      "error": null
+    },
+    {
+      "source_name": "PubMed",
+      "ok": true,
+      "chunks": 75,
+      "error": null
+    }
+  ]
+}
