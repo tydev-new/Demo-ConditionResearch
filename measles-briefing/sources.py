@@ -20,11 +20,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 CORPORA_DIR = ROOT / "data" / "corpora"
-TMP_DIR = Path("/tmp/condition-briefing")
+# Bump when fetch logic changes so warm instances do not serve stale on-demand corpora.
+CACHE_VERSION = "v2"
+TMP_DIR = Path(f"/tmp/condition-briefing-{CACHE_VERSION}")
 
 MESH_LOOKUP = "https://id.nlm.nih.gov/mesh/lookup/descriptor"
 TRIALS_URL = "https://clinicaltrials.gov/api/v2/studies"
 PUBMED_SEARCH = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+_MESH_TERM = re.compile(r'"([^"]+)"\[MeSH Terms\]', re.I)
 PUBMED_FETCH = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
 MEDLINE_URL = "https://wsearch.nlm.nih.gov/ws/query"
 
@@ -79,9 +82,9 @@ def condition_id_for(mesh_id: str) -> str:
     return MESH_FILES.get(mesh_id, mesh_id.lower())
 
 
-def _mesh_hits(label: str) -> list[dict]:
+def _mesh_hits(label: str, match: str = "contains") -> list[dict]:
     url = MESH_LOOKUP + "?" + urllib.parse.urlencode(
-        {"label": label, "match": "contains", "limit": 5}
+        {"label": label, "match": match, "limit": 5}
     )
     payload = fetch_json(url, timeout=REQUEST_TIMEOUT)
     if not isinstance(payload, list):
@@ -99,7 +102,49 @@ def _mesh_hits(label: str) -> list[dict]:
     return matches
 
 
+def _entrez_mesh_labels(text: str) -> list[str]:
+    """MeSH descriptor labels NCBI maps a free-text term to, e.g. flu -> Influenza, Human."""
+    url = PUBMED_SEARCH + "?" + urllib.parse.urlencode(
+        {"db": "mesh", "term": text, "retmode": "json", "retmax": "0",
+         "tool": "condition-briefing", "email": "demo@example.com"}
+    )
+    try:
+        payload = fetch_json(url, timeout=REQUEST_TIMEOUT)
+    except Exception:
+        return []
+    if not isinstance(payload, dict):
+        return []
+    labels: list[str] = []
+    for row in (payload.get("esearchresult") or {}).get("translationset") or []:
+        for label in _MESH_TERM.findall(str(row.get("to") or "")):
+            if label not in labels:
+                labels.append(label)
+    return labels
+
+
 def normalize_condition(query: str) -> dict:
+    """Resolve free text to MeSH and echo what it was mapped to, for display:
+    query (what the user typed), mesh_name, mesh_id, synonyms, mapped_by."""
+    text = " ".join(query.split())
+    result = _normalize_condition(text)
+    result["query"] = text
+    chosen = result.get("chosen")
+    if chosen:
+        chosen["query"] = text
+        chosen["mesh_name"] = chosen["name"]
+        chosen.setdefault("synonyms", [])
+    return result
+
+
+def _plain_name(name: str) -> str:
+    """Drop MeSH qualifiers: 'Influenza, Human' -> 'Influenza'; keep 'Diabetes Mellitus, Type 2'."""
+    head, _, tail = name.partition(", ")
+    if tail.lower() in {"human", "humans", "animal", "acute", "chronic"} or not tail:
+        return head
+    return name
+
+
+def _normalize_condition(query: str) -> dict:
     """Resolve a condition name with the NLM MeSH descriptor lookup.
 
     One hit, or a case-insensitive exact label among several, is chosen.
@@ -108,6 +153,21 @@ def normalize_condition(query: str) -> dict:
     text = " ".join(query.split())
     if not text:
         return {"status": "none", "chosen": None, "matches": []}
+    # Lay terms ("flu", "heart attack") are MeSH entry terms, not descriptor labels, so a
+    # label "contains" search misses them (and "flu" hits a drug class instead). NCBI's
+    # automatic term mapping translates them to the preferred descriptor first.
+    for label in _entrez_mesh_labels(text):
+        mapped = _mesh_hits(label, match="exact")
+        if len(mapped) == 1:
+            hit = mapped[0]
+            chosen = {
+                "id": condition_id_for(hit["mesh_id"]),
+                "name": hit["name"],
+                "synonyms": [text] if text.lower() != hit["name"].lower() else [],
+                "mesh_id": hit["mesh_id"],
+                "last_fetched": None,
+            }
+            return {"status": "chosen", "chosen": chosen, "matches": mapped}
     matches = _mesh_hits(text)
     if not matches:
         for alias in QUERY_ALIASES.get(text.lower(), []):
@@ -296,20 +356,15 @@ def _fetch_pubmed(condition_id: str, name: str) -> list[dict]:
     return chunks
 
 
-def _fetch_medline(condition_id: str, name: str) -> tuple[list[dict], list[str]]:
-    from engine import chunk_text
-
-    url = MEDLINE_URL + "?" + urllib.parse.urlencode(
-        {"db": "healthTopics", "term": name, "retmax": "1"}
-    )
+def _medline_documents(term: str) -> list:
+    url = MEDLINE_URL + "?" + urllib.parse.urlencode({"db": "healthTopics", "term": term, "retmax": "5"})
     root = ET.fromstring(fetch_bytes(url, timeout=REQUEST_TIMEOUT, accept="application/xml"))
-    document = root.find(".//document")
-    if document is None:
-        return [], []
+    return root.findall(".//document")
+
+
+def _parse_medline(document) -> tuple[str, str, str, list[str]]:
     page = document.attrib.get("url") or ""
-    summary = ""
-    title = name
-    synonyms = []
+    title, summary, alt = "", "", []
     for node in document.findall("content"):
         kind = node.attrib.get("name")
         text = _clean_html("".join(node.itertext()))
@@ -319,22 +374,66 @@ def _fetch_medline(condition_id: str, name: str) -> tuple[list[dict], list[str]]
             title = text
         elif kind == "FullSummary":
             summary = text
-        elif kind == "altTitle" and text not in synonyms:
-            synonyms.append(text)
-    if not summary:
-        return [], synonyms[:8]
-    chunks = []
-    for index, piece in enumerate(chunk_text(f"{title}. {summary}"), start=1):
-        chunks.append(
-            {
-                "id": f"{condition_id}-mplus-{index:03d}",
-                "condition_id": condition_id,
-                "source_name": "MedlinePlus",
-                "source_url": page or "https://medlineplus.gov/",
-                "text": piece,
-            }
-        )
-    return chunks, synonyms[:8]
+        elif kind == "altTitle" and text not in alt:
+            alt.append(text)
+    return page, title, summary, alt
+
+
+def related_title_ok(title: str, names: list[str]) -> bool:
+    """A related MedlinePlus page counts if its title shares more than half of the words
+    of the condition name or of any synonym (e.g. 'Asthma in Children' for asthma)."""
+    from engine import tokenize
+
+    words = set(tokenize(title))
+    for name in names:
+        name_words = set(tokenize(name))
+        if name_words and len(name_words & words) * 2 > len(name_words):
+            return True
+    return False
+
+
+def _fetch_medline(condition_id: str, name: str, synonyms: list[str] | None = None) -> tuple[list[dict], list[str]]:
+    """MedlinePlus health topics. Searched with the user's own words and the plain MeSH
+    name (qualifiers like ', Human' dropped). The top topic is always kept; up to two
+    related topics are kept when their title matches the name or a synonym."""
+    from engine import chunk_text
+
+    names = [_plain_name(name)] + [s for s in (synonyms or []) if s]
+    terms: list[str] = []
+    for term in list(synonyms or []) + [_plain_name(name), name]:
+        if term and term.lower() not in {t.lower() for t in terms}:
+            terms.append(term)
+    documents = []
+    for term in terms[:3]:
+        documents = _medline_documents(term)
+        if documents:
+            break
+    chunks: list[dict] = []
+    synonyms_out: list[str] = []
+    used_pages = 0
+    for rank, document in enumerate(documents):
+        page, title, summary, alt = _parse_medline(document)
+        title = title or name
+        if rank > 0 and not related_title_ok(title, names + synonyms_out):
+            continue
+        if rank == 0:
+            synonyms_out = alt
+        if not summary:
+            continue
+        for piece in chunk_text(f"{title}. {summary}"):
+            chunks.append(
+                {
+                    "id": f"{condition_id}-mplus-{len(chunks) + 1:03d}",
+                    "condition_id": condition_id,
+                    "source_name": "MedlinePlus",
+                    "source_url": page or "https://medlineplus.gov/",
+                    "text": piece,
+                }
+            )
+        used_pages += 1
+        if used_pages >= 3:
+            break
+    return chunks, synonyms_out[:8]
 
 
 def gather_sources(condition: dict) -> dict:
@@ -342,9 +441,9 @@ def gather_sources(condition: dict) -> dict:
     condition_id = condition["id"]
     name = condition["name"]
     jobs = {
-        "ClinicalTrials.gov": lambda: _fetch_trials(condition_id, name),
-        "PubMed": lambda: _fetch_pubmed(condition_id, name),
-        "MedlinePlus": lambda: _fetch_medline(condition_id, name),
+        "ClinicalTrials.gov": lambda: _fetch_trials(condition_id, _plain_name(name)),
+        "PubMed": lambda: _fetch_pubmed(condition_id, _plain_name(name)),
+        "MedlinePlus": lambda: _fetch_medline(condition_id, name, list(condition.get("synonyms") or [])),
     }
     results: dict[str, tuple[list[dict], list[str]]] = {}
     errors: dict[str, str] = {}

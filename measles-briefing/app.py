@@ -13,6 +13,7 @@ from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
 
 from engine import answer_question, drop_index, run_briefing, runtime_meta
+import agent
 from sources import QUICK_PICKS, load_condition, normalize_condition, public_summary, remember
 
 ROOT = Path(__file__).resolve().parent
@@ -30,6 +31,7 @@ class LoadBody(BaseModel):
     name: str = Field(..., max_length=200)
     mesh_id: str = Field(..., max_length=20)
     synonyms: list[str] = Field(default_factory=list)
+    query: str | None = Field(default=None, max_length=200)
 
 
 class AskBody(BaseModel):
@@ -76,7 +78,16 @@ def load(body: LoadBody) -> dict:
     document = loaded["document"]
     remember(document, persist_tmp=loaded["origin"] == "fetched")
     drop_index(document["condition"]["id"])
-    return public_summary(document, loaded["origin"])
+    summary = public_summary(document, loaded["origin"])
+    condition = document["condition"]
+    summary["mapping"] = {
+        "query": body.query or condition["name"],
+        "mesh_name": condition["name"],
+        "mesh_id": condition.get("mesh_id"),
+        "mesh_url": f"https://meshb.nlm.nih.gov/record/ui?ui={condition.get('mesh_id')}",
+        "synonyms": list(condition.get("synonyms") or []),
+    }
+    return summary
 
 
 @app.post("/api/ask")
@@ -85,7 +96,7 @@ def ask(body: AskBody) -> dict:
     if not question:
         raise HTTPException(status_code=400, detail="Question is required.")
     try:
-        return answer_question(question, condition_id=body.condition_id)
+        return agent.answer(question, body.condition_id)
     except FileNotFoundError as exc:
         raise HTTPException(status_code=404, detail=str(exc)) from exc
 
@@ -93,7 +104,7 @@ def ask(body: AskBody) -> dict:
 @app.post("/api/briefing")
 def briefing(body: BriefingBody) -> dict:
     try:
-        answers = run_briefing(body.condition_id)
+        answers = agent.run_briefing(body.condition_id)
     except FileNotFoundError as exc:
         raise HTTPException(status_code=404, detail=str(exc)) from exc
     return {"answers": answers, "mode": answers[0]["mode"] if answers else "mock"}

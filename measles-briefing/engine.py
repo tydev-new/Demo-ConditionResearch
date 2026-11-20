@@ -73,13 +73,73 @@ _EXPAND = {
     "trials": ("trial", "nct", "phase", "recruiting"),
     "development": ("phase", "investigational", "recruiting"),
     "organization": ("sponsor", "institution", "university", "agency"),
-    "organizations": ("organization", "sponsor", "institution", "university", "agency"),
+    "organizations": ("organization", "sponsor", "collaborators", "institution", "university", "agency"),
     "companies": ("company", "sponsor"),
     "company": ("sponsor",),
     "institutions": ("institution", "university", "hospital", "institute"),
     "institution": ("university", "hospital", "institute"),
     "government": ("cdc", "fda", "nih"),
 }
+
+# Source weighting by question intent. Standard-of-care questions should lean on
+# guideline-style sources (MedlinePlus, CDC) rather than trial listings; trial and
+# organization questions should lean on ClinicalTrials.gov (phases, sponsors).
+GUIDELINE_SLOTS = 3          # top-k slots reserved for guideline chunks on care questions
+CANDIDATE_POOL = 60          # chunks scored before re-ranking
+_CARE_WORDS = {"standard", "care", "treat", "treated", "treatment", "treatments", "manage",
+               "managed", "management", "therapy", "guideline", "guidelines", "recommended"}
+_TRIAL_WORDS = {"trial", "trials", "development", "investigational", "pipeline", "phase"}
+_ORG_WORDS = {"organization", "organizations", "organisations", "company", "companies",
+              "institution", "institutions", "sponsor", "sponsors", "government"}
+SOURCE_WEIGHTS = {
+    "care": {"guideline": 1.6, "ClinicalTrials.gov": 0.5, "PubMed": 1.0},
+    "trials": {"guideline": 0.9, "ClinicalTrials.gov": 1.3, "PubMed": 1.0},
+    "orgs": {"guideline": 0.8, "ClinicalTrials.gov": 1.5, "PubMed": 0.9},
+}
+
+
+def is_guideline(chunk: dict) -> bool:
+    name = str(chunk.get("source_name") or "")
+    return name == "MedlinePlus" or name.startswith("CDC")
+
+
+def question_intent(question: str) -> str | None:
+    words = set(_TOKEN.findall(question.lower()))
+    if words & _TRIAL_WORDS:
+        return "trials"
+    if words & _ORG_WORDS:
+        return "orgs"
+    if words & _CARE_WORDS:
+        return "care"
+    return None
+
+
+def rerank(question: str, scored: list[tuple[float, dict]], k: int = 5) -> list[tuple[float, dict]]:
+    """Weight scores by source for the question's intent; on care questions reserve
+    up to GUIDELINE_SLOTS of the top k for guideline chunks that matched at all."""
+    intent = question_intent(question)
+    if intent is None:
+        return scored[:k]
+    weights = SOURCE_WEIGHTS[intent]
+
+    def weight(chunk: dict) -> float:
+        key = "guideline" if is_guideline(chunk) else str(chunk.get("source_name"))
+        return weights.get(key, 1.0)
+
+    weighted = sorted(((score * weight(chunk), chunk) for score, chunk in scored if score > 0),
+                      key=lambda item: item[0], reverse=True)
+    if intent != "care":
+        return weighted[:k]
+    guide = [item for item in weighted if is_guideline(item[1])][:GUIDELINE_SLOTS]
+    picked = list(guide)
+    for item in weighted:
+        if len(picked) >= k:
+            break
+        if item not in picked:
+            picked.append(item)
+    picked.sort(key=lambda item: item[0], reverse=True)
+    return picked[:k]
+
 
 _TOKEN = re.compile(r"[a-z0-9]+")
 _CITE = re.compile(r"\[([^\]]+)\]")
@@ -391,6 +451,9 @@ def _call_openai(question: str, chunks: list[dict]) -> tuple[str, str]:
         "After every sentence, cite the supporting chunk id in square brackets, "
         "for example [cdc-001]. Every sentence must include at least one citation "
         "to a chunk id from the list. Do not state anything the chunks do not support. "
+        "Guideline and patient-education chunks (MedlinePlus, CDC) describe usual care; "
+        "for questions about organizations, the sponsors and collaborators named in "
+        "trial chunks are organizations involved in this condition. "
         f"If the chunks do not support an answer, reply with exactly: {NOT_ENOUGH}\n\n"
         f"Chunks:\n{context}\n\nQuestion: {question}"
     )
@@ -476,12 +539,15 @@ def answer_question(question: str, *, condition_id: str = "measles", force_mock:
     state = get_state(condition_id)
     index: TfidfIndex = state["index"]
     # Retrieval stays inside this condition's chunks.
-    retrieved = [
+    pool = [
         (score, chunk)
-        for score, chunk in index.search(question, k=TOP_K)
+        for score, chunk in index.search(question, k=CANDIDATE_POOL)
         if chunk.get("condition_id") == condition_id
     ]
-    if not retrieved or retrieved[0][0] < SCORE_THRESHOLD:
+    # The evidence threshold is checked on the raw (unweighted) best score.
+    top_raw = pool[0][0] if pool else 0.0
+    retrieved = rerank(question, pool, k=TOP_K)
+    if not retrieved or top_raw < SCORE_THRESHOLD:
         return _pack(
             question,
             NOT_ENOUGH,

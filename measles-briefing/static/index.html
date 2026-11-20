@@ -87,6 +87,13 @@
       background: #fff;
     }
     input[type="text"]:focus, textarea:focus { outline: 2px solid var(--accent); border-color: transparent; }
+    details.steps { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+    details.steps summary { cursor: pointer; }
+    details.steps ol { margin: 6px 0 0; padding-left: 20px; }
+    details.steps code { font-size: 12px; }
+    .mapping { margin: 12px 0 0; font-size: 14px; color: var(--muted); }
+    .mapping strong { color: inherit; }
+    .mapping a { color: var(--accent-ink); }
     .picks, .choices { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
     .failed { color: var(--warn); }
     .sources { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 16px 0 8px; color: var(--muted); font-size: 14px; }
@@ -142,6 +149,7 @@
       </div>
       <div class="picks" id="picks" aria-label="Quick picks"></div>
       <div class="choices" id="choices" hidden></div>
+      <p class="mapping" id="mapping" hidden></p>
     </form>
     <form id="ask-form">
       <label for="question">Question</label>
@@ -170,6 +178,7 @@
     const askBtn = document.querySelector("#ask-btn");
     const briefBtn = document.querySelector("#brief-btn");
     const loadBtn = document.querySelector("#load-btn");
+    const mappingEl = document.querySelector("#mapping");
     let condition = null;
 
     askBtn.disabled = true;
@@ -195,7 +204,19 @@
       ];
     }
 
-    function showLoaded(payload) {
+    function showMapping(mapping, via) {
+      if (!mapping || !mapping.mesh_id) { mappingEl.hidden = true; return; }
+      const typed = mapping.query || mapping.mesh_name;
+      const verb = via && via.picked ? `you picked (from ${via.count} matches)` : "matched to";
+      const skip = new Set([typed.toLowerCase(), mapping.mesh_name.toLowerCase()]);
+      const aka = (mapping.synonyms || []).filter((s) => !skip.has(s.toLowerCase())).slice(0, 4);
+      mappingEl.innerHTML = `You typed <strong>“${escapeHtml(typed)}”</strong> → ${verb} MeSH term: ` +
+        `<strong>${escapeHtml(mapping.mesh_name)}</strong> (<a href="${escapeHtml(mapping.mesh_url)}" target="_blank" rel="noopener">${escapeHtml(mapping.mesh_id)}</a>)` +
+        (aka.length ? `<br>Also known as: ${aka.map(escapeHtml).join(", ")}` : "");
+      mappingEl.hidden = false;
+    }
+
+    function showLoaded(payload, via) {
       condition = payload.condition;
       const name = condition.name;
       questionEl.value = questionsFor(name)[0];
@@ -203,6 +224,7 @@
       briefBtn.disabled = false;
       choicesEl.hidden = true;
       choicesEl.innerHTML = "";
+      showMapping(payload.mapping, via);
       const bits = (payload.sources || []).map((source) => {
         if (source.ok) return `<span>${escapeHtml(source.source_name)} · ${source.chunks}</span>`;
         const why = source.error ? ` (${escapeHtml(source.error)})` : "";
@@ -212,7 +234,7 @@
       sourcesEl.innerHTML = `<strong>${escapeHtml(name)}</strong> · MeSH ${escapeHtml(condition.mesh_id || "")} · ${payload.chunk_count} chunks · ${escapeHtml(where)} ` + bits.join("");
     }
 
-    async function loadChosen(chosen) {
+    async function loadChosen(chosen, via) {
       setBusy(true);
       statusEl.textContent = "Gathering sources…";
       outEl.innerHTML = "";
@@ -222,8 +244,9 @@
           name: chosen.name,
           mesh_id: chosen.mesh_id,
           synonyms: chosen.synonyms || [],
+          query: chosen.query || null,
         });
-        showLoaded(payload);
+        showLoaded(payload, via);
         statusEl.textContent = "";
       } catch (error) {
         statusEl.textContent = error.message;
@@ -232,7 +255,7 @@
       }
     }
 
-    function showChoices(matches) {
+    function showChoices(matches, query) {
       condition = null;
       askBtn.disabled = true;
       briefBtn.disabled = true;
@@ -246,8 +269,9 @@
           id: match.id || match.mesh_id.toLowerCase(),
           name: match.name,
           mesh_id: match.mesh_id,
-          synonyms: [],
-        }));
+          synonyms: query ? [query] : [],
+          query: query,
+        }, { picked: true, count: matches.length }));
         choicesEl.appendChild(button);
       });
       statusEl.textContent = "Several MeSH headings match. Pick one.";
@@ -257,6 +281,7 @@
       setBusy(true);
       statusEl.textContent = "Looking up the condition in MeSH…";
       choicesEl.hidden = true;
+      mappingEl.hidden = true;
       try {
         const resolved = await postJson("/api/resolve", { query });
         if (resolved.status === "chosen" && resolved.chosen) {
@@ -264,7 +289,7 @@
           return;
         }
         if (resolved.status === "choices") {
-          showChoices(resolved.matches || []);
+          showChoices(resolved.matches || [], resolved.query || query);
           return;
         }
         statusEl.textContent = "No MeSH descriptor matched that name.";
@@ -305,9 +330,22 @@
         if (!n) return match;
         return `<button type="button" class="cite" data-cite="${escapeHtml(id)}" aria-controls="src-${index}-${escapeHtml(id)}">${n}</button>`;
       });
-      const modeLabel = answer.mode === "openai"
-        ? `OpenAI${answer.model ? " · " + escapeHtml(answer.model) : ""}`
-        : "Mock extractive";
+      const modeLabel = answer.mode === "agent"
+        ? `Agent (tool calling)${answer.model ? " · " + escapeHtml(answer.model) : ""}`
+        : answer.mode === "openai"
+          ? `OpenAI${answer.model ? " · " + escapeHtml(answer.model) : ""}${answer.agent_fallback ? " · fixed pipeline fallback" : ""}`
+          : "Mock extractive";
+      const timing = answer.elapsed_ms ? ` · ${(answer.elapsed_ms / 1000).toFixed(1)} s` : "";
+      const stepItems = (answer.agent_steps || []).map((step) => {
+        const args = Object.entries(step.args || {})
+          .filter(([, v]) => v !== null && v !== "")
+          .map(([k, v]) => (k === "query" || k === "url") ? JSON.stringify(v) : `${k}=${v}`)
+          .join(", ");
+        return `<li><code>${escapeHtml(step.tool)}(${escapeHtml(args)})</code> → ${escapeHtml(step.result_summary)} <span>(${step.ms} ms)</span></li>`;
+      }).join("");
+      const steps = stepItems
+        ? `<details class="steps"><summary>Agent steps (${answer.agent_steps.length})</summary><ol>${stepItems}</ol></details>`
+        : "";
       const sources = (answer.sources || []).map((source) => {
         const n = numberById.get(source.id) || "";
         return `<li id="src-${index}-${escapeHtml(source.id)}">
@@ -321,7 +359,8 @@
         <h2>${escapeHtml(answer.question)}</h2>
         <p class="${refused ? "answer-text warn" : "answer-text"}">${html}</p>
         ${warning}
-        <p class="meta-line">${modeLabel}</p>
+        <p class="meta-line">${modeLabel}${timing}</p>
+        ${steps}
         ${sources ? `<ol class="cites">${sources}</ol>` : ""}
       </article>`;
     }
